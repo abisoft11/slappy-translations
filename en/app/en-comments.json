@@ -1,20 +1,4 @@
 {
-	/*
-	General notes:
-	Text for titles and button text are Camel Case (all words capitalised). E.g., "Edit Competitor"
-	Text for labels are captitalised for the first word. E.g., "Ladder type"
-	Text for placeholders are all lower case.  E.g., "search"
-	Players are individual users of the app. Competitors are either individuals (for singles ladders) or teams of players (for doubles)
-
-	Each line in this file represents a text element that needs to be translated, in the following format:
-		"ELEMEMT_NAME": "ELEMENT_TEXT", //COMMENT
-	DO NOT EDIT THE ELEMENT NAMES OR CHANGE THE ORDER OF ELEMENTS!
-	Ignore special words or characters in the element text:
-		* Translation variables (values set in the code) - anything in double parentheses ({{...}}) (E.g., {{appName}}, {{value}})
-		* HTML elements - anything in angle braces (<...>) (E.g., <br/>, <p>, <ul>)
-	Comments (where helpful) are there to assist translators with understanding the context. They follow the element definition.
-	*/
-	//
 	//Common text elements
 	"OK": "OK", //OK button text
 	"YES": "Yes", //Yes button text
