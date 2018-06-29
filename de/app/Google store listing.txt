@@ -9,7 +9,7 @@ Sportranglisten-Managementsystem
 
 FULL DESCRIPTION:
 =================
-Slappy ist ein Sportranglisten-Managementsystem, welches dazu benutzt werden kann, Sportranglisten zu kreieren. Slappy unterstützt derzeit Ranglisten für folgende Sportarten: Badminton, Tischfussball, Patel-Tennis, Racquetball, Squash, Tischtennis und Tennis.
+Slappy ist ein Sportranglisten-Managementsystem, um Sportranglisten zu kreieren und zu verwalten. Slappy unterstützt derzeit Ranglisten für folgende Sportarten: Badminton, Tischfussball, Patel-Tennis, Racquetball, Squash, Tischtennis und Tennis. Auf Slappy können Spiele vereinbart und Resultate erfasst werden. 
 
 Slappy ist perfekt um Club-Ranglisten zu verwalten, kann aber genauso gut im Freizeitbereich unter Freunden genutzt werden.
 
@@ -18,6 +18,43 @@ Funktionen:
 • Spieler der Rangliste verwalten
 • Spiele vereinbaren
 • Resultate erfassen
-• vergangene Resultate anzeigen
-• Kontrahenten vergleichen
+• Historie aller gespeicherten Resultate
+• Spieler vergleichen
 • eigene, private Ranglisten kreieren
+
+SUBSCRIPTIONS:
+==============
+Monatliches Basis-Abonnement
+Jährliches Basis-Abonnement
+Keine Anzeigen
+Basis-Funktionen aktivieren
+
+Monatliches Premium-Abonnement
+Jährliches Premium-Abonnement
+Keine Anzeigen
+Premium-Funktionen aktivieren
+
+Monatliches Club-Abonnement (50 Teilnehmer)
+Jährliches Club-Abonnement (50 Teilnehmer)
+Keine Anzeigen
+Premium-Funktionen für alle Teilnehmer aktivieren (max. 50 Teilnehmer)
+
+Monatliches Club-Abonnement (100 Teilnehmer)
+Jährliches Club-Abonnement (100 Teilnehmer)
+Keine Anzeigen
+Premium-Funktionen für alle Teilnehmer aktivieren (max. 100 Teilnehmer)
+
+Monatliches Club-Abonnement (200 Teilnehmer)
+Jährliches Club-Abonnement (200 Teilnehmer)
+Keine Anzeigen
+Premium-Funktionen für alle Teilnehmer aktivieren (max. 200 Teilnehmer)
+
+Monatliches Club-Abonnement (500 Teilnehmer)
+Jährliches Club-Abonnement (500 Teilnehmer)
+Keine Anzeigen
+Premium-Funktionen für alle Teilnehmer aktivieren (max. 500 Teilnehmer)
+
+Monatliches Club-Abonnement (1000 Teilnehmer)
+Jährliches Club-Abonnement (1000 Teilnehmer)
+Keine Anzeigen
+Premium-Funktionen für alle Teilnehmer aktivieren (max. 1000 Teilnehmer)

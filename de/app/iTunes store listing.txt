@@ -5,7 +5,7 @@ Slappy: Sportranglisten App
 
 DESCRIPTION:
 ============
-Slappy ist ein Sportranglisten-Managementsystem, welches dazu benutzt werden kann, Sportranglisten zu kreieren. Slappy unterstützt derzeit Ranglisten für folgende Sportarten: Badminton, Tischfussball, Patel-Tennis, Racquetball, Squash, Tischtennis und Tennis.
+Slappy ist ein Sportranglisten-Managementsystem, um Sportranglisten zu kreieren und zu verwalten. Slappy unterstützt derzeit Ranglisten für folgende Sportarten: Badminton, Tischfussball, Patel-Tennis, Racquetball, Squash, Tischtennis und Tennis. Auf Slappy können Spiele vereinbart und Resultate erfasst werden. 
 
 Slappy ist perfekt um Club-Ranglisten zu verwalten, kann aber genauso gut im Freizeitbereich unter Freunden genutzt werden.
 
@@ -14,27 +14,42 @@ Funktionen:
 • Spieler der Rangliste verwalten
 • Spiele vereinbaren
 • Resultate erfassen
-• vergangene Resultate anzeigen
-• Kontrahenten vergleichen
+• Historie aller gespeicherten Resultate
+• Spieler vergleichen
 • eigene, private Ranglisten kreieren
 
-Slappy steht kostenlos zur Verfügung, einige Funktionen sind aber Premium-Usern vorbehalten. Monatliche oder jährliche Premium-Abonnements können Innerhalt
-
-Slappy ist kostenlos, hat aber einige Funktionen, die nur für Premium-Abonnenten verfügbar sind.  Monatliche oder jährliche Premium-Abonnements können von Apple innerhalb der App erworben werden.  Diese Abonnements sind automatisch verlängerbar, was bedeutet, dass Ihnen das Abonnement am Ende jeder Abonnementsperiode automatisch in Rechnung gestellt wird. Bitte beachten Sie unsere Nutzungsbedingungen unter www.abisoft.co.za/slappy-terms.html
+Slappy ist kostenlos, einige Funktionen sind Basis- und Premium-Abonnenten vorbehalten.  Monatliche oder jährliche Abonnemente können von Apple innerhalb der App erworben werden.  Diese Abonnements sind automatisch verlängerbar, was bedeutet, dass dir das Abonnement am Ende jeder Abonnementsperiode automatisch in Rechnung gestellt wird. Bitte beachte unsere Nutzungsbedingungen unter www.abisoft.co.za/slappy-terms.html
 
 
-PREMIUM SUBSCRIPTION DISPLAY NAME:
-==================================
+SUBSCRIPTIONS:
+==============
+Basis-Abonnement
+Keine Anzeigen
+Basis-Funktionen aktivieren
+
 Premium-Abonnement
+Keine Anzeigen
+Premium-Funktionen aktivieren
 
-PREMIUM SUBSCRIPTION DESCRIPTION:
-=================================
-Anzeigen entfernen: Premium-Abonnement aktivieren
+Club-Abonnement 50 Teilnehmer
+Keine Anzeigen
+Premium-Funktionen für alle Teilnehmer aktivieren (max. 50 Teilnehmer)
 
-BASIC SUBSCRIPTION DISPLAY NAME:
-================================
-Basic-Abonnement
+Club-Abonnement 100 Teilnehmer
+Keine Anzeigen
+Premium-Funktionen für alle Teilnehmer aktivieren (max. 100 Teilnehmer)
 
-BASIC SUBSCRIPTION DESCRIPTION:
-===============================
-Anzeigen entfernen: Basic-Abonnement aktivieren
+Club-Abonnement 200 Teilnehmer
+Keine Anzeigen
+Premium-Funktionen für alle Teilnehmer aktivieren (max. 200 Teilnehmer)
+
+Club-Abonnement 500 Teilnehmer
+Keine Anzeigen
+Premium-Funktionen für alle Teilnehmer aktivieren (max. 500 Teilnehmer)
+
+Club-Abonnement 1000 Teilnehmer
+Keine Anzeigen
+Premium-Funktionen für alle Teilnehmer aktivieren (max. 1000 Teilnehmer)
+
+
+
