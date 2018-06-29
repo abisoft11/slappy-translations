@@ -1,0 +1,23 @@
+TITLE:
+======
+Slappy: Sportranglisten App
+
+SHORT DESCRIPTION:
+==================
+Sportranglisten-Managementsystem
+
+
+FULL DESCRIPTION:
+=================
+Slappy ist ein Sportranglisten-Managementsystem, welches dazu benutzt werden kann, Sportranglisten zu kreieren. Slappy unterstützt derzeit Ranglisten für folgende Sportarten: Badminton, Tischfussball, Patel-Tennis, Racquetball, Squash, Tischtennis und Tennis.
+
+Slappy ist perfekt um Club-Ranglisten zu verwalten, kann aber genauso gut im Freizeitbereich unter Freunden genutzt werden.
+
+
+Funktionen:
+• Spieler der Rangliste verwalten
+• Spiele vereinbaren
+• Resultate erfassen
+• vergangene Resultate anzeigen
+• Kontrahenten vergleichen
+• eigene, private Ranglisten kreieren

@@ -1,0 +1,76 @@
+	<section id="maincontent">
+	  <h1>Slappy Reiter</h1>
+      <p>
+      Die Hauptansicht in der  App Slappy Sportranglisten   beinhaltet 3 Reiter (Rangliste, Einladungen und Resultate). Auf der Rangliste, sieht der Spieler seine Ranglistenposition und die der Gegner. Unter Einladungen kann man nachsehen, ob man selbst oder jemand anderes zu einem Spiel eingeladen wurde und unter Resultate kann man die letzten Resultate einsehen.	  </p>
+      <h2 id="ladder">Reiter Rangliste</h2>
+	  <p>
+      In der <a href="ladders.html">Rangliste</a> werden alle Spieler in absteigender Reihenfolge nach ihren Punkten (der beste zuoberst) aufgelistet. Die <a href="ranking.html">Ranglistenfolge</a> ergibt sich aus den Punkten der jeweiligen Spieler und aus deren <a href="ranking.html#confidence">Ranglisten-Konfidenz</a>.</p>
+  <p> <img class="screenshot" src="img/ladder.png">	  </p>
+	  <p>Die Farbe, die bei den jeweiligen Spielern hinterlegt ist, sagt etwas über deren Status aus:</p>
+      <ul>
+        <li><strong>Weiss</strong>: Spieler, die die App installiert und mindestens einmal genutzt haben. </li>
+        <li><strong>Grau</strong>: Spieler, die von einem Ranglisten-Administratoren hinzugefügt wurden, aber die App bisher nicht benutzt haben.</li>
+      </ul>
+      <p>Die Farbe, der Platzierung (der Nummern), sagt ebenfalls etwas über den Status des Spielers aus:</p>
+      <ul>
+        <li><strong>Blau</strong>: Spieler, die in den letzten 30 Tagen mindestens ein Spiel erfasst und bestätigt haben und die eine <a href="ranking.html#confidence">Ranglisten-Konfidenz</a> von mindestens 80% ausweisen. </li>
+        <li><strong>Grau</strong>: Spieler, die in den letzten 30 Tagen keine Spiele erfasst und bestätigt haben oder deren <a href="ranking.html#confidence">Ranking-Konfidenz </a>unter 80% liegt. </li>
+      </ul>
+      <p>Indem man das Profilbild des Spieles drückt, gelangt man in die &bdquo;Spieler-Details&ldquo;-Ansicht, wo man sich über die <a href="ranking.html#confidence">Ranglisten-Konfidenz</a> des Spielers oder das zu <a href="ranking.html#expected">erwartende Resultat</a> (wenn man gegen ihn spielt) informieren kann. Premium Nutzer können noch weitere statistische Angaben einsehen.</p>
+  <p> <img class="screenshot-2" src="img/player-details.png">
+        <img class="screenshot-2" src="img/compare-competitors.png">	  </p>
+      <p>Wenn man neben das Profilbild eines Spielers drückt, öffnet sich ein Popup-Menu, welches verschiedene Möglichkeiten der Interaktion mit dem Spieler anbieten.</p>
+<img class="screenshot" src="img/player-options.png">
+	  <p>
+	  Folgende interaktionen sind möglich: </p>
+	  <ul>
+	    <li><strong>Spiel vereinbaren: </strong>Fordere den Spieler mit einer <a href="invites.html#send">Einladung</a> zu einem Spiel heraus. Dieser Schritt ist nicht zwingend, um ein Resultat erfassen zu können. </li>
+	    <li><strong>Resultat erfassen: </strong>Das Resultat eines bereits ausgetragenen Matches gegen diesen Gegner <a href="results.html#capture">erfassen</a>.</li>
+	    <li><strong>Details:</strong> Schau dir Details über diesen Spieler an. </li>
+	    <li><strong>Aktuelle Spiele:</strong> Schaue dir die letzten Spiele dieses Spielers an (nur für Premium-Benutzer).	  </li>
+  </ul>
+	  <h2 id="invitations">Reiter Einladungen</h2>
+	  <p>Die Farbe der Einträge gibt Auskunft über den aktuellen Status:</p>
+<img class="screenshot" src="img/invitations.png">
+	  <ul>
+	    <li><strong>Orange: </strong>Ausstehend – Der Herausforderer hat die Einladung gesendet, aber die Antwort des Gegners ist noch ausstehend.</li>
+	    <li><strong>Grün:</strong> Akzeptiert – Die Einladung wurde vom Gegner angenommen</li>
+	    <li><strong>Rot:</strong> Abgelehnt – Die Einladung wurde vom Gegner abgelehnt.</li>
+	    <li><strong>Schwarz: </strong>Gelöscht – Die Einladung wurde vom Herausforderer zurückgenommen.</li>
+	    <li><strong>Weiss:</strong> Erledigt – Das Spiel wurde ausgetragen und das Resultat eingetragen und bestätigt.</li>
+  </ul>
+      <p>Neu eingetroffene Einladungen haben jeweils zwei Buttons, einen zum &bdquo;Akzeptieren&ldquo; und einen zum &bdquo;Ablehnen&ldquo;. Wenn du eine Einladung aus der Liste wählst, werden dir die Details (Datum und Zeit, zu erwartender Punktezuwachs/Punkteverlust) der Einladung angezeigt.</p>
+  <p> <img class="screenshot" src="img/invitation-details.png">	  </p>
+      <p>Abhängig vom aktuellen Status der Einladung, sind folgende Aktionen möglich:</p>
+  <ul>
+        <li><strong>Akzeptieren:</strong> Akzeptiere die Einladung. Optional kannst du auch noch eine Textnachricht hinterlassen.</li>
+        <li><strong>Ablehnen: </strong>Lehne die Einladung ab. Optional kannst du auch noch eine Textnachricht hinterlassen.</li>
+        <li><strong>Resultat erfassen: </strong>Nachdem das Spiel beendet ist, kannst du das <a href="results.html#capture">Resultat erfassen</a>. Datum und Zeit werden dabei von der Einladung übernommen.</li>
+        <li><strong>Datum/Zeit ändern: </strong>Vereinbare einen anderen Zeitpunkt um das Spiel auszutragen.</li>
+        <li><strong>Verschieben: </strong>Schlage eine andere Zeit vor, nachdem du die Einladung bereits angenommen hast.</li>
+        <li><strong>Anfrage löschen:</strong> Lösche die Anfrage, da du keine Antwort erhalten hast.</li>
+        <li><strong>Spiel verwerfen: </strong>Das Spiel verwerfen, da es bereits bestätigt wurde.	  </li>
+  </ul>
+  <h2 id="results">Reiter Resultate</h2>
+	  <p>
+      In diesem Reiter sind deine Resultate oder - wenn du <a href="premium.html">Premium-Mitglied</a> bist – die Resultate aller an der Rangliste beteiligten Spieler aufgelistet.</p>
+  <p> <img class="screenshot-2" src="img/my-results.png">
+	    <img class="screenshot-2" src="img/all-results.png">	  </p>
+	  <p>Die Farbe gibt über den aktuellen Status Auskunft:</p>
+<ul>
+	<li><strong>Orange:</strong> Noch nicht bestätigt - Das Resultat wurde erfasst, aber der Gegner hat es noch nicht bestätigt.</li>
+	<li><strong>Rot:</strong> Abgelehnt – Das Resultat wurde erfasst, aber der Gegner hat es abgelehnt.</li>
+	<li><strong>Schwarz: </strong>Verworfen – Das Resultat wurde erfasst und dann vom gleichen Spieler, der es erfasst hatte, wieder verworfen.</li>
+	<li><strong>Grün: </strong>Bestätigt – Das Resultat wurde entweder vom Gegner oder automatisch durch das System bestätigt.</li>
+</ul>
+<p>Neu eingegangene Resultate haben Buttons um das Resultat entweder zu &bdquo;Bestätigen&ldquo; oder um es zu &bdquo;Bestreiten&ldquo;. Die Resultate-Details geben Auskunft über das Resultat. Wenn das Resultat bereits bestätigt wurde, beinhalten die Details unter anderem den Punktezuwachs bzw. den Punkteverlust der jeweiligen Kontrahenten.  </p>
+	  <img class="screenshot" src="img/result-details.png">
+	  <p>
+	  Abhängig vom aktuellen Status des Resultates, sind folgende Aktionen möglich:</p>
+  <ul>
+        <li><strong>Bestätigen:</strong> <a href="results.html#confirm">Bestätige</a> das Resultat inkl. der Details (Datum, Zeit, Score), die von deinem Gegner erfasst worden sind.</li>
+        <li><strong>Bestreiten: </strong><a href="results.html#dispute">Bestreite</a> das Resultat inkl. der Details, die von deinem Gegner erfasst worden sind.</li>
+        <li><strong>Verwerfen:</strong> Das Resultat wird von dem Spieler <a href="results.html#discard">verworfen</a>, der es ursprünglich erfasst hatte.</li>
+        <li><strong>Ablehnen: </strong>Das Resultat wird vom Gegner <a href="results.html#reject">abgelehnt</a>.</li>
+  </ul>
+</section>

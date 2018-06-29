@@ -1,0 +1,138 @@
+	<section id="maincontent">
+	  <h1>Slappy Tabs</h1>
+      <p>
+        The main view in Slappy Sports Ladder App contains 3 tabs (Ladder, Invitations and Results). On this page
+		players can view their current rankings in their ladders, by selecting the Ladder tab. They can also view
+		current/all invitations in the Invitations tab, or recent results in the Results tab.
+      </p>
+
+	  <h2 id="ladder">Ladder Tab</h2>
+	  <p>
+	    The Ladder tab lists all competitors in the currently active <a href="ladders.html">ladder</a>, in
+		descending order (best competitor at the top). The <a href="ranking.html">ranking</a> is determined by the competitors'
+		points and their <a href="ranking.html#confidence">ranking confidence</a>.
+	  </p>
+	  <img class="screenshot" src="img/ladder.png">
+	  <p>
+	    The colour of an item in the list is determined by the competitor's usage status:
+	  </p>
+	  <ul>
+		<li><strong>White:</strong> Competitors who have installed and used the app at least once.</li>
+		<li><strong>Grey:</strong> Competitors who were added by a ladder administrator, but have never used the app.</li>
+	  </ul>
+	  <p>
+	    The colour of a competitor's ranking is determined by their recent activity:
+	  </p>
+	  <ul>
+		<li>
+		  <strong>Blue:</strong> Competitors who have recorded at least one game in the last 30 days, and who have a
+		  <a href="ranking.html#confidence">ranking confidence</a> of at least 80%.
+		</li>
+		<li>
+		  <strong>Grey:</strong> Competitors who have recorded no games in the last 30 days, or who have a 
+		  <a href="ranking.html#confidence">ranking confidence</a> below 80%.
+		</li>
+	  </ul>
+	  <p>
+	    By touching a competitor's avatar, it is possible to view their details, including their <a href="ranking.html#confidence">
+		ranking confidence</a>, your <a href="ranking.html#expected">expected result</a> against the competitor and all possible 
+		rating changes based on possible results with the competitor (premium version only).
+	  </p>
+	  <img class="screenshot-2" src="img/player-details.png">
+	  <img class="screenshot-2" src="img/compare-competitors.png">
+	  
+	  <p>
+		Touching anywhere else on the competitor item in the list, will present a popup menu containing options to interact
+		with the competitor.
+	  </p>
+	  <img class="screenshot" src="img/player-options.png">
+	  <p>
+		The following actions are possible:
+	  </p>
+	  <ul>
+		<li>
+		  <strong>Arrange game:</strong> <a href="invites.html#send">Send an invitation</a> to play a game to the
+		  competitor's player(s) (it is not necessary to arrange a game before capturing a result).
+		</li>
+		<li>
+		  <strong>Capture result:</strong> <a href="results.html#capture">Capture a result</a> of a completed game
+		  against the competitor.
+		</li>
+		<li><strong>Details:</strong> View the competitor's details (same as touching the avatar).</li>
+		<li><strong>Recent games:</strong> View the competitor's recent games (premium version only).</li>
+	  </ul>
+
+	  <h2 id="invitations">Invitations Tab</h2>
+	  <p>
+	    The Invitations tab lists either current (outstanding) or all invitations that a competitor has sent or received
+		(from all of their ladders).
+	  </p>
+	  <img class="screenshot" src="img/invitations.png">
+	  <p>
+		The colour of an invitation item in the list indicates its current status:
+	  </p>
+	  <ul>
+		<li><strong>Orange:</strong> Pending - The invitation was sent by the competitor and a response is still pending.</li>
+		<li><strong>Green:</strong> Accepted - The invitation was accepted by the opponent.</li>
+		<li><strong>Red:</strong> Declined - The invitation was declined by the opponent.</li>
+		<li><strong>Black:</strong> Cancelled - The invitation was cancelled by the competitor.</li>
+		<li><strong>White:</strong> Completed - A result was captured after the game was completed.</li>
+	  </ul>
+	  <p>
+		Newly received invitations will have buttons to accept or decline the invitation. Touching anywhere else on the
+		invitation item in the list, will present the invitation details page.
+	  </p>
+	  <img class="screenshot" src="img/invitation-details.png">
+	  <p>
+		Depending on the current state of the invitation, the following actions may be possible:
+	  </p>
+	  <ul>
+		<li><strong>Accept:</strong> Accept a received invitation. An optional message can be sent when accepting an invitation.</li>
+		<li><strong>Decline:</strong> Decline a received invitation. An optional message can be sent when declining an invitation.</li>
+		<li>
+		  <strong>Capture Result:</strong> <a href="results.html#capture">Capture the result</a>, after a game is
+		  completed. The time and date of the result will default to the time and date of the invitation.
+		</li>
+		<li><strong>Another Time:</strong> Arrange a different time to the proposed time to play the game.</li>
+		<li><strong>Reschedule:</strong> Propose a different time to play, after the invitation has been accepted.</li>
+		<li><strong>Cancel Request:</strong> Cancel a sent invitation if no response has been sent.</li>
+		<li><strong>Abandon Game:</strong> Abandon a game that has already been confirmed.</li>
+	  </ul>
+
+	  <h2 id="results">Results Tab</h2>
+	  <p>
+	    The Results tab lists a competitor's recent results (from all of their ladders) or all results for the currently
+		active ladder (<a href="premium.html">premium subscribers only</a>).
+	  </p>
+	  <img class="screenshot-2" src="img/my-results.png">
+	  <img class="screenshot-2" src="img/all-results.png">
+	  <p>
+		The colour of a result item in the list indicates its current status:
+	  </p>
+	  <ul>
+		<li><strong>Orange:</strong> Awaiting confirmation - The result was captured by a player, but the opponent still needs to confirm it.</li>
+		<li><strong>Red:</strong> Rejected - The result was captured, but it was rejected/disputed by the opponent.</li>
+		<li><strong>Black:</strong> Discarded - The result was captured and then discarded by the same competitor.</li>
+		<li><strong>Green:</strong> Confirmed - The result was either confirmed by the opponent or it was automatically confirmed by the system.</li>
+	  </ul>
+	  <p>
+		Newly received results will have buttons to confirm or dispute the result. Touching anywhere else on the result
+		item in the list, will present the result details view, containing all the details of the result. If the result
+		has been confirmed, this will include the points change that was calculated for the match.
+	  </p>
+	  <img class="screenshot" src="img/result-details.png">
+	  <p>
+		Depending on the current state of the result, the following actions may be possible:
+	  </p>
+	  <ul>
+		<li><strong>Confirm:</strong> <a href="results.html#confirm">Confirm the details</a> of a result that was
+			captured by another competitor.</li>
+		<li>
+		  <strong>Dispute:</strong> <a href="results.html#dispute">Dispute the details</a> of a result that was
+		  captured by another competitor. This will allow the competitor to recapture the result details.
+		</li>
+		<li><strong>Discard:</strong> <a href="results.html#discard">Discard a result</a> that was captured by the same competitor.</li>
+		<li><strong>Reject:</strong> <a href="results.html#reject">Reject a result</a> that was captured by the another competitor.</li>
+	  </ul>
+
+	</section>

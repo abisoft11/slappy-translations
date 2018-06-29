@@ -1,0 +1,40 @@
+TITLE:
+======
+Slappy: Sportranglisten App
+
+
+DESCRIPTION:
+============
+Slappy ist ein Sportranglisten-Managementsystem, welches dazu benutzt werden kann, Sportranglisten zu kreieren. Slappy unterstützt derzeit Ranglisten für folgende Sportarten: Badminton, Tischfussball, Patel-Tennis, Racquetball, Squash, Tischtennis und Tennis.
+
+Slappy ist perfekt um Club-Ranglisten zu verwalten, kann aber genauso gut im Freizeitbereich unter Freunden genutzt werden.
+
+
+Funktionen:
+• Spieler der Rangliste verwalten
+• Spiele vereinbaren
+• Resultate erfassen
+• vergangene Resultate anzeigen
+• Kontrahenten vergleichen
+• eigene, private Ranglisten kreieren
+
+Slappy steht kostenlos zur Verfügung, einige Funktionen sind aber Premium-Usern vorbehalten. Monatliche oder jährliche Premium-Abonnements können Innerhalt
+
+Slappy ist kostenlos, hat aber einige Funktionen, die nur für Premium-Abonnenten verfügbar sind.  Monatliche oder jährliche Premium-Abonnements können von Apple innerhalb der App erworben werden.  Diese Abonnements sind automatisch verlängerbar, was bedeutet, dass Ihnen das Abonnement am Ende jeder Abonnementsperiode automatisch in Rechnung gestellt wird. Bitte beachten Sie unsere Nutzungsbedingungen unter www.abisoft.co.za/slappy-terms.html
+
+
+PREMIUM SUBSCRIPTION DISPLAY NAME:
+==================================
+Premium-Abonnement
+
+PREMIUM SUBSCRIPTION DESCRIPTION:
+=================================
+Anzeigen entfernen: Premium-Abonnement aktivieren
+
+BASIC SUBSCRIPTION DISPLAY NAME:
+================================
+Basic-Abonnement
+
+BASIC SUBSCRIPTION DESCRIPTION:
+===============================
+Anzeigen entfernen: Basic-Abonnement aktivieren

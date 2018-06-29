@@ -1,0 +1,75 @@
+	<section id="maincontent">
+	  <h1>Slappy Ranglisten</h1>
+      <p>Die App Slappy Sportranglisten  dient dazu, Sport-Ranglisten zu verwalten. Neue Ranglisten können angelegt werden, wenn sich ein neuer Spieler <a href="players.html#register">registriert</a>. Der Spieler, der eine Rangliste anlegt, wird automatisch zum Ranglisten-Administratoren.	  </p>
+      <h2 id="joining">Einer Rangliste beitreten</h2>
+	  <p>Wenn sich ein <a href="players.html#register">neuer Spieler registriert</a>, sollte er einer bestehenden Rangliste beitreten oder eine neue Rangliste kreieren. Es gibt drei Möglichkeiten, eine bestehende Rangliste zu finden:	  </p>
+	  <ul>
+	    <li> <strong>Ranglisten-Code:</strong> Wenn dem Spieler ein 8-stelliger Ranglisten-Code für eine Rangliste gegeben wurde, kann er diesen eingeben um die Rangliste zu finden. Ranglisten-Codes können vom Ranglisten-Administratoren an neue Spieler verschickt werden oder man verteilt den Code z.B. in einem Club, der die Rangliste führt. </li>
+	    <li> <strong>Teilnehmer-Code:</strong> Wenn dem Spieler ein 7-stelliger Teilnehmer-Cod gegeben wurde, kann er diesen eingeben um der Rangliste beizutreten. Der Teilnehmer wurde zuvor bereits vom Ranglisten-Administratoren erfasst. Dieser kann die Teilnehmer-Codes an die erfassten Spieler weitergeben.	  </li>
+  </ul>
+	  <ul>
+		<img class="screenshot-2" src="img/register-player-prompt.png">
+		<img class="screenshot-2" src="img/find-ladder-code.png">
+		<li>
+	    <strong> <strong>Suche nach Standort:</strong></strong> Neue Spieler können nach Ranglisten in ihrer Umgebung suchen, indem sie zuerst ihr Land und ihre Region angeben und dann in den Suchresultaten  die gewünschte  Rangliste wählen.</li>
+		<img class="screenshot-3" src="img/search-country.png">
+		<img class="screenshot-3" src="img/search-region.png">
+		<img class="screenshot-3" src="img/search-ladder.png">
+	  </ul>
+	  
+	  <h2 id="adding">Eine neue Rangliste anlegen</h2>
+	  <p>Wenn der Spieler keine Rangliste finden konnte, kann er eine neue Rangliste anlegen, indem er den &quot;+&quot;-Button drückt. Dazu muss er der Rangliste einen Namen geben, der in seiner Region noch nicht verwendet wird. Optional kann er für die Rangliste ein Bild hochladen und mit seinem Clubnamen versehen.</p>
+  <p>Wenn in einer Region keine Rangliste gefunden werden konnte, wird der Spieler automatisch dazu aufgefordert, eine neue Rangliste anzulegen.</p>
+  <p> <img class="screenshot" src="img/add-ladder.png">  </p>
+  <p>Nachdem er die Rangliste angelegt hat, muss sich der Spieler sogleich <a href="players.html#register">registrieren</a>, womit er zum Ranglisten-Administratoren ernennt wird. Anschliessend kann man entweder neue Spieler hinzufügen oder den Ranglisten-Code mit Spielern teilen, die  der Ranglisten angehören sollen.</p>
+  <p> <img class="screenshot" src="img/add-player.png">  </p>
+  <h3 id="types">Ranglisten-Arten</h3>
+	  <p>Wenn eine Rangliste kreiert wurde, muss der Ranglisten-Administrator diese konfigurieren. Ranglisten-Arten sind wie folgt definiert:
+	  </p>
+	  <ul>
+		<li><strong>Sport:</strong> Der Sport für den die Rangliste verwendet wird. Die folgenden Sportarten werden derzeit unterstützt: 
+			<ul>
+			  <li>Badminton</li>
+				<li>Padel-Tennis</li>
+				<li>Racquetball</li>
+				<li>Squash</li>
+				<li>Tischtennis</li>
+				<li>Tennis</li>
+			</ul>
+		</li>
+		<li><strong>Format:</strong> Die Anzahl Spieler pro Teilnehmer/Team:
+			<ul>
+				<li>Einzel</li>
+				<li>Doppel</li>
+				<li>Gemischtes Doppel</li>
+			</ul>
+		</li>
+	  </ul>
+	  <img class="screenshot" src="img/ladder-type.png">
+	  
+	  <h3 id="types">Ranglisten-Methoden</h3>
+	  <p>
+	  Die Ranglisten-Methode, welche die Spieler in der Rangliste einordnet muss konfiguriert werden. Es stehen folgende Ranglisten-Methoden zur Auswahl:</p>
+	  <ul>
+		<li>
+		<strong><a href="ranking.html#elo">ELO</a>:</strong> Punkte-Wertungssystem, basierend auf dem Schach-ELO-System.</li>
+		<li>
+		<strong><a href="ranking.html#leapfrog">Leapfrog</a>:</strong> Wenn der schlechter klassierte Spieler einen Match gewinnt, setzt er sich in der Rangliste an die Stelle des höher klassierten Spielers, gegen den er gewonnen hat.</li>
+	  </ul>
+
+
+	  <h2 id="multiple">Mehrere Ranglisten</h2>
+	  <p>
+	  Basic- und Premium-Abonnenten können an mehreren Ranglisten teilnehmen. Wenn man das Ranglisten-Icon drückt, erhält man eine Übersicht aller Ranglisten, an denen man teilnimmt. Wählt man aus dieser Übersicht eine  Rangliste, wechselt der die <a href="tabs.html#ladder">Reiter Rangliste</a> sogleich auf die gewählte Rangliste. Es ist auch möglich die Resultate der gewählten Rangliste im <a href="tabs.html#results">Reiter Resultate</a> zu sehen.</p>
+  <p> <img class="screenshot" src="img/select-ladder.png">	  </p>
+	  <p>
+	  <strong>Resultate sind nicht an Ranglisten gebunden. </strong>Für Spieler, die gleichzeitig in mehreren gleichen Rangliste vertreten sind, gelten eingetragene Resultate für alle Ranglisten, an denen beide Spieler teilnehmen. Die Punkteveränderung kann jedoch von Rangliste zu Rangliste variieren.	  </p>
+	  <h2 id="private">Öffentliche und private Ranglisten </h2>
+	  <p>
+	  Wenn eine Rangliste erstellt wird, kann diese entweder öffentlich oder privat konfiguriert werden. Jeder kann öffentliche Ranglisten suchen und beitreten. Um einer privaten Rangliste beizutreten, benötigt man  deren Ranglisten-Code oder den individuellen Teilnehmer-Code.	  </p>
+	  <h2 id="sharing">Einen Ranglisten-Code teilen </h2>
+    <p>Ranglisten-Administratoren können den Ranglisten-Code sehen und verteilen, indem sie in den Administrator-Modus wechseln. Dort können sie auf den &quot;Teilen&quot;-Button neben dem Ranglisten-Code drücken um diesen via Sozialen Medien oder E-Mail zu teilen. Eine andere Möglichkeit ist es, den Code im Verein/Club den Mitgliedern auszuhändigen.</p>
+	  <p> <img class="screenshot-2" src="img/edit-ladder.png">
+	    <img class="screenshot-2" src="img/share-ladder-code.png">
+  </p>
+</section>

@@ -1,0 +1,101 @@
+{
+	/*
+	General notes:
+	Text for titles and button text are Camel Case (all words capitalised). E.g., "Edit Competitor"
+	Text for labels are captitalised for the first word. E.g., "Ladder type"
+	Players are individual users of the app. Competitors are either individuals (for singles ladders) or teams of players (for doubles)
+
+	Each line in this file represents a text element that needs to be translated, in the following format:
+		"ELEMEMT_NAME": "ELEMENT_TEXT", //COMMENT
+	DO NOT EDIT THE ELEMENT NAMES OR CHANGE THE ORDER OF ELEMENTS!
+	Ignore special words or characters in the element text:
+		* Translation variables (values set in the code) - any word starting with a $ symbol (E.g., $days, $value)
+		* HTML elements - anything in angle braces (<...>) (E.g., <br/>, <p>, <ul>)
+	Comments (where helpful) are there to assist translators with understanding the context. They follow the element definition.
+	*/
+	//
+	//Adscend
+	"REWARD_ADDED_NOTIFICATION_TITLE": "Reward added",
+	"REWARD_ADDED_NOTIFICATION_BODY": "$days free premium days added.",
+	"REWARD_REMOVED_NOTIFICATION_TITLE": "Reward removed",
+	"REWARD_REMOVED_NOTIFICATION_BODY": "$days free premium days removed.",
+	//Challenges
+	"INVITATION_ADDED_NOTIFICATION_TITLE": "New invitation",
+	"INVITATION_ADDED_NOTIFICATION_BODY": "$challenger has sent you an invitation to play a game $timestr. Touch to accept or decline this invitation.",
+	"INVITATION_UPDATED_NOTIFICATION_TITLE": "Updated invitation",
+	"INVITATION_ACCEPTED_NOTIFICATION_BODY": "$opponent has accepted your invitation.",
+	"INVITATION_DECLINED_NOTIFICATION_BODY": "$opponent has declined your invitation.",
+	"INVITATION_CANCELLED_NOTIFICATION_BODY": "$challenger has cancelled their invitation.",
+	"INVALID_CHALLENGE_ERROR": "Challenge not found on server",
+	//CompetitorLogic
+	"COMPETITOR_NOT_FOUND": "Competitor code not found", //Invalid competitor code supplied when joining a ladder
+	"COMPETITOR_CODE_ALREADY_REDEEMED": "Competitor code already redeemed", //The supplied competitor code has already been used by someone to join the ladder
+	"COMPETITOR_ALREADY_EXISTS": "Competitor already exists on the ladder", //Ladders can't have 2 competitors with the same display name
+	"ADD_COMPETITOR_ERROR": "Error while adding competitor",
+	"REJOIN_LADDER_COMPETITOR_MISSING": "Unable to find removed competitor id",
+	"REJOIN_LADDER_ERROR": "Error while trying to restore ladder player",
+	"LADDER_NOT_FOUND": "Ladder not found on server",
+	"JOIN_LADDER_ALREADY_MEMBER": "You already belong to the ladder",
+	"PROMPT_USE_EXISTING_TEAM": "Would you like to use an existing team?",
+	//iTunesReceiptValidator
+	"INVALID_ITUNES_RECEIPT": "Invalid receipt or something went wrong",
+	//LadderDB
+	"LADDER_CODE_NOT_FOUND": "Ladder code not found",
+	"LADDER_CODE_NOT_AVAILABLE": "(not available)",
+	"LADDER_NAME_USED": "There is already a ladder with that name in your region",
+	"LADDER_PICTURE_ERROR": "Error updating ladder picture",
+	//Notifications
+	"ADD_NOTIFICATION_ERROR": "Error adding notification",
+	//PointsCalculator
+	"LOSER_RESULT": "You lose $competitorGames - $opponentGames",
+	"WINNER_RESULT": "You win $competitorGames - $opponentGames",
+	"TIE_RESULT": "Draw",
+	//Results
+	"GET_COMPETITOR_USERS_ERROR": "Error getting users for the competitors. The result was saved, but no push notifications were sent.",
+	"RESULT_ADDED_NOTIFICATION_TITLE": "Result added",
+	"RESULT_ADDED_NOTIFICATION_BODY": "$opponent has added a new result. $resultDesc. Touch to view and confirm this result.",
+	"ADMIN_RESULT_ADDED_NOTIFICATION_TITLE": "Result added",
+	"ADMIN_RESULT_ADDED_NOTIFICATION_BODY": "A ladder administrator ($user) has added your result. $resultDesc. Touch to view this result.",
+	"GET_COMMON_LADDERS_ERROR": "Unable to get common ladders for both competitors",
+	"RESULT_DESCRIPTION": "$winner beat $loser $winnerGames - $loserGames",
+	"RESULT_DESCRIPTION_TIE": "$competitor tied $opponent $games - $games",
+	"UPDATE_RESULT_ERROR": "Error updating result",
+	"ADMIN_RESULT_UPDATED_NOTIFICATION_TITLE": "Result updated",
+	"ADMIN_RESULT_UPDATED_NOTIFICATION_BODY": "A ladder administrator ($user) has updated your result. $resultDesc. Touch to view this result.",
+	"ADMIN_RESULT_DELETED_NOTIFICATION_TITLE": "Result deleted",
+	"ADMIN_RESULT_DELETED_NOTIFICATION_BODY": "A ladder administrator ($user) has deleted your result. $resultDesc. Touch to view this result.",
+	"OPPONENT_WINNER_RESULT": "$opponent wins $opponentGames - $competitorGames",
+	"COMPETITOR_TIE_RESULT": "You tie $games - $games",
+	"RESULT_CONFIRMED_NOTIFICATION_TITLE": "Result confirmed",
+	"RESULT_CONFIRMED_NOTIFICATION_BODY": "$opponent has confirmed your result. $resultDesc.",
+	"RESULT_REJECTED_NOTIFICATION_TITLE": "Result rejected",
+	"RESULT_REJECTED_NOTIFICATION_BODY": "$opponent has rejected your result.",
+	"RESULT_DISCARDED_NOTIFICATION_TITLE": "Result discarded",
+	"RESULT_DISCARDED_NOTIFICATION_BODY": "$opponent has discarded your result.",
+	"IMPORT_RESULTS_SUCCESS": "Successfully imported $count of $total results",
+	"IMPORT_RESULTS_FILE_ERROR": "Error opening file",
+	"GET_USER_PUSHID_ERROR": "Error getting player push IDs",
+	"UNKNOWN_USER": "An unknown user", //E.g., An unknown user had tried to do something
+	//ResultsDB
+	"BEST_OF_GAMES_TITLE": "Best of $games", //Title for result matrix tabs (E.g., Best of 5) Keep it short as there is not much space.
+	"SINGLE_GAME": "game", //Single game name for sports like squash
+	"SINGLE_SET": "set", //Single set name for sports like tennis
+	//UserDB
+	"UNKNOWN_EMAIL_ERROR": "Unknown email address",
+	"PASSWORD_RESET_MAIL_SUBJECT": "Slappy password reset",
+	"SEND_EMAIL_ERROR": "Server error: Unable to send mail",
+	"VERIFY_INVALID_CODE": "No code found for the given email address",
+	"VERIFY_INCORRECT_CODE": "Incorrect code",
+	"ADMIN_GETTING_STARTED_NOTIFICATION_TITLE": "Getting started for administrators",
+	"ADMIN_GETTING_STARTED_NOTIFICATION_BODY": "Tips to get you started with managing your ladder.",
+	"PLAYERS_GETTING_STARTED_NOTIFICATION_TITLE": "Getting started for players",
+	"PLAYERS_GETTING_STARTED_NOTIFICATION_BODY": "Tips to get you started with using Slappy.",
+	"PREMIUM_FEATURES_NOTIFICATION_TITLE": "Premium features",
+	"PREMIUM_FEATURES_NOTIFICATION_BODY": "Slappy is free to use, but does come with some features that are only available to premium subscribers.",
+	//UserLogic
+	"DEFAULT_TEAM_NAME": "$competitor and partner", //Default name for a doubles team when first player joins the ladder (E.g., Joe and partner)
+	//Users
+	"EMAIL_ALREADY_REGISTERED": "Email is already registered",
+	"ADD_COMPETITOR_TO_LADDER_ERROR": "Error while adding competitor to ladder",
+	"LOGIN_ERROR": "Invalid user name or password"
+}
