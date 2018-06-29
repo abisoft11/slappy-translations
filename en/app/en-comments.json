@@ -115,16 +115,25 @@
 	"DISABLED_EDIT_LADDER_TYPE_TITLE": "Unable to edit ladder types",
 	"DISABLED_EDIT_LADDER_TYPE_MESSAGE": "Please contact technical support if you wish to change your ladder type.",
 	//CaptureResultPage
-	"OWN_GAMES_TITLE": "Your {{games}} (or single {{game}} {{points}})",
-	"COMPETITOR_GAMES_TITLE": "{{competitor}} {{games}} (or single {{game}} {{points}})",
+	"SAVE_RESULT_TITLE": "Capture Result",
+	"OWN_GAMES_TITLE": "Your {{games}}",
+	"COMPETITOR_GAMES_TITLE": "{{competitor}} {{games}}",
+	"OWN_POINTS_TITLE": "Your {{points}}",
+	"COMPETITOR_POINTS_TITLE": "{{competitor}} {{points}}",
+	"RESULT_GAMES_TITLE": "Result",
+	"RESULT_SHOW_SCORES": "Capture individual {{gamesName}}", //E.g. "Capture individual games"
 	"WINNER_RESULT": "You win {{playerGames}} - {{opponentGames}}",
 	"LOSER_RESULT": "You lose {{opponentGames}} - {{playerGames}}",
 	"TIE_RESULT": "Tie {{opponentGames}} - {{playerGames}}",
-	"SAVE_SINGLE_GAME_TITLE": "Single Game",
-	"SAVE_SINGLE_GAME_PROMPT": "When capturing a single game, it is better to enter the actual score. Do you know the score?",
-	"SAVE_SINGLE_GAME_POPUP": "Enter the score for your game.",
-	"SAVE_INVALID_GAMES": "Must capture at least 1 game",
-	"SAVE_RESULT_TITLE": "Capture Result",
+	//    Prompt when player enters a large score, which might be a single game only
+	"SAVE_MANY_GAMES_TITLE": "Large number of {{gamesName}}",
+	"SAVE_MANY_GAMES_PROMPT": "The score you captured is for {{nGames}} {{gamesName}}. Did you intend to capture a single {{gameName}} or is this correct?",
+	"SAVE_SINGLE_GAME_BUTTON": "Single {{gameName}}",
+	"SAVE_MANY_GAMES_BUTTON": "Many {{gamesName}}",
+	//    Error messages when trying to save invalid scores
+	"SAVE_INVALID_GAMES": "Must capture at least 1 {{gameName}}",
+	"SAVE_LOW_SCORE_GAMES": "At least one {{gameName}} doesn't have enough {{pointsName}}",
+	//    Prompt to confirm the result when saving
 	"SAVE_RESULT_PROMPT": "Are you sure you want to save the result with {{opponent}}:<br/>Played on {{date}} at {{time}}<br/>{{result}}",
 	//ChallengeDetailsPage
 	"INVITATION_DETAILS_TITLE": "Invitation Details",
@@ -186,7 +195,6 @@
 	"EDIT_RESULT_TITLE": "Edit Result",
 	"TOURNAMENT_RESULT_LABEL": "Tournament result",
 	"NAMED_WINNER_RESULT": "{{competitor}} wins {{winnerGames}} - {{loserGames}}",
-	"EDIT_RESULT_INVALID_GAMES": "Must capture at least 1 game",
 	"EDIT_RESULT_NO_CHANGES": "No changes",
 	"DELETE_RESULT_TITLE": "Delete Result",
 	"DELETE_RESULT_PROMPT": "Are you sure you want to delete this result?",
@@ -318,7 +326,7 @@
 	"MENU_NOTIFICATIONS": "Notifications",
 	"MENU_FEEDBACK": "Feedback",
 	"MENU_RATE": "Rate App",
-	"MENU_UPGRADE": "Upgrade",
+	"MENU_UPGRADE": "Subscriptions",
 	//SharePopover
 	"SHARE_TITLE": "Share",
 	"SHARE_CUSTOM_LABEL": "Custom message",
@@ -350,6 +358,7 @@
 	"TAB_LADDER": "Ladder",
 	"TAB_INVITATIONS": "Invitations",
 	"TAB_HISTORY": "History",
+	"TAB_CHAT": "Chat",
 	//UpgradePage
 	"UPGRADE_TITLE": "Subscriptions",
 	"UPGRADE_MESSAGE": "Subscribe from just {{price}} to get the following features",
@@ -446,6 +455,8 @@
 	"INVITATION_TIME_TODAY": "today at {{time}}",
 	"INVITATION_TIME_TOMORROW": "tomorrow at {{time}}",
 	"INVITATION_TIME_GENERAL": "on {{date}} at {{time}}",
+	//ChatService
+	"DELETE_MESSAGE_PROMPT": "Are you sure you want to delete this message?",
 	//CompetitorService
 	"GET_COMPETITOR_DETAILS_ERROR": "Unable to get competitor details from the server.",
 	"ADD_COMPETITOR_MESSAGE": "Adding competitor...",
