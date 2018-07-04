@@ -101,9 +101,9 @@
 	//CaptureResultPage
 	"SAVE_RESULT_TITLE": "Capture Result",
 	"OWN_GAMES_TITLE": "Your {{games}}",
-	"COMPETITOR_GAMES_TITLE": "{{competitor}} {{games}}",
+	"COMPETITOR_GAMES_TITLE": "{{competitor}}'s {{games}}",
 	"OWN_POINTS_TITLE": "Your {{points}}",
-	"COMPETITOR_POINTS_TITLE": "{{competitor}} {{points}}",
+	"COMPETITOR_POINTS_TITLE": "{{competitor}}'s {{points}}",
 	"RESULT_GAMES_TITLE": "Result",
 	"RESULT_SHOW_SCORES": "Capture individual {{gamesName}}", //E.g. "Capture individual games"
 	"WINNER_RESULT": "You win {{playerGames}} - {{opponentGames}}",
