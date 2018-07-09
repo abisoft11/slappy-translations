@@ -5,7 +5,12 @@ Slappy: Sportranglisten App
 
 DESCRIPTION:
 ============
-Slappy ist ein Sportranglisten-Managementsystem, um Sportranglisten zu kreieren und zu verwalten. Slappy unterstützt derzeit Ranglisten für folgende Sportarten: Badminton, Tischfussball, Patel-Tennis, Racquetball, Squash, Tischtennis und Tennis. Auf Slappy können Spiele vereinbart und Resultate erfasst werden. 
+Slappy ist ein Sportranglisten-Managementsystem, um Sportranglisten zu kreieren und zu verwalten.
+--- Slappy unterstützt derzeit Ranglisten für folgende Sportarten: Badminton, Tischfussball, Patel-Tennis, Racquetball, Squash, Tischtennis und Tennis.
++++ Slappy currently has support for badminton, darts, foosball, handball (American or Gaelic),
++++ paddleball (one wall, three wall or four wall), padel, pelota, pickleball, racquetball, real tennis, squash,
++++ table tennis, tennis, touchtennis and volleyball ladders.
+Auf Slappy können Spiele vereinbart und Resultate erfasst werden. 
 
 Slappy ist perfekt um Club-Ranglisten zu verwalten, kann aber genauso gut im Freizeitbereich unter Freunden genutzt werden.
 

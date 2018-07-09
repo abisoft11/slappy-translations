@@ -483,8 +483,27 @@
 	"TABLE_TENNIS": "Table Tennis",
 	"TENNIS": "Tennis",
 	"FOOSBALL": "Foosball",
+	"PADDLEBALL": "Paddleball", //Paddle-ball, one wall paddleball, three wall paddleball or four wall paddleball all use points/games.
+	// Paddle-ball: 15, 21, 25 or 30 points per game.
+	// Four wall paddleball: Most common version.  21 points per game.
+	// Three wall paddleball: Not very common.  Can't find scoring system.
+	// One wall paddleball: 11, 15, 21 or 25 points per game.
+	"HANDBALL": "Handball", //American and Gaelic handball both use points/games.
+	// American handball: 7, 11, 15 or 21 (most common) points per game.  Also has cutthroat format (3 players).
+	// Gaelic handball: 21 points per game.
+	"PELOTA": "Pelota", //Many variants - most popular is a single game to 35 points.
+	"PICKLEBALL": "Pickleball", // 11 points per game. (games/points)
+	"DARTS": "Darts", // (legs/sets) (single game (not leg)) No max points per game 
+	"REAL_TENNIS": "Real Tennis", // Same as tennis
+	"TOUCHTENNIS": "Touchtennis", // 4 games per set (games/sets)
+	"VOLLEYBALL": "Volleyball", // 25 points per set (points/sets)
+	// "CHESS": "Chess", // Use standard chess ELO
+	// "SCRABBLE": "Scrabble", // Differential scoring between all players (up to 4)
+	// "BACKGAMMON": "Backgammon", // Points (games) no sets
+	// "GO": "Go", // Probable the chess ELO system will work - The AGA has its own ranking system
 	"POINTS": "points", //This refers to individual points in a game
 	"GOALS": "goals", //This refers to goals scored in foosball
+	"LEGS": "legs", // This refers to a a single game (leg) of darts
 	"GAMES": "games", //This refers to games in a set (for sports like tennis) or games in a match (for sports like squash)
 	"GAME": "game", //This refers to a single game in a set or match
 	"SETS": "sets", //This refers to sets in a match (for sports like tennis)

@@ -5,7 +5,11 @@ Slappy: Sports Ladder App
 
 DESCRIPTION:
 ============
-Slappy is a sports ladder management system that can be used to create and manage sport ladders. Slappy currently has support for badminton, foosball, padel, racquetball, squash, table tennis and tennis ladders. The app can also be used to arrange matches and capture results.
+Slappy is a sports ladder management system that can be used to create and manage sport ladders.
+Slappy currently has support for badminton, darts, foosball, handball (American or Gaelic),
+paddleball (one wall, three wall or four wall), padel, pelota, pickleball, racquetball, real tennis, squash,
+table tennis, tennis, touchtennis and volleyball ladders.
+The app can also be used to arrange matches and capture results.
 
 Slappy is perfect for managing club ladders, and can also be used for personal social ladders.
 
