@@ -284,7 +284,7 @@
     "PROMPT_SUPPORT_QUERY": "support query",
     "TAB_LADDER": "Ladder",
     "TAB_INVITATIONS": "Invitations",
-    "TAB_HISTORY": "History",
+    "TAB_RESULTS": "Results",
     "UPGRADE_TITLE": "Subscriptions",
     "UPGRADE_MESSAGE": "Subscribe from just {{price}} to get the following features",
     "UPGRADE_ACTIVE_SUBSCRIPTION": "Active subscription",
