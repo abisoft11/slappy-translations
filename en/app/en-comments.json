@@ -87,7 +87,7 @@
 	"DEFAULT_TEAM_NAME": "{{name}} and partner", //Default competitor name for new team competitors when joining a ladder
 	"MISSING_DISPLAY_NAME": "Please enter a display name", //Warning message if no display name is entered
 	//AddLadderPage/EditLadderPage
-	"ADD_LADDER_TITLE": "Add Ladder", //Title for add ladder page
+	"ADD_LADDER_TITLE": "Create Ladder", //Title for create ladder page
 	"LADDER_NAME": "Ladder name", //Label for ladder name field
 	"CLUB_NAME": "Club name (optional)", //Label for club name field
 	"LADDER_TYPE": "Ladder type", //Label for ladder type field
@@ -105,7 +105,7 @@
 	"OWN_POINTS_TITLE": "Your {{points}}",
 	"COMPETITOR_POINTS_TITLE": "{{competitor}}'s {{points}}",
 	"RESULT_GAMES_TITLE": "Result",
-	"RESULT_SHOW_SCORES": "Capture individual {{gamesName}}", //E.g. "Capture individual games"
+	"RESULT_SHOW_SCORES": "Capture {{gameName}} scores", //To allow user to enter the scores for each game/set as opposed to just the overall match result.  E.g. "Capture game scores" or "Capture set scores"
 	"WINNER_RESULT": "You win {{playerGames}} - {{opponentGames}}",
 	"LOSER_RESULT": "You lose {{opponentGames}} - {{playerGames}}",
 	"TIE_RESULT": "Tie {{opponentGames}} - {{playerGames}}",
@@ -185,7 +185,7 @@
 	//FindCodePage
 	"FIND_CODE_TITLE": "Find Ladder/Competitor",
 	"FIND_CODE_LABEL": "Ladder/competitor code",
-	"FIND_CODE_BUTTON": "Find Code",
+	"FIND_CODE_BUTTON": "Submit Code",
 	"FIND_CODE_INVALID": "Invalid code",
 	"FIND_CODE_INVALID_LADDER": "Invalid ladder code",
 	"FIND_CODE_INVALID_COMPETITOR": "Invalid competitor code",
@@ -206,9 +206,10 @@
 	"LADDER_TYPE_TITLE": "Ladder Type",
 	"LADDER_TYPE_SPORT": "Sport", //The sport that the ladder is for
 	"LADDER_TYPE_FORMAT": "Format", //Singles, doubles or mixed doubles
-	//LaddersPopover
-	"LADDERS_POPOVER_TITLE": "Ladders",
-	"LADDERS_ADD_ITEM": "(add ladder)",
+	//LaddersMenu
+	"LADDERS_MENU_TITLE": "Ladders",
+	"ADD_LADDER": "Add ladder",
+	"JOIN_LADDER": "Join ladder",
 	//LoginPage
 	"LOGIN_TITLE": "Login",
 	"LOGIN_EMAIL": "Email", //Email label
@@ -306,6 +307,7 @@
 	"MENU_OPTIONS_TITLE": "Options",
 	"MENU_ADMIN": "Admin",
 	"MENU_EDIT_PROFILE": "Edit Profile",
+	"MENU_LADDERS": "Ladders",
 	"MENU_LADDER_SETTINGS": "Ladder Settings",
 	"MENU_NOTIFICATIONS": "Notifications",
 	"MENU_FEEDBACK": "Feedback",
