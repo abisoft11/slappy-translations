@@ -61,7 +61,9 @@
   "SHARE_LADDER_CODE_MESSAGE": "Um der {{name}} -Ranglsite beizutreten, installiere abisoft Slappy Sportranglisten App und verwende den Ranglisten-Code: {{code}}",
   "SHARE_LADDER_CODE_SUBJECT": "Slappy Ranglisten-Code",
   "SHARE_LADDER_CODE_ERROR": "Fehler beim Versuch, den Ranglisten-Code zu teilen",
-  "SHARE_TEAM_CODE_MESSAGE": "Um meinem Team auf der {{ladderName}} -Rangliste beizutreten, gehe wie folgt vor: Installiere die abisoft Slappy Sportranglisten App und verwende den Teilnehmer-Code {{code}} um dich meinem Team anzuschliessen",
+---  "SHARE_TEAM_CODE_MESSAGE": "Um meinem Team auf der {{ladderName}} -Rangliste beizutreten, gehe wie folgt vor: Installiere die abisoft Slappy Sportranglisten App und verwende den Teilnehmer-Code {{code}} um dich meinem Team anzuschliessen",
++++	"SHARE_TEAM_CODE_MESSAGE": "I have created our team ({{teamName}}) on the {{ladderName}} ladder. To link to this team and start capturing results, install the abisoft Slappy Sports Ladder App and join the ladder using the competitor code: {{code}}",
++++	"SHARE_TEAM_CODE_MESSAGE_ADMIN": "Your doubles team ({{teamName}}) has been created on the {{ladderName}} ladder. To link to this team and start capturing results, install the abisoft Slappy Sports Ladder App and join the ladder using the competitor code: {{code}}",
   "SHARE_TEAM_CODE_SUBJECT": "Slappy Teilnehmer-Code",
   "SHARE_TEAM_CODE_ERROR": "Fehler beim Versuch, den Teilnehmer-Code zu teilen",
   "ADD_COMPETITOR_TITLE": "Teilnehmer hinzufügen",
@@ -511,8 +513,10 @@
   "GET_MATRIX_DESCRIPTION": "Holen dir die Ergebnismatrix",
   "GET_MATRIX_SUCCESS": "Ergebnismatrix holen",
   "SHARE_COMPETITOR_CODE_TITLE": "Teile den Teilnehmer-Code",
-  "SHARE_COMPETITOR_CODE_PROMPT": "Um jemanden einzuladen, dieser Rangliste beizutreten, benötigt dieser Spieler den Teilnehmer-Code ({{code}}). <br/> (Weitere Informationen findest du in der Hilfe) <br/> Möchtest du den Teilnehmer-Code jetzt mit ihm teilen?",
-  "SHARE_COMPETITOR_CODE_DOUBLES_PROMPT": "Um jemanden einzuladen, diesem Team beizutreten, muss er mit dem Teilnehmer-Code ({{code}}) der Rangliste beitreten. <br/> (Weitere Informationen findest du in der Hilfe) <br/> Möchtest du den Teilnehmer-Code jetzt mit ihm teilen?",
+---  "SHARE_COMPETITOR_CODE_PROMPT": "Um jemanden einzuladen, dieser Rangliste beizutreten, benötigt dieser Spieler den Teilnehmer-Code ({{code}}). <br/> (Weitere Informationen findest du in der Hilfe) <br/> Möchtest du den Teilnehmer-Code jetzt mit ihm teilen?",
++++  "SHARE_COMPETITOR_CODE_PROMPT": "To invite someone to be this player, they must join the ladder using the competitor code ({{code}}). <br/> (See help for more details) <br/> Would you like to share the competitor code with someone now?", //Changed "them" to "someone"
+---  "SHARE_COMPETITOR_CODE_DOUBLES_PROMPT": "Um jemanden einzuladen, diesem Team beizutreten, muss er mit dem Teilnehmer-Code ({{code}}) der Rangliste beitreten. <br/> (Weitere Informationen findest du in der Hilfe) <br/> Möchtest du den Teilnehmer-Code jetzt mit ihm teilen?",
++++  "SHARE_COMPETITOR_CODE_DOUBLES_PROMPT": "To invite a player to join this team, they must join the ladder using the competitor code ({{code}}). <br/>  (See help for more details) <br/> Would you like to share the competitor code with someone now?", //Changed "them" to "someone"
   "GET_USER_DETAILS_ERROR": "Es konnten keine Benutzerdetails vom Server abgerufen werden.",
   "ADD_PLAYER_MESSAGE": "Spieler wird hinzugefügt ...",
   "ADD_PLAYER_DESCRIPTION": "füge diesen Spieler hinzu",

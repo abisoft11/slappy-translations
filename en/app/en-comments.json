@@ -74,7 +74,8 @@
 	"SHARE_LADDER_CODE_SUBJECT": "Slappy Ladder Code",
 	"SHARE_LADDER_CODE_ERROR": "Error while trying to share ladder code",
 	//ShareTeamCode
-	"SHARE_TEAM_CODE_MESSAGE": "To join my team on the {{ladderName}} ladder, install abisoft Slappy Sports Ladder, join a ladder and use the competitor code: {{code}}",
+	"SHARE_TEAM_CODE_MESSAGE": "I have created our team ({{teamName}}) on the {{ladderName}} ladder. To link to this team and start capturing results, install the abisoft Slappy Sports Ladder App and join the ladder using the competitor code: {{code}}",
+	"SHARE_TEAM_CODE_MESSAGE_ADMIN": "Your doubles team ({{teamName}}) has been created on the {{ladderName}} ladder. To link to this team and start capturing results, install the abisoft Slappy Sports Ladder App and join the ladder using the competitor code: {{code}}",
 	"SHARE_TEAM_CODE_SUBJECT": "Slappy Competitor Code",
 	"SHARE_TEAM_CODE_ERROR": "Error while trying to share competitor code",
 	//
@@ -594,8 +595,8 @@
 	"GET_MATRIX_SUCCESS": "Got results matrix",
 	//ShareCompetitorCodeProvider
 	"SHARE_COMPETITOR_CODE_TITLE": "Share competitor code",
-	"SHARE_COMPETITOR_CODE_PROMPT": "To invite someone to be this player, they must join the ladder using the competitor code ({{code}}). <br/> (See help for more details) <br/> Would you like to share the competitor code with them now?",
-	"SHARE_COMPETITOR_CODE_DOUBLES_PROMPT": "To invite a player to join this team, they must join the ladder using the competitor code ({{code}}). <br/>  (See help for more details) <br/> Would you like to share the competitor code with them now?",
+	"SHARE_COMPETITOR_CODE_PROMPT": "To invite someone to be this player, they must join the ladder using the competitor code ({{code}}). <br/> (See help for more details) <br/> Would you like to share the competitor code with someone now?",
+	"SHARE_COMPETITOR_CODE_DOUBLES_PROMPT": "To invite a player to join this team, they must join the ladder using the competitor code ({{code}}). <br/>  (See help for more details) <br/> Would you like to share the competitor code with someone now?",
 	//UserService
 	"GET_USER_DETAILS_ERROR": "Unable to get user details from the server.",
 	"ADD_PLAYER_MESSAGE": "Adding player...",
