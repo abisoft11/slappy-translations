@@ -1,0 +1,51 @@
+TITLE:
+======
+Slappy: Sports Ladder App
+
+
+DESCRIPTION:
+============
+Slappy is a sports ladder management system that can be used to create and manage sport ladders.
+Slappy currently has support for badminton, darts, foosball, handball (American or Gaelic),
+paddleball (one wall, three wall or four wall), padel, pelota, pickleball, racquetball, real tennis, squash,
+table tennis, tennis, touchtennis and volleyball ladders.
+The app can also be used to arrange matches and capture results.
+
+Slappy is perfect for managing club ladders, and can also be used for personal social ladders.
+
+Features:
+• View and manage ladder players
+• Arrange games
+• Capture results
+• View historical results
+• Compare players
+• Create your own private ladders
+
+Slappy is free to use, but does come with some features that are only available to premium subscribers.  Monthly or annual premium subscriptions can be purchased from Apple from inside the app.  These subscriptions are auto-renewable, which means you will automatically be charged for the subscription at the end of each subscription period.  Please see our terms of use policy at www.abisoft.co.za/slappy-terms.html
+
+
+SUBSCRIPTIONS:
+==============
+Basic Subscription
+Remove ads. Enable basic features.
+
+Premium Subscription
+Remove ads. Enable premium features.
+
+Club Subscription 50
+Enable premium features for up to 50 members
+
+Club Subscription 100
+Enable premium features for up to 100 members
+
+Club Subscription 200
+Enable premium features for up to 200 members
+
+Club Subscription 500
+Enable premium features for up to 500 members
+
+Club Subscription 1000
+Enable premium features for up to 1000 members
+
+
+

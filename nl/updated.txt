@@ -1,0 +1,24 @@
+nl/app/nl.json
+nl/app/Google store listing.txt
+nl/app/iTunes store listing.txt
+nl/help/_invites.html
+nl/help/_ladders.html
+nl/help/_login.html
+nl/help/_players.html
+nl/help/_ranking.html
+nl/help/_results.html
+nl/help/_subscriptions.html
+nl/help/_tabs.html
+nl/help/footer.html
+nl/help/header.html
+nl/notifications/_getting-started-admin.html
+nl/notifications/_getting-started-players.html
+nl/notifications/_subscriptions.html
+nl/notifications/footer.html
+nl/server/nl.json
+nl/server/reset-password-nl.html
+nl/web pages/_slappy.html
+nl/web pages/_slappy-privacy.html
+nl/web pages/_slappy-subscriptions.html
+nl/web pages/_slappy-terms.html
+nl/web pages/slappyscreenshots.html

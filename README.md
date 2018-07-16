@@ -49,6 +49,8 @@ Ignore all html tags (enclosed in angle braces), for example, `<body>`, `<h1>`, 
 
 Ignore any variables in the text.  Variables are single words starting with a '$' symbol.  E.g., `$code`.
 
+Text in the files usually split across lines at logical breaking points in sentences or paragraphs. When translating, please keep the translated text on the same line as the original text, as far as possible.
+
 # General concepts
 ## Players vs. Competitors
 Players are individual users of the app. Competitors are either individuals (for singles ladders) or teams of players (currently only for doubles ladders). Each competitor can be linked to one (for singles ladders) or two (for doubles ladders) players.

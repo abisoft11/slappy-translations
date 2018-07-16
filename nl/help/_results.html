@@ -1,0 +1,82 @@
+	<section id="maincontent">
+		<h1>Slappy Results</h1>
+		<p>
+			After completing a match, results can be captured by any of the players involved in the match. Results should
+			include the date and time that the match was started, and the number of games, points or sets that each
+			competitor won in the match.		
+		</p>
+		<p>
+			Players can either decide before their match, how many games will be required to win the match, or, if they are
+			playing for a fixed amount of time, they can just enter all the completed games during their session. Using the
+			second method, it is possible for a draw/tie result. Only the <a href="ranking.html#elo">ELO ranking system</a>
+			allows for draws/ties. The <a href="ranking.html#leapfrog">Leapfrog ranking system</a> will not make changes
+			to player rankings based on draws/ties.
+		</p>
+		
+		<h2 id="capture">Capturing results</h2>
+		<p>
+			Results can be captured in one of 3 ways:
+		</p>
+		<ul>
+			<li>
+				<strong>From an invitation:</strong> Any player can touch the invitation in the
+				<a href="tabs.html#invitations">Invitations tab</a> and select "Capture result". The time and date of the
+				result will default to the time and date of the invitation, but this can be altered.
+			</li>
+			<img class="screenshot" src="img/invitation-details.png">
+			<li>
+				<strong>From the ladder:</strong> Even if no invitation was sent, a result can be captured by touching on the
+				opponent in the <a href="tabs.html#ladder">Ladder tab</a> and selecting "Capture result".
+			</li>
+			<img class="screenshot" src="img/player-options.png">
+			<li>
+				<strong>By a ladder administrator:</strong> In admin mode, ladder administrators can capture results between
+				ladder competitors, by clicking on the "+" button in the Results tab. Results added by administrators are
+				automatically confirmed.
+			</li>
+			<img class="screenshot-2" src="img/admin-add-result.png">
+			<img class="screenshot-2" src="img/admin-result-competitor.png">
+		</ul>
+		<p>
+			The player or administrator capturing the result must enter the date and time of the match, and the number of games
+			won by each competitor, in order to save the result. Once a result is captured by a player, the opponents have 2
+			days to either confirm or dispute the result.
+		</p>
+		
+		<h2 id="confirm">Confirming results</h2>
+		<p>
+			After a result is captured, the competitors' points won't be updated until the result is confirmed. Results can be
+			confirmed in 1 of 2 ways:
+		</p>
+		<ul>
+			<li>
+				<strong>Manually:</strong> An opponent can directly confirm the result in the <a href="tabs.html#results">
+				Results tab</a> by pressing the confirm button (green tick), or by touching the result and pressing the "Confirm"
+				button in the Result Details view.
+			</li>
+			<img class="screenshot" src="img/result-details.png">
+			<li>
+				<strong>Automatically:</strong> Results will be confirmed automatically after 1 hour, if the opponent is not
+				yet using the app, or after 2 days, if the opponent is using the app, but doesn't manually confirm the result.
+			</li>
+		</ul>
+		
+		<h2 id="dispute">Disputing results</h2>
+		<p>
+			A player can dispute a result if they don't agree with the scores, or date and time captured by their opponent.
+			The player can directly dispute a result in the <a href="tabs.html">Results tab</a> by pressing the dispute
+			button (red cross), or by touching the result and pressing the "Dispute" button in the Result Details view.
+		</p>
+		<p>
+			When disputing a result, the player can modify the date, time and/or scores of the result that was captured by
+			their opponent. This will effectively reject the captured result and send the new updated result to the opponent,
+			who will in turn have 2 days to confirm or dispute the result.
+		</p>
+		
+		<h2 id="discard">Discarding results<h2>
+		<p>
+			If players are unable to agree upon the actual result of the game, the result can be discarded/rejected
+			by touching the result in the <a href="tabs.html">Results tab</a> and either pressing the "Discard" button
+			(by the player who captured the result) or the "Reject" button (by the opponent) in the Result Details view.
+		</p>
+	</section>
