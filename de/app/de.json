@@ -102,6 +102,8 @@
   "SAVE_INVALID_GAMES": "Du musst mindestens ein Spiel erfassen",
   "SAVE_LOW_SCORE_GAMES": "Mindestens ein {{gameName}} hat nicht genügend {{pointsName}}",
   "SAVE_RESULT_PROMPT": "Möchtest du das Ergebnis gegen {{opponent}} wirklich speichern?<br/>Gespielt am {{date}} um {{time}} <br/> {{result}}",
++++  "SELECT_COMPETITOR_1_TITLE": "Competitor 1",
++++  "SELECT_COMPETITOR_2_TITLE": "Competitor 2",
   "INVITATION_DETAILS_TITLE": "Einladungs-Details",
   "INVITATION_DETAILS_EXPECTED_RESULT": "Erwartetes Ergebnis: {{expectedResult}}",
   "INVITATION_ABANDON_GAME": "Spiel verwerfen",

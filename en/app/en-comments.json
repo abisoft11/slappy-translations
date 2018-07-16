@@ -120,6 +120,9 @@
 	"SAVE_LOW_SCORE_GAMES": "At least one {{gameName}} doesn't have enough {{pointsName}}",
 	//    Prompt to confirm the result when saving
 	"SAVE_RESULT_PROMPT": "Are you sure you want to save the result with {{opponent}}:<br/>Played on {{date}} at {{time}}<br/>{{result}}",
+	//    Select competitors when an administrator captures a result
+	"SELECT_COMPETITOR_1_TITLE": "Competitor 1",
+	"SELECT_COMPETITOR_2_TITLE": "Competitor 2",
 	//ChallengeDetailsPage
 	"INVITATION_DETAILS_TITLE": "Invitation Details",
 	"INVITATION_DETAILS_EXPECTED_RESULT": "Expected Result: {{expectedResult}}",
