@@ -11,9 +11,10 @@
 		
 		<h2 id="elo">ELO Ranking</h2>
 		<p>
-			The ELO ranking system used by Slappy is based on the ELO ranking system used in chess. Each competitor is allocated
-			points based on their performance. Competitors with more points are ranked higher than competitors with less points,
-			provided their ranking confidence is the same (<a href="#confidence">see below</a>).
+			The ELO ranking system used by Slappy is based on the ELO ranking system used in chess.
+			Each competitor is allocated points based on their performance.
+			Competitors with more points are ranked higher than competitors with less points,
+			provided their <a href="#confidence">ranking confidence</a> is the same.
 		</p>
 		<p>
 			When a new competitor joins a ladder, they will be assigned 1500 points and based on the fact that they have not
@@ -39,7 +40,7 @@
 			as 5 recorded games (or sets) for each competitor.
 		</p>
 		
-		<p class="center-wrapper">
+		<p class="center-wrapper equation">
 			Ranking Confidence (%) = minimum(nGames/60, nOpponents/10) x 100, where:
 		</p>
 		<ul>
@@ -52,20 +53,20 @@
 			Given the difference in points between 2 competitors, an expected result can be determined for a match between
 			those 2 competitors. The expected result can be calculated as follows:
 		</p>
-		<p class="center-wrapper">
+		<p class="center-wrapper equation">
 			Higher Ranked Competitor's Expected Games = Winner Games
 		</p>
-		<p class="center-wrapper">
+		<p class="center-wrapper equation">
 			Lower Ranked Competitor's Expected Games = (100 - Points Difference) / 100 x Winner Games
 		</p>
 		<p>
 			So, for example, if 2 competitors play a best of 5 games squash match (i.e., a competitor needs 3 games to win), and
 			the difference between those competitors' points is 32:
 		</p>
-		<p class="center-wrapper">
+		<p class="center-wrapper equation">
 			Higher Ranked Competitor's Expected Games = 3
 		</p>
-		<p class="center-wrapper">
+		<p class="center-wrapper equation">
 			Lower Ranked Competitor's Expected Games = (100 - 32) / 100 x 3 = 2.04
 		</p>
 		<p>
@@ -101,26 +102,26 @@
 			which are used to calculate rating changes. Competitors are ranked in order of their ladder points, from
 			highest to lowest.
 		</p>
-		<p class="center-wrapper">
+		<p class="center-wrapper equation">
 			Ladder points = Unweighted Points - (100 - Ranking Confidence)
 		</p>
 		<p>
 			For example, if a competitor has 1560 points, with a ranking confidence of 40%,
 		</p>
-		<p class="center-wrapper">
+		<p class="center-wrapper equation">
 			Ladder points = 1560 - (100 - 40) = 1500
 		</p>
 		<p>
 			If a competitor's ranking confidence is below 10% (i.e., they have not recorded any games in the last 90 days),
 			their displayed points are further decreased by 2 points each day that they remain inactive.
 		</p>
-		<p class="center-wrapper">
+		<p class="center-wrapper equation">
 			Ladder points = Unweighted Points - 90 - (Days Since Last Result - 90) x 2
 		</p>
 		<p>
 			For example, if a competitor has 1560 points, but hasn't played in 120 days,
 		</p>
-		<p class="center-wrapper">
+		<p class="center-wrapper equation">
 			Ladder points = 1560 - 90 - (120 - 90) x 2 = 1410
 		</p>
 		<p>

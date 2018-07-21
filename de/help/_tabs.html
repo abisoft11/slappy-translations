@@ -9,10 +9,16 @@
      <h2 id="ladder">Reiter Rangliste</h2>
 		<p>
 			In der <a href="ladders.html">Rangliste</a> werden alle Spieler in
-			absteigender Reihenfolge nach ihren Punkten (der beste zuoberst) aufgelistet. Die <a href="ranking.html">Ranglistenfolge</a> ergibt sich aus den
-			Punkten der jeweiligen Spieler und aus deren <a href="ranking.html#confidence">Ranglisten-Konfidenz</a>.
+			absteigender Reihenfolge nach ihren Punkten (der beste zuoberst) aufgelistet.
+---			Die <a href="ranking.html">Ranglistenfolge</a> ergibt sich aus den
+---			Punkten der jeweiligen Spieler und aus deren <a href="ranking.html#confidence">Ranglisten-Konfidenz</a>.
++++			The <a href="ranking.html">ranking</a> is either determined by the competitors' points and their
++++			<a href="ranking.html#confidence">ranking confidence</a> (<a href="ranking.html#elo">ELO ranking</a>)
++++			or by their previous results (<a href="ranking.html#leapfrog">Leapfrog ranking</a>).
 		</p>
-		<img class="screenshot" src="img/ladder.png">
+		
+		<img class="screenshot" src="img/ladders/ladder.png">
+		
 		<p>
 			Die Farbe, die bei den jeweiligen Spielern hinterlegt ist, sagt etwas über deren Status aus:
 		</p>
@@ -38,18 +44,19 @@
 			</li>
 		</ul>
 		<p>
-			Indem man das Profilbild des Spieles drückt, gelangt man zu den &bdquo;Spieler-Details&ldquo;, wo man sich über die <a href="ranking.html#confidence">
-			Ranglisten-Konfidenz</a> des Spielers oder das zu <a href="ranking.html#expected">erwartende Resultat</a> (wenn man gegen ihn spielt) informieren kann.
+			Indem man das Profilbild des Spieles drückt, gelangt man zu den &bdquo;Spieler-Details&ldquo;, wo man sich über die
+			<a href="ranking.html#confidence">Ranglisten-Konfidenz</a> des Spielers
+			oder das zu <a href="ranking.html#expected">erwartende Resultat</a> (wenn man gegen ihn spielt) informieren kann.
 			Premium Nutzer können noch weitere statistische Angaben einsehen.
 		</p>
-		<img class="screenshot-2" src="img/player-details.png">
-		<img class="screenshot-2" src="img/compare-competitors.png">
+		<img class="screenshot-2" src="img/ladders/competitor-details.png">
+		<img class="screenshot-2" src="img/ladders/competitor-comparison.png">
 		
 		<p>
 			Wenn man neben das Profilbild eines Spielers drückt, öffnet sich ein Popup-Menu, welches verschiedene Möglichkeiten der Interaktion
 			mit dem Spieler anbieten.
 		</p>
-		<img class="screenshot" src="img/player-options.png">
+		<img class="screenshot" src="img/ladders/player-options.png">
 		<p>
 			Folgende interaktionen sind möglich:
 		</p>
@@ -73,7 +80,7 @@
 		<p>
 			Der Reiter Einladungen listet entweder alle ausstehenden oder bereits erhaltenen Einladungen (aller Ranglisten, an denen du teilnimmst) auf.
 		</p>
-		<img class="screenshot" src="img/invitations.png">
+		<img class="screenshot" src="img/invitations/invitations.png">
 		<p>
 			Die Farbe der Einträge gibt Auskunft über den aktuellen Status:
 		</p>
@@ -88,7 +95,7 @@
 			Neu eingetroffene Einladungen haben jeweils zwei Buttons, einen zum &bdquo;Akzeptieren&ldquo; und einen zum &bdquo;Ablehnen&ldquo;. Wenn du eine Einladung
 			aus der Liste wählst, werden dir die Details (Datum und Zeit, zu erwartender Punktezuwachs/Punkteverlust) der Einladung angezeigt.
 		</p>
-		<img class="screenshot" src="img/invitation-details.png">
+		<img class="screenshot" src="img/invitations/invitation-details.png">
 		<p>
 			Abhängig vom aktuellen Status der Einladung, sind folgende Aktionen möglich:
 		</p>
@@ -119,11 +126,11 @@
 
 		<h2 id="results">Reiter Resultate</h2>
 		<p>
-			In diesem Reiter sind deine Resultate oder - wenn du <a href="premium.html">Premium-Mitglied</a> bist – die Resultate aller an der 
+			In diesem Reiter sind deine Resultate oder - wenn du <a href="subscriptions.html">Premium-Mitglied</a> bist – die Resultate aller an der 
 			Rangliste beteiligten Spieler aufgelistet.
 		</p>
-		<img class="screenshot-2" src="img/my-results.png">
-		<img class="screenshot-2" src="img/all-results.png">
+		<img class="screenshot-2" src="img/results/my-results.png">
+		<img class="screenshot-2" src="img/results/ladder-results.png">
 		<p>
 			Die Farbe gibt über den aktuellen Status Auskunft:
 		</p>
@@ -146,7 +153,7 @@
 			das Resultat. Wenn das Resultat
 			bereits bestätigt wurde, beinhalten die Details unter anderem die Punkteveränderung der jeweiligen Kontrahenten basierend auf dem Resultat.
 		</p>
-		<img class="screenshot" src="img/result-details.png">
+		<img class="screenshot" src="img/results/result-details.png">
 		<p>
 			Abhängig vom aktuellen Status des Resultates, sind folgende Aktionen möglich:
 		</p>
@@ -161,7 +168,7 @@
 				<strong>Verwerfen:</strong> Das Resultat wird von dem Spieler <a href="results.html#discard">verworfen</a>, der es ursprünglich erfasst hatte.
 			</li>
 			<li>
-				<strong>Ablehnen: </strong>Das Resultat wird vom Gegner <a href="results.html#reject">abgelehnt</a>.
+				<strong>Ablehnen: </strong>Das Resultat wird vom Gegner <a href="results.html#discard">abgelehnt</a>.
 			</li>
 		</ul>
 

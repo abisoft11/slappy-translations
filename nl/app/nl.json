@@ -1,24 +1,26 @@
 {
-    "OK": "OK",
-    "YES": "Yes",
-    "NO": "No",
-    "BACK": "Back",
-    "SAVE": "Save",
-    "DONE": "Done",
-    "SUBMIT": "Submit",
-    "CANCEL": "Cancel",
-    "DELETE": "Delete",
-    "UNDO": "Undo",
-    "HELP": "Help",
-    "COUNTRY": "Country",
-    "REGION": "Region",
-    "DATE": "Date",
-    "TIME": "Time",
-    "MESSAGE_PLACEHOLDER": "optional message",
-    "GOOGLE_STORE_NAME": "Play store",
-    "APPLE_STORE_NAME": "App store",
-    "AMAZON_STORE_NAME": "Amazon app store",
-    "APP_FULL_TITLE": "Slappy Sports Ladder App",
+	//Common text elements
+	"OK": "OK", //OK button text
+	"YES": "Yes", //Yes button text
+	"NO": "No", //No button text
+	"BACK": "Back", //Back button text
+	"SAVE": "Save", //Save button text
+	"DONE": "Done", //Done button text
+	"SUBMIT": "Submit", //Submit button text
+	"CANCEL": "Cancel", //Cancel button text
+	"DELETE": "Delete", //Delete button text
+	"UNDO": "Undo", //Undo button text
+	"HELP": "Help", //Help button text
+	"COUNTRY": "Country", //Label for country fields
+	"REGION": "Region", //Label for region fields
+	"DATE": "Date", //Label for date fields
+	"TIME": "Time", //Label for time fields
+	"MESSAGE_PLACEHOLDER": "optional message", //Placeholder for message fields
+	"GOOGLE_STORE_NAME": "Play store", //Google app store name
+	"APPLE_STORE_NAME": "App store", //Apple app store name
+	"AMAZON_STORE_NAME": "Amazon app store", //Amazon app store name
+	//App
+	"APP_FULL_TITLE": "Slappy Sports Ladder App", //Full app title
     "EXPIRY_TITLE": "Slappy has expired",
     "EXPIRY_TITLE_DETAILED": "{{appName}} {{appVersion}} has expired",
     "EXPIRY_MESSAGE": "This version of the app has expired. To continue using the app, you will need to upgrade to the new version.",
@@ -29,19 +31,24 @@
     "CONNECTION_ERROR_MESSAGE": "Unable to connect to validation server. Please check your Internet connection and try again.",
     "CHECK_UPDATED_RESOURCES": "Checking for updated resources",
     "UPDATING_RESOURCES": "Installing updated resources",
+	//
+	//Components
+	//AppHeader
     "SHARE_APP_MESSAGE": "I am using the abisoft Slappy Sports Ladder App.  Please give it a try.",
     "SHARE_THANK_YOU": "Thank you for sharing",
     "SHARE_ERROR": "Error while trying to share app",
     "SUPPORT_REQUEST_SENT": "Support request sent successfully",
     "SUPPORT_EMAIL_ERROR": "Support request failed: Unable to access email application",
-    "MULTIPLE_LADDERS_MESSAGE": "Belonging to multiple ladders",
+	"MULTIPLE_LADDERS_MESSAGE": "Belonging to multiple ladders", //Belonging to multiple ladders is only available with a basic or premium subscription
     "ADD_LADDER_PROMPT": "Do you have a ladder code for an existing ladder?",
     "ALREADY_LADDER_MEMBER_TITLE": "Already a member",
     "ALREADY_LADDER_MEMBER_MESSAGE": "You are already a member of the selected ladder",
+	//PlayerItem
     "COMPETITOR_NO_GAMES": "No recorded games",
     "COMPETITOR_PLAYED_TODAY": "Played today",
     "COMPETITOR_PLAYED_YESTERDAY": "Played yesterday",
     "COMPETITOR_LAST_PLAYED": "Played {{days}} days ago",
+	//LadderSearch
     "SELECT_COUNTRY_TITLE": "Ladder Country",
     "SELECT_REGION_TITLE": "Ladder Region",
     "SELECT_LADDER_TITLE": "Select Ladder",
@@ -49,58 +56,74 @@
     "NO_LADDERS_PROMPT": "There are currently no ladders in your region.  Would you like to create one now?",
     "PRIVATE_LADDER_TITLE": "Private Ladder",
     "PRIVATE_LADDER_MESSAGE": "The ladder you selected is private. You will need to enter the ladder code to join it.",
+	//ResultItem
     "STATUS_UNCONFIRMED": "Unconfirmed",
     "STATUS_REJECTED": "Rejected",
     "STATUS_CONFIRMED": "Confirmed",
     "STATUS_DISCARDED": "Discarded",
     "STATUS_DELETED": "Deleted",
-    "BUSY_MESSAGE": "Busy...",
-    "SEND_DESCRIPTION": "send this request",
+	//
+	//Helpers
+	//SendPost
+	"BUSY_MESSAGE": "Busy...", //Default modal message displayed when busy with a server request
+	"SEND_DESCRIPTION": "send this request", //Default description when error/timeout occurs while sending request to the server. Context: "It is taking longer than usual to send this request"
     "SEND_TIMEOUT_MESSAGE": "It is taking longer than usual to {{sendDescription}}.  Please check the quality of your Internet connection.",
     "SEND_ERROR_MESSAGE": "Error while trying to {{sendDescription}}: {{error}}",
+	//ShareLadderCode
     "SHARE_LADDER_CODE_MESSAGE": "To join the {{name}} ladder, install abisoft Slappy Sports Ladder and use the ladder code: {{code}}",
     "SHARE_LADDER_CODE_SUBJECT": "Slappy Ladder Code",
     "SHARE_LADDER_CODE_ERROR": "Error while trying to share ladder code",
+	//ShareTeamCode
     "SHARE_TEAM_CODE_MESSAGE": "I have created our team ({{teamName}}) on the {{ladderName}} ladder. To link to this team and start capturing results, install the abisoft Slappy Sports Ladder App and join the ladder using the competitor code: {{code}}",
     "SHARE_TEAM_CODE_MESSAGE_ADMIN": "Your doubles team ({{teamName}}) has been created on the {{ladderName}} ladder. To link to this team and start capturing results, install the abisoft Slappy Sports Ladder App and join the ladder using the competitor code: {{code}}",
     "SHARE_TEAM_CODE_SUBJECT": "Slappy Competitor Code",
     "SHARE_TEAM_CODE_ERROR": "Error while trying to share competitor code",
-    "ADD_COMPETITOR_TITLE": "Add Competitor",
-    "ADD_TEAM_TITLE": "Add Team",
-    "COMPETITOR_DISPLAY_NAME": "Display name",
-    "DEFAULT_COMPETITOR_NAME": "{{name}} {{surname}}",
-    "DEFAULT_TEAM_NAME": "{{name}} and partner",
-    "MISSING_DISPLAY_NAME": "Please enter a display name",
-    "ADD_LADDER_TITLE": "Create Ladder",
-    "LADDER_NAME": "Ladder name",
-    "CLUB_NAME": "Club name (optional)",
-    "LADDER_TYPE": "Ladder type",
-    "RANKING_TYPE": "Ranking type",
-    "PRIVATE": "Private",
-    "MISSING_COUNTRY": "Please select a country",
-    "MISSING_REGION": "Please select a region",
-    "MISSING_LADDER_NAME": "Please enter a ladder name",
+	//
+	//Pages
+	//AddCompetitorPage
+	"ADD_COMPETITOR_TITLE": "Add Competitor", //Title when adding a singles competitor
+	"ADD_TEAM_TITLE": "Add Team", //Title when adding a doubles competitor
+	"COMPETITOR_DISPLAY_NAME": "Display name", //AddCompetitorPage - Competitor display name label
+	"DEFAULT_COMPETITOR_NAME": "{{name}} {{surname}}", //Default competitor name for individual competitors when joining a ladder
+	"DEFAULT_TEAM_NAME": "{{name}} and partner", //Default competitor name for new team competitors when joining a ladder
+	"MISSING_DISPLAY_NAME": "Please enter a display name", //Warning message if no display name is entered
+	//AddLadderPage/EditLadderPage
+	"ADD_LADDER_TITLE": "Create Ladder", //Title for create ladder page
+	"LADDER_NAME": "Ladder name", //Label for ladder name field
+	"CLUB_NAME": "Club name (optional)", //Label for club name field
+	"LADDER_TYPE": "Ladder type", //Label for ladder type field
+	"RANKING_TYPE": "Ranking type", //Label for ranking type field
+	"PRIVATE": "Private", //Label for private ladder checkbox
+	"MISSING_COUNTRY": "Please select a country", //Warning message if no country is selected
+	"MISSING_REGION": "Please select a region", //Warning message if no region is selected
+	"MISSING_LADDER_NAME": "Please enter a ladder name", //Warning message if noladder name is entered
     "DISABLED_EDIT_LADDER_TYPE_TITLE": "Unable to edit ladder types",
     "DISABLED_EDIT_LADDER_TYPE_MESSAGE": "Please contact technical support if you wish to change your ladder type.",
+	//CaptureResultPage
     "SAVE_RESULT_TITLE": "Capture Result",
     "OWN_GAMES_TITLE": "Your {{games}}",
     "COMPETITOR_GAMES_TITLE": "{{competitor}}'s {{games}}",
     "OWN_POINTS_TITLE": "Your {{points}}",
     "COMPETITOR_POINTS_TITLE": "{{competitor}}'s {{points}}",
     "RESULT_GAMES_TITLE": "Result",
-    "RESULT_SHOW_SCORES": "Capture {{gameName}} scores",
+	"RESULT_SHOW_SCORES": "Capture {{gameName}} scores", //To allow user to enter the scores for each game/set as opposed to just the overall match result.  E.g. "Capture game scores" or "Capture set scores"
     "WINNER_RESULT": "You win {{playerGames}} - {{opponentGames}}",
     "LOSER_RESULT": "You lose {{opponentGames}} - {{playerGames}}",
     "TIE_RESULT": "Tie {{opponentGames}} - {{playerGames}}",
+	//    Prompt when player enters a large score, which might be a single game only
     "SAVE_MANY_GAMES_TITLE": "Large number of {{gamesName}}",
     "SAVE_MANY_GAMES_PROMPT": "The score you captured is for {{nGames}} {{gamesName}}. Did you intend to capture a single {{gameName}} or is this correct?",
     "SAVE_SINGLE_GAME_BUTTON": "Single {{gameName}}",
     "SAVE_MANY_GAMES_BUTTON": "Many {{gamesName}}",
+	//    Error messages when trying to save invalid scores
     "SAVE_INVALID_GAMES": "Must capture at least 1 {{gameName}}",
     "SAVE_LOW_SCORE_GAMES": "At least one {{gameName}} doesn't have enough {{pointsName}}",
+	//    Prompt to confirm the result when saving
     "SAVE_RESULT_PROMPT": "Are you sure you want to save the result with {{opponent}}:<br/>Played on {{date}} at {{time}}<br/>{{result}}",
+	//    Select competitors when an administrator captures a result
     "SELECT_COMPETITOR_1_TITLE": "Competitor 1",
     "SELECT_COMPETITOR_2_TITLE": "Competitor 2",
+	//ChallengeDetailsPage
     "INVITATION_DETAILS_TITLE": "Invitation Details",
     "INVITATION_DETAILS_EXPECTED_RESULT": "Expected Result: {{expectedResult}}",
     "INVITATION_ABANDON_GAME": "Abandon Game",
@@ -111,31 +134,38 @@
     "INVITATION_DECLINE": "Decline",
     "INVITATION_ACCEPT": "Accept",
     "INVITATION_SEND_MESSAGE_PLACEHOLDER": "send message",
+	//ChallengePlayerPage
     "CHALLENGE_PLAYER_TITLE": "Arrange Game",
-    "CHALLENGE_PROPOSE_TIME": "Propose time",
-    "CHALLENGE_SEND_INVITATION": "Send Invitation",
+	"CHALLENGE_PROPOSE_TIME": "Propose time", //Button text when proposing a new time for a challenge
+	"CHALLENGE_SEND_INVITATION": "Send Invitation", //Button text when sending an invitation
     "CHALLENGE_CONFIRM_PROMPT": "Are you sure you want to send an invitation to {{opponent}}, to play on {{date}} at {{time}}?",
+	//ChallengesTab
     "INVITATIONS_SEGMENT_CURRENT": "Current",
     "INVITATIONS_SEGMENT_ALL": "All",
+	//ChangePasswordPage
     "CHANGE_PASSWORD_TITLE": "Change Password",
     "CHANGE_PASSWORD_OLD": "Old Password",
     "CHANGE_PASSWORD_NEW": "New Password",
     "CHANGE_PASSWORD_CONFIRM": "Confirm Password",
     "CHANGE_PASSWORD_SAVE": "Save Password",
+	//CropPhotoPage
     "CROP_PHOTO_TITLE": "Crop Photo",
     "CROP_PHOTO_SAVE": "Crop",
+	//EditCompetitorPage
     "EDIT_COMPETITOR_SINGLES_TITLE": "Edit Competitor",
     "EDIT_COMPETITOR_DOUBLES_TITLE": "Edit Team",
-    "EDIT_COMPETITOR_LADDER": "Ladder",
-    "EDIT_COMPETITOR_NAME": "Display name",
-    "EDIT_COMPETITOR_PLAYERS": "Players",
+	"EDIT_COMPETITOR_LADDER": "Ladder", //Label for ladder field
+	"EDIT_COMPETITOR_NAME": "Display name", //Label for name field
+	"EDIT_COMPETITOR_PLAYERS": "Players", //Title for list of competitor players
     "EDIT_COMPETITOR_ADD_PLAYER": "Add player",
     "EDIT_COMPETITOR_CODE": "Competitor code: {{code}}",
     "EDIT_COMPETITOR_MISSING_NAME": "Please enter a name",
+	//EditLadderPage (see AddLadderPage for more)
     "EDIT_LADDER_TITLE": "Edit Ladder",
     "EDIT_LADDER_CODE": "Ladder code: {{code}}",
     "EDIT_LADDER_MISSING_COUNTRY": "Please select a country",
     "EDIT_LADDER_MISSING_REGION": "Please select a region",
+	//EditPlayerPage/RegisterPlayerPage
     "EDIT_PLAYER_TITLE": "Edit Player",
     "PLAYER_NAME_LABEL": "First name",
     "PLAYER_SURNAME_LABEL": "Surname",
@@ -149,18 +179,21 @@
     "RESET_PASSWORD_TITLE": "Reset Password",
     "RESET_PASSWORD_PROMPT": "Please enter a temporary password for the player",
     "RESET_PASSWORD_TEMPORARY": "temporary password",
+	//EditResultPage
     "EDIT_RESULT_TITLE": "Edit Result",
     "TOURNAMENT_RESULT_LABEL": "Tournament result",
     "NAMED_WINNER_RESULT": "{{competitor}} wins {{winnerGames}} - {{loserGames}}",
     "EDIT_RESULT_NO_CHANGES": "No changes",
     "DELETE_RESULT_TITLE": "Delete Result",
     "DELETE_RESULT_PROMPT": "Are you sure you want to delete this result?",
+	//FindCodePage
     "FIND_CODE_TITLE": "Find Ladder/Competitor",
     "FIND_CODE_LABEL": "Ladder/competitor code",
     "FIND_CODE_BUTTON": "Submit Code",
     "FIND_CODE_INVALID": "Invalid code",
     "FIND_CODE_INVALID_LADDER": "Invalid ladder code",
     "FIND_CODE_INVALID_COMPETITOR": "Invalid competitor code",
+	//HelpPage
     "HELP_TITLE": "Help",
     "HELP_MENU_PLAYERS": "Players",
     "HELP_MENU_LOGIN": "Login",
@@ -171,20 +204,24 @@
     "HELP_MENU_RESULTS": "Results",
     "HELP_MENU_BASIC_SUBSCRIPTION": "Basic subscription",
     "HELP_MENU_PREMIUM_SUBSCRIPTION": "Premium subscription",
-    "LADDER_VIEW_PLAYER_RESULTS_PROMPT": "Viewing other players' results",
+	//LadderPage
+	"LADDER_VIEW_PLAYER_RESULTS_PROMPT": "Viewing other players' results", // ... is only possible in the premium version of the app
+	//LadderTypePage
     "LADDER_TYPE_TITLE": "Ladder Type",
-    "LADDER_TYPE_SPORT": "Sport",
-    "LADDER_TYPE_FORMAT": "Format",
+	"LADDER_TYPE_SPORT": "Sport", //The sport that the ladder is for
+	"LADDER_TYPE_FORMAT": "Format", //Singles, doubles or mixed doubles
+	//LaddersMenu
     "LADDERS_MENU_TITLE": "Ladders",
     "ADD_LADDER": "Add ladder",
     "JOIN_LADDER": "Join ladder",
+	//LoginPage
     "LOGIN_TITLE": "Login",
-    "LOGIN_EMAIL": "Email",
-    "LOGIN_PASSWORD": "Password",
-    "LOGIN_REMEMBER_PASSWORD": "Remember me",
-    "LOGIN_SUBMIT": "Login",
-    "LOGIN_CREATE": "Create account/join ladder",
-    "LOGIN_RECOVER_PASSWORD": "Forgot password?",
+	"LOGIN_EMAIL": "Email", //Email label
+	"LOGIN_PASSWORD": "Password", //Password label
+	"LOGIN_REMEMBER_PASSWORD": "Remember me", //Checkbox label for remembering password
+	"LOGIN_SUBMIT": "Login", //Login button text
+	"LOGIN_CREATE": "Create account/join ladder", //Create account or join ladder button text
+	"LOGIN_RECOVER_PASSWORD": "Forgot password?", //Recover password link text
     "LOGIN_CHANGE_PASSWORD_TITLE": "Change Password",
     "LOGIN_CHANGE_PASSWORD_PROMPT": "You must change your password in order to continue.",
     "LOGIN_INVALID_EMAIL": "Please enter a valid email address",
@@ -193,8 +230,11 @@
     "REQUEST_PASSWORD_INVALID_EMAIL_PROMPT": "Please enter your email address and try again.  If you can't remember your email address please contact your ladder administrator.",
     "REQUEST_PASSWORD_TITLE": "Reset Password",
     "REQUEST_PASSWORD_PROMPT": "Are you sure you want to reset your password?",
+	//NotificationPage
     "NOTIFICATION_TITLE": "Notification",
+	//NotificationsPage
     "NOTIFICATIONS_TITLE": "Notifications",
+	//PlayerActionPopover
     "PLAYER_ACTION_ARRANGE_GAME": "Arrange game",
     "PLAYER_ACTION_CAPTURE_RESULT": "Capture result",
     "PLAYER_ACTION_EDIT_COMPETITOR": "Edit competitor",
@@ -202,6 +242,7 @@
     "PLAYER_ACTION_RECENT_GAMES": "Recent games",
     "PLAYER_ACTION_REMOVE_COMPETITOR": "Remove competitor",
     "PLAYER_ACTION_SHARE_CODE": "Share competitor code",
+	//PlayerDetailsPage
     "COMPETITOR_DETAILS_TITLE": "Competitor Details",
     "PLAYER_DETAILS_RANK": "Rank",
     "PLAYER_DETAILS_POINTS": "Points (unweighted points)",
@@ -209,9 +250,12 @@
     "PLAYER_DETAILS_GAMES_CONFIDENCE": "Games confidence",
     "PLAYER_DETAILS_OPPONENTS_CONFIDENCE": "Opponents confidence",
     "PLAYER_DETAILS_EXPECTED_RESULT": "Expected Result",
-    "VIEW_RATING_HISTORY_PROMPT": "Viewing players' rating history graphs",
+	"VIEW_RATING_HISTORY_PROMPT": "Viewing players' rating history graphs", // ... is only possible in the premium version of the app
+	//PlayerGraphPage
     "COMPETITOR_COMPARISON_TITLE": "Competitor Comparison",
+	//PlayerHistoryPage
     "COMPETITOR_HISTORY_TITLE": "Competitor History",
+	//RegisterPlayerPage (see also EditPlayerPage)
     "REGISTER_PLAYER_TITLE": "Add Player",
     "PLAYER_PASSWORD": "Password",
     "PLAYER_CONFIRM_PASSWORD": "Confirm password",
@@ -223,9 +267,12 @@
     "PLAYER_SURNAME_INVALID": "Please enter a surname",
     "PLAYER_EMAIL_INVALID": "Please enter an email address",
     "PLAYER_PASSWORD_INVALID": "Please enter a password",
+	//RegisterPlayerPopover
     "REGISTER_PLAYER_OPTIONS_TITLE": "Options",
     "REGISTER_PLAYER_ENTER_CODE": "Enter ladder/competitor code",
     "REGISTER_PLAYER_SEARCH": "Search/create ladder",
+	//ResetPasswordPage
+	"RESET_PASSWORD_TITLE": "Reset Password",
     "RESET_VERIFICATION_MESSAGE": "A verification code has been sent to {{email}}. Please enter it below along with a new password.",
     "RESET_PASSWORD_CODE": "Verification code",
     "RESET_PASSWORD_NEW": "New password",
@@ -234,8 +281,9 @@
     "RESET_PASSWORD_VERIFICATION_INVALID": "Please enter a valid verification code",
     "RESET_PASSWORD_NEW_INVALID": "Please enter your new password",
     "RESET_PASSWORD_CONFIRM_INVALID": "Please confirm your new password",
+	//ResultDetailsPage
     "RESULT_DETAILS_TITLE": "Result Details",
-    "RESULT_COMPETITORS_VS": "vs",
+	"RESULT_COMPETITORS_VS": "vs", // Competitors who competed: "Player 1 vs Player 2"
     "RESULT_DETAILS_REJECT": "Reject",
     "RESULT_DETAILS_DISPUTE": "Dispute",
     "RESULT_DETAILS_CONFIRM": "Confirm",
@@ -247,14 +295,19 @@
     "DISCARD_RESULT_PROMPT": "Are you sure you want to discard this result?",
     "DISCARD_RESULT_BUTTON": "Discard Result",
     "RESULT_SEND_MESSAGE_PLACEHOLDER": "send message",
+	//ResultsTab
     "MY_RESULTS_SEGMENT": "My results",
     "LADDER_RESULTS_SEGMENT": "Ladder results",
-    "VIEW_LADDER_RESULTS_PROMPT": "Viewing ladder results",
+	"VIEW_LADDER_RESULTS_PROMPT": "Viewing ladder results", // ... is only possible in the premium version of the app
+	//SelectItemPage
     "SEARCH_PLACEHOLDER": "search",
-    "SELECT_LANGUAGE": "Select language",
+	//SelectLanguagePopover
+	"SELECT_LANGUAGE": "Select language", //SelectLanguagePopover - Select app language title
+	//SelectTeamPage
     "SELECT_TEAM_TITLE": "Select Team",
     "SELECT_TEAM_TEAMS_TITLE": "Teams",
     "SELECT_TEAM_ADD_NEW": "Add team",
+	//SettingsPopover (Main menu)
     "MENU_OPTIONS_TITLE": "Options",
     "MENU_ADMIN": "Admin",
     "MENU_EDIT_PROFILE": "Edit Profile",
@@ -264,12 +317,14 @@
     "MENU_FEEDBACK": "Feedback",
     "MENU_RATE": "Rate App",
     "MENU_UPGRADE": "Subscriptions",
+	//SharePopover
     "SHARE_TITLE": "Share",
     "SHARE_CUSTOM_LABEL": "Custom message",
     "SHARE_BUTTON": "Share",
     "SHARE_FACEBOOK_ERROR": "Unable to share this message on Facebook.",
     "SHARE_TWITTER_ERROR": "Unable to share this message on Twitter.",
     "SHARE_WHATSAPP_ERROR": "Unable to share this message on WhatsApp.",
+	//ShareResultPopover
     "SHARE_RESULT_TITLE": "Share Result",
     "SHARE_RESULT_MESSAGE": "Message",
     "SHARE_TWITTER_DIRECT_ERROR": "Unable to share this message directly to Twitter.",
@@ -278,18 +333,23 @@
     "SHARE_RESULT_SUBJECT": "Slappy Ladder Result",
     "SHARE_RESULT_SUCCESS": "Result shared successfully",
     "SHARE_RESULT_ERROR": "Error while trying to share result",
+	//SupportPopover
     "SUPPORT_TITLE": "Feedback",
     "SUPPORT_BUG": "Report a bug",
     "SUPPORT_FEATURE": "Request a feature",
     "SUPPORT_QUERY": "Support query",
     "SUPPORT_DETAILS": "Details",
+	//SupportPopover
     "SUPPORT_PROMPT": "Please enter a detailed description for your {{type}}",
     "PROMPT_BUG_REPORT": "bug report",
     "PROMPT_FEATURE_REQUEST": "feature request",
     "PROMPT_SUPPORT_QUERY": "support query",
+	//TabsPage
     "TAB_LADDER": "Ladder",
     "TAB_INVITATIONS": "Invitations",
     "TAB_RESULTS": "Results",
+	"TAB_CHAT": "Chat",
+	//UpgradePage
     "UPGRADE_TITLE": "Subscriptions",
     "UPGRADE_MESSAGE": "Subscribe from just {{price}} to get the following features",
     "UPGRADE_ACTIVE_SUBSCRIPTION": "Active subscription",
@@ -305,6 +365,7 @@
     "UPGRADE_NO_SUBSCRIPTION_TITLE": "No active subscription",
     "UPGRADE_ADMINS_TITLE": "Buy club subscription",
     "UPGRADE_ADMINS_MESSAGE": "Only ladder administrators can purchase club subscriptions. Please contact your ladder administrator.",
+	//Upgrade Common
     "UPGRADE_NO_ADS": "No ads",
     "UPGRADE_MULTIPLE_LADDERS": "Belong to multiple ladders",
     "UPGRADE_COMPETITOR_RESULTS": "View other competitors' results",
@@ -326,10 +387,14 @@
     "UPGRADE_IOS_TITLE": "Auto-renewing subscription",
     "UPGRADE_IOS_BODY": "<p>You will be prompted to complete your purchase via the iTunes Store. Please be aware of the following:</p><ul><li>Payment will be charged to your iTunes Account at confirmation of purchase</li><li>Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period</li><li>Your account will be charged {{price}} for renewal within 24-hours prior to the end of the current period</li><li>You can manage your subscriptions and turn off auto-renewal by going to the your Account Settings after purchase</li></ul>",
     "UPGRADE_RESTORE_ERROR": "Unable to restore purchases: {{err}}",
+	//UpgradeBasicPage
     "UPGRADE_BASIC_TITLE": "Basic Subscriptions",
     "UPGRADE_BASIC_PREMIUM_DESCRIPTION": "Get more features with a premium subscription from just {{price}}",
+	//UpgradePremiumPage
     "UPGRADE_PREMIUM_TITLE": "Premium Subscriptions",
+	//UpgradeAnnualPage
     "UPGRADE_ANNUAL_TITLE": "Annual Subscriptions",
+	//UpgradeClubPage
     "UPGRADE_CLUB_TITLE": "Club Subscriptions",
     "UPGRADE_CLUB_50_TITLE": "50 members",
     "UPGRADE_CLUB_50_DESCRIPTION": "Premium subscriptions up to 50 members",
@@ -339,6 +404,9 @@
     "UPGRADE_CLUB_200_DESCRIPTION": "Premium subscriptions up to 200 members",
     "UPGRADE_CLUB_500_TITLE": "500 members",
     "UPGRADE_CLUB_500_DESCRIPTION": "Premium subscriptions up to 500 members",
+	//
+	//Services
+	//AdsService
     "ENABLE_REWARDS_TITLE": "Enable Premium Features",
     "ENABLE_REWARDS_PROMPT": "{{feature}} is only available with an active subscription. Would you like to view partner products or surveys to enable premium features for a few days?",
     "ENABLE_PREMIUM_REWARDS_PROMPT": "{{feature}} is only available with a premium subscription. Would you like to view partner products or surveys to enable premium features for a few days?",
@@ -347,6 +415,7 @@
     "ENABLE_PREMIUM_VIDEO_PROMPT": "{{feature}} is only available with a premium subscription. Would you like to watch a short video to enable premium features for 5 minutes?",
     "UPGRADE_PROMPT": "{{feature}} is only available with an active subscription.  Add a subscription to remove ads and enable basic or premium features.",
     "UPGRADE_PREMIUM_PROMPT": "{{feature}} is only available with a premium subscription.  Upgrade to remove ads and enable premium features.",
+	//ChallengeService
     "CHALLENGE_PENDING": "Pending",
     "CHALLENGE_ACCEPTED": "Accepted",
     "CHALLENGE_DECLINED": "Declined",
@@ -376,6 +445,9 @@
     "INVITATION_TIME_TODAY": "today at {{time}}",
     "INVITATION_TIME_TOMORROW": "tomorrow at {{time}}",
     "INVITATION_TIME_GENERAL": "on {{date}} at {{time}}",
+	//ChatService
+	"DELETE_MESSAGE_PROMPT": "Are you sure you want to delete this message?",
+	//CompetitorService
     "GET_COMPETITOR_DETAILS_ERROR": "Unable to get competitor details from the server.",
     "ADD_COMPETITOR_MESSAGE": "Adding competitor...",
     "ADD_COMPETITOR_DESCRIPTION": "add this competitor",
@@ -397,6 +469,7 @@
     "REJOIN_LADDER_MESSAGE": "Restoring competitor...",
     "REJOIN_LADDER_DESCRIPTION": "restore competitor",
     "REJOIN_LADDER_SUCCESS": "Competitor restored",
+	//CountriesService
     "LOADING_COUNTRIES": "Loading countries...",
     "LOADING_REGIONS": "Loading regions...",
     "FIND_LADDER_CODE_MESSAGE": "Finding ladder...",
@@ -408,6 +481,7 @@
     "UPDATE_LADDER_MESSAGE": "Updating ladder...",
     "UPDATE_LADDER_DESCRIPTION": "update this ladder",
     "UPDATE_LADDER_SUCCESS": "Ladder updated",
+	//LadderTypesService
     "BADMINTON": "Badminton",
     "PADEL": "Padel",
     "RACQUETBALL": "Racquetball",
@@ -415,27 +489,38 @@
     "TABLE_TENNIS": "Table Tennis",
     "TENNIS": "Tennis",
     "FOOSBALL": "Foosball",
-    "PADDLEBALL": "Paddleball",
-    "HANDBALL": "Handball",
-    "PELOTA": "Pelota",
-    "PICKLEBALL": "Pickleball",
-    "DARTS": "Darts",
-    "REAL_TENNIS": "Real Tennis",
-    "TOUCHTENNIS": "Touchtennis",
-    "VOLLEYBALL": "Volleyball",
-    "POINTS": "points",
-    "GOALS": "goals",
-    "LEGS": "legs",
-    "GAMES": "games",
-    "GAME": "game",
-    "SETS": "sets",
-    "SET": "set",
-    "SINGLES": "Singles",
-    "DOUBLES": "Doubles",
-    "MIXED_DOUBLES": "Mixed doubles",
-    "ELO": "ELO (recommended)",
-    "LEAPFROG": "Leapfrog",
-    "LADDER_TYPE_DESCRIPTION": "{{sport}} ({{format}})",
+	"PADDLEBALL": "Paddleball", //Paddle-ball, one wall paddleball, three wall paddleball or four wall paddleball all use points/games.
+	// Paddle-ball: 15, 21, 25 or 30 points per game.
+	// Four wall paddleball: Most common version.  21 points per game.
+	// Three wall paddleball: Not very common.  Can't find scoring system.
+	// One wall paddleball: 11, 15, 21 or 25 points per game.
+	"HANDBALL": "Handball", //American and Gaelic handball both use points/games.
+	// American handball: 7, 11, 15 or 21 (most common) points per game.  Also has cutthroat format (3 players).
+	// Gaelic handball: 21 points per game.
+	"PELOTA": "Pelota", //Many variants - most popular is a single game to 35 points.
+	"PICKLEBALL": "Pickleball", // 11 points per game. (games/points)
+	"DARTS": "Darts", // (legs/sets) (single game (not leg)) No max points per game 
+	"REAL_TENNIS": "Real Tennis", // Same as tennis
+	"TOUCHTENNIS": "Touchtennis", // 4 games per set (games/sets)
+	"VOLLEYBALL": "Volleyball", // 25 points per set (points/sets)
+	// "CHESS": "Chess", // Use standard chess ELO
+	// "SCRABBLE": "Scrabble", // Differential scoring between all players (up to 4)
+	// "BACKGAMMON": "Backgammon", // Points (games) no sets
+	// "GO": "Go", // Probable the chess ELO system will work - The AGA has its own ranking system
+	"POINTS": "points", //This refers to individual points in a game
+	"GOALS": "goals", //This refers to goals scored in foosball
+	"LEGS": "legs", // This refers to a a single game (leg) of darts
+	"GAMES": "games", //This refers to games in a set (for sports like tennis) or games in a match (for sports like squash)
+	"GAME": "game", //This refers to a single game in a set or match
+	"SETS": "sets", //This refers to sets in a match (for sports like tennis)
+	"SET": "set", //This refers to a single set
+	"SINGLES": "Singles", //This refers to the singles ladder format
+	"DOUBLES": "Doubles", //This refers to the doubles ladder format
+	"MIXED_DOUBLES": "Mixed doubles", //This refers to the mixed doubles ladder format
+	"ELO": "ELO (recommended)", //This refers to the ELO-based ranking system (like chess ranking)
+	"LEAPFROG": "Leapfrog", //This refers to the leapfrog ranking system (lower ranked winner jumps to loser's position)
+	"LADDER_TYPE_DESCRIPTION": "{{sport}} ({{format}})", //Description of ladder type. E.g., "Padel (Doubles)"
+	//LicenceService
     "PREMIUM_SUBSCRIPTION_ANNUAL_TITLE": "Premium Subscription",
     "PREMIUM_SUBSCRIPTION_MONTHLY_TITLE": "Premium Subscription",
     "PREMIUM_SUBSCRIPTION_DETAILS": "Remove ads. Enable premium features.",
@@ -453,6 +538,7 @@
     "AMAZON_RESTORE_ERROR": "Can't yet restore purchases using Amazon Iap provider",
     "COMPLETE_PURCHASE_INSTRUCTIONS": "Follow prompts to complete purchase",
     "RESTORE_PURCHASES_MESSAGE": "Restoring purchases",
+	//LoginService
     "LOGIN_MESSAGE": "Validating player credentials...",
     "LOGIN_DESCRIPTION": "login",
     "LOGIN_SUCCESS": "Login success",
@@ -468,8 +554,11 @@
     "RESET_PASSWORD_MESSAGE": "Resetting password...",
     "RESET_PASSWORD_DESCRIPTION": "reset password",
     "RESET_PASSWORD_SUCCESS": "Password reset",
+	//MessagesService
     "SEND_MESSAGE_DESCRIPTION": "send this message",
+	//NotificationsService
     "NOTIFICATION_DELETED_MESSAGE": "Notification deleted",
+	//RatingService
     "RATE_APP_TITLE": "Rate App",
     "RATE_APP_MESSAGE": "You will be redirected to the {{storeName}}.  {{instructions}}",
     "RATE_PROMPT_MESSAGE": "If you enjoy using Slappy Sports Ladder App, please give it a 5 star rating in the {{storeName}}. It will only take a minute. Thanks for your support.",
@@ -478,6 +567,7 @@
     "RATE_OPTION_NOW": "Rate now",
     "RATE_INSTRUCTIONS_DEFAULT": "Please rate the app there.",
     "RATE_AMAZON_INSTRUCTIONS": "Please create a review to rate the app.",
+	//ResultsService
     "DUPLICATE_RESULT_TITLE": "Possible duplicate result",
     "DUPLICATE_RESULT_PROMPT": "A result has already been captured between you and {{opponent}} for {{date}}. Would you like to capture another one?",
     "SUBMIT_RESULT_MESSAGE": "Submitting result...",
@@ -506,9 +596,11 @@
     "GET_MATRIX_MESSAGE": "Getting results matrix...",
     "GET_MATRIX_DESCRIPTION": "get results matrix",
     "GET_MATRIX_SUCCESS": "Got results matrix",
+	//ShareCompetitorCodeProvider
     "SHARE_COMPETITOR_CODE_TITLE": "Share competitor code",
     "SHARE_COMPETITOR_CODE_PROMPT": "To invite someone to be this player, they must join the ladder using the competitor code ({{code}}). <br/> (See help for more details) <br/> Would you like to share the competitor code with someone now?",
     "SHARE_COMPETITOR_CODE_DOUBLES_PROMPT": "To invite a player to join this team, they must join the ladder using the competitor code ({{code}}). <br/>  (See help for more details) <br/> Would you like to share the competitor code with someone now?",
+	//UserService
     "GET_USER_DETAILS_ERROR": "Unable to get user details from the server.",
     "ADD_PLAYER_MESSAGE": "Adding player...",
     "ADD_PLAYER_DESCRIPTION": "add this player",

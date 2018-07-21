@@ -4,29 +4,69 @@
 			Wenn man die App das erste Mal startet, landet man auf der Login-Seite. Auf dieser Seite kann man sich bei
 			der App anmelden, ein neues Konto kreieren oder eine neue Rangliste gründen.
 		</p>
-		<img class="screenshot" src="img/login.png">
+		<img class="screenshot" src="img/login/login-blank.png">
 		
-		<h2 id="create">Einer Rangliste beitreten</h2>
+---		<h2 id="create">Einer Rangliste beitreten</h2>
++++		<h2 id="create">Creating a user account</h2>
+		<p>
++++			Before creating an account, new users must first <a href="#join-no-code">create a new ladder</a>
++++			or join an existing one.
++++			They can <a href="#join-code">join using a code</a> that they have received from their club or another ladder member,
++++			or by <a href="#join-no-code">searching for a public ladder</a> in their area.
+		</p>
+
 		<h3 id="join-code">Mit einem Code</h2>
 		<p>
 			Wenn ein neuer Spieler einen Ranglisten- oder Teilnehmer-Code erhalten hat, kann er diesen benutzen um der Rangliste beizutreten,
-			indem er den &quot;Konto eröffnen/Rangliste beitreten&quot;-Button drückt und danach &quot;Ranglisten-/Teilnehmer-Code eingeben&quot; wählt. Dort gibt der Spieler den
-			Code ein und drückt danach den &quot;Find Code&quot;-Button.
+			indem er den &quot;Konto eröffnen/Rangliste beitreten&quot;-Button drückt und danach &quot;Ranglisten-/Teilnehmer-Code eingeben&quot; wählt.
+---			Dort gibt der Spieler den Code ein und drückt danach den &quot;Find Code&quot;-Button.
++++			// Changed 'Find Code' to 'Submit Code'.
++++			After entering their code, they can click the &ldquo;Submit code&rdquo; button.
++++			Thereafter, they can <a href="#register-user">complete the user registration process</a>.
 		</p>
 		
-		<h3 id="join-no-code">Ohne Code</h3>
+		<img class="screenshot-2" src="img/ladder-creation/create-account-options.png">
+		<img class="screenshot-2" src="img/ladder-creation/find-ladder-competitor.png">
+		
+---		<h3 id="join-no-code">Ohne Code</h3>
++++		<h3 id="join-no-code">Creating a ladder or searching for a public ladder</h3>
 		<p>
 			Wenn ein Spieler eine neue Rangliste gründen möchte oder einer Rangliste beitreten möchte, ohne jeglichen Code zu kennen, kann er das
-			indem er den &quot;Konto eröffnen/Rangliste beitreten&quot;-Button drückt und dann den &quot;Suche/Gründe Rangliste&quot;-Button wählt. Jetzt muss er
-			sein Land und seine Region angeben um eine Liste aller verfügbarer Ranglisten in seiner Umgebung zu erhalten. Wenn die Rangliste, nach der er sucht,
-			nicht existiert, kann er den &quot;+&quot;-Button drücken um eine neue Rangliste zu gründen.
+			indem er den &quot;Konto eröffnen/Rangliste beitreten&quot;-Button drückt und dann den &quot;Suche/Gründe Rangliste&quot;-Button wählt.
+			Jetzt muss er sein Land und seine Region angeben um eine Liste aller verfügbarer Ranglisten in seiner Umgebung zu erhalten.
+---			Wenn die Rangliste, nach der er sucht, nicht existiert, kann er den &quot;+&quot;-Button drücken um eine neue Rangliste zu gründen.
++++			If they find the ladder they are searching for, and it is public, they can join the ladder by selecting it.
++++			If they find the ladder, but it is marked as private,
++++			they will need to contact the club or other ladder members to request a code to join the ladder.
++++			If the ladder they are looking for doesn't exist, they can press the &ldquo;+&rdquo; button to 
++++			<a href="#create-ladder">create a new ladder</a>.
++++			If no ladders are found in a region, the player will automatically be prompted to create a new ladder.
 		</p>
 		
-		<h3 id="register-player">Als Spieler registrieren</h3>
+		<img class="screenshot-3" src="img/ladder-creation/ladder-country-search.png">
+		<img class="screenshot-3" src="img/ladder-creation/ladder-region-blank.png">
+		<img class="screenshot-3" src="img/ladder-creation/select-add-ladder.png">
+		
++++		<h3 id="create-ladder">Creating a new ladder</h3>
 		<p>
-			Nachdem eine Rangliste gewählt oder gegründet wurde, muss der Spieler seinen Namen, Vornamen, E-Mail-Adresse
-			und Passwort eingeben. Danach kann er sich mit der E-Mail-Adresse
-			und dem gewählten Passwort bei der App anmelden.
++++			If, after <a href="#join-no-code">searching for a ladder</a>, a user can't find it, 
++++			they can create a new ladder by pressing the &ldquo;+&rdquo; button.
++++			The user will need to enter a unique ladder name for their region, and optionally select
++++			an image for the ladder and their club name.
+		</p>
+
+		<img class="screenshot" src="img/ladder-creation/add-ladder.png">
+
+---		<h3 id="register-player">Als Spieler registrieren</h3>
++++		<h3 id="register-user">Registering a user</h3>
+		<p>
+---			Nachdem eine Rangliste gewählt oder gegründet wurde, muss der Spieler seinen Namen, Vornamen, E-Mail-Adresse
+---			und Passwort eingeben. Danach kann er sich mit der E-Mail-Adresse
+---			und dem gewählten Passwort bei der App anmelden.
++++			After selecting a ladder to join, or creating a ladder, the user must enter their name, surname, email address 
++++			and password, to register themselves on the system.
++++			A competitor, linked to the ladder, will automatically be created for the player when they register.
++++			Thereafter, the user will be able to login to the app using the email address and password they have supplied.
 		</p>
 		<p>
 			Optional kann ein Spieler auch einen Avatar-Bild - idealerweise ein Portraitfoto ab Schulterhöhe -
@@ -34,14 +74,17 @@
 			vor allem damit man von anderen - speziell von neuen Spielern - leichter gefunden/erkannt wird.</strong>
 		</p>
 		
+		<img class="screenshot-2" src="img/ladder-creation/register-player.png">
+		<img class="screenshot-2" src="img/self-admin/edit-player.png">
 		
 		<h2 id="login">Anmelden</h2>
 		<p>
 			Nachdem sich ein Spieler registriert hat, kann er sich mit der angegebenen E-Mail-Adresse und dem gewählten Passwort bei der App anmelden.
 		</p>
 		
+		<img class="screenshot" src="img/login/login.png">
 		
-		<h2 id="remember">Passwort erinnern</h2>
+		<h3 id="remember">Passwort erinnern</h3>
 		<p>
 			Wenn man sich einloggt, kann man wählen, dass sich die App an das Passwort erinnert. Wenn das gewählt wird, wird sich der Spieler künftig nicht mehr
 			jedes Mal anmelden müssen, ausser wenn er sich im Hauptmenu absichtlich abmeldet.
@@ -53,6 +96,6 @@
 			&quot;Passwort vergessen?&quot;-Link drückt wiederherstellen. Nachdem der Spieler bestätigt, dass er das Passwort zurücksetzen will, erhält er eine E-Mail
 			mit einem Bestätigungs-Code welcher er auf der &quot;Passwort zurücksetzen&quot;-Seite eingeben kann, um folglich ein neues Passwort zu kreieren.
 		</p>
-		<img class="screenshot" src="img/reset-password.png">
+		<img class="screenshot" src="img/self-admin/reset-password.png">
 	  
 	</section>

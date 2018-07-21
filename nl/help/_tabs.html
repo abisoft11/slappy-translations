@@ -9,10 +9,14 @@
 		<h2 id="ladder">Ladder Tab</h2>
 		<p>
 			The Ladder tab lists all competitors in the currently active <a href="ladders.html">ladder</a>, in
-			descending order (best competitor at the top). The <a href="ranking.html">ranking</a> is determined by the competitors'
-			points and their <a href="ranking.html#confidence">ranking confidence</a>.
+			descending order (best competitor at the top).
+			The <a href="ranking.html">ranking</a> is either determined by the competitors' points and their
+			<a href="ranking.html#confidence">ranking confidence</a> (<a href="ranking.html#elo">ELO ranking</a>)
+			or by their previous results (<a href="ranking.html#leapfrog">Leapfrog ranking</a>).
 		</p>
-		<img class="screenshot" src="img/ladder.png">
+		
+		<img class="screenshot" src="img/ladders/ladder.png">
+		
 		<p>
 			The colour of an item in the list is determined by the competitor's usage status:
 		</p>
@@ -38,18 +42,19 @@
 			</li>
 		</ul>
 		<p>
-			By touching a competitor's avatar, it is possible to view their details, including their <a href="ranking.html#confidence">
-			ranking confidence</a>, your <a href="ranking.html#expected">expected result</a> against the competitor and all possible 
+			By touching a competitor's avatar, it is possible to view their details, including their
+			<a href="ranking.html#confidence">ranking confidence</a>, your 
+			<a href="ranking.html#expected">expected result</a> against the competitor and all possible 
 			rating changes based on possible results with the competitor (premium version only).
 		</p>
-		<img class="screenshot-2" src="img/player-details.png">
-		<img class="screenshot-2" src="img/compare-competitors.png">
+		<img class="screenshot-2" src="img/ladders/competitor-details.png">
+		<img class="screenshot-2" src="img/ladders/competitor-comparison.png">
 		
 		<p>
 			Touching anywhere else on the competitor item in the list, will present a popup menu containing options to interact
 			with the competitor.
 		</p>
-		<img class="screenshot" src="img/player-options.png">
+		<img class="screenshot" src="img/ladders/player-options.png">
 		<p>
 			The following actions are possible:
 		</p>
@@ -75,7 +80,7 @@
 			The Invitations tab lists either current (outstanding) or all invitations that a competitor has sent or received
 			(from all of their ladders).
 		</p>
-		<img class="screenshot" src="img/invitations.png">
+		<img class="screenshot" src="img/invitations/invitations.png">
 		<p>
 			The colour of an invitation item in the list indicates its current status:
 		</p>
@@ -90,7 +95,7 @@
 			Newly received invitations will have buttons to accept or decline the invitation. Touching anywhere else on the
 			invitation item in the list, will present the invitation details page.
 		</p>
-		<img class="screenshot" src="img/invitation-details.png">
+		<img class="screenshot" src="img/invitations/invitation-details.png">
 		<p>
 			Depending on the current state of the invitation, the following actions may be possible:
 		</p>
@@ -122,10 +127,10 @@
 		<h2 id="results">Results Tab</h2>
 		<p>
 			The Results tab lists a competitor's recent results (from all of their ladders) or all results for the currently
-			active ladder (<a href="premium.html">premium subscribers only</a>).
+			active ladder (<a href="subscriptions.html">premium subscribers only</a>).
 		</p>
-		<img class="screenshot-2" src="img/my-results.png">
-		<img class="screenshot-2" src="img/all-results.png">
+		<img class="screenshot-2" src="img/results/my-results.png">
+		<img class="screenshot-2" src="img/results/ladder-results.png">
 		<p>
 			The colour of a result item in the list indicates its current status:
 		</p>
@@ -148,7 +153,7 @@
 			item in the list, will present the result details view, containing all the details of the result. If the result
 			has been confirmed, this will include the points change that was calculated for the match.
 		</p>
-		<img class="screenshot" src="img/result-details.png">
+		<img class="screenshot" src="img/results/result-details.png">
 		<p>
 			Depending on the current state of the result, the following actions may be possible:
 		</p>
@@ -165,7 +170,7 @@
 				<strong>Discard:</strong> <a href="results.html#discard">Discard a result</a> that was captured by the same competitor.
 			</li>
 			<li>
-				<strong>Reject:</strong> <a href="results.html#reject">Reject a result</a> that was captured by the another competitor.
+				<strong>Reject:</strong> <a href="results.html#discard">Reject a result</a> that was captured by another competitor.
 			</li>
 		</ul>
 	

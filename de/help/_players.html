@@ -1,58 +1,112 @@
 	<section id="maincontent">
 		<h1>Slappy Spieler-Management</h1>
-		<h2 id="players">Spieler</h2>
+
++++		<h2>Terminology</h2>
++++		<h3 id="users">Users</h3>
 		<p>
-			Spieler werden von der App mittels ihrer E-Mail-Adresse eindeutig identifiziert. Nach der Installation der App, müssen Spieler
-			ein Konto eröffnen und sich mit den Ranglisten verbinden, welchen sie angehören wollen. Dazu können Spieler entweder neue
-			Ranglisten gründen oder bestehenden beitreten. Das können sie tun, indem sie den zur Rangliste passenden Ranglisten-Code verwenden, indem
-			sie die Rangliste in ihrer Region suchen oder indem sie den individuellen <a href="#add">Teilnehmer-Code</a> benutzen.
-			Danach muss der Spieler seine persönlichen Angaben auf der Spieler-Seite eingeben.
++++			Users are people who have installed and make use of the app.
 		</p>
 		
++++		<h3 id="administrators">Ladder administrators</h3>
+		<p>
++++			Ladder administrators are users who have either created their own ladder, or been given administrative
++++			privileges on a ladder by another ladder administrator.
+		</p>
+
+		<h3 id="players">Spieler</h3>
+		<p>
+---			Spieler werden von der App mittels ihrer E-Mail-Adresse eindeutig identifiziert. Nach der Installation der App, müssen Spieler
+---			ein Konto eröffnen und sich mit den Ranglisten verbinden, welchen sie angehören wollen. Dazu können Spieler entweder neue
+---			Ranglisten gründen oder bestehenden beitreten. Das können sie tun, indem sie den zur Rangliste passenden Ranglisten-Code verwenden, indem
+---			sie die Rangliste in ihrer Region suchen oder indem sie den individuellen <a href="#add">Teilnehmer-Code</a> benutzen.
+---			Danach muss der Spieler seine persönlichen Angaben auf der Spieler-Seite eingeben.
++++			Players are people who play against each other on at least one ladder.
++++			They can either play as individuals on a singles ladder, or as part of a team on a doubles/team ladder.
++++			Players can belong to more than one ladder, and to ladders of different types.
+		</p>
+		
++++		<h3 id="teams">Teams</h3>
+		<p>
++++			Teams are groups of players who play together in the same team on either a doubles or team ladder.
++++			They are represented on their ladders as a single competitor.
+		</p>
 		
 		<h2 id="competitors">Teilnehmer</h2>
 		<p>
-			Teilnehmer sind Spieler oder Teams, die einer Rangliste angehören. Wenn die Rangliste für Doppelspieler ist, kann ein Teilnehmer
-			zwei Spieler beinhalten. Standardmässig werden bei Teilnehmer die Avatare der Spieler angezeigt. Falls gewünscht,
-			kann man jedoch einen anderen Avatar als Teilnehmer wählen. Teilnehmer können in jeder Rangliste, in der sie teilnehmen, verschiedene Namen und
-			Avatare verwenden.
+			Teilnehmer sind Spieler oder Teams, die einer Rangliste angehören.
+---			Wenn die Rangliste für Doppelspieler ist, kann ein Teilnehmer
+---			zwei Spieler beinhalten. Standardmässig werden bei Teilnehmer die Avatare der Spieler angezeigt. Falls gewünscht,
+---			kann man jedoch einen anderen Avatar als Teilnehmer wählen. Teilnehmer können in jeder Rangliste, in der sie teilnehmen, verschiedene Namen und
+---			Avatare verwenden.
++++			They can have different display names and avatars on each ladder they belong to.
++++			Competitors don't necessarily have to be associated with users of the app,
++++			as ladder administrators or other players can capture results for competitors who don't use the app.
 		</p>
-		<img class="screenshot-2" src="img/edit-competitor.png">
-		<img class="screenshot-2" src="img/doubles-ladder.png">
+		<ul>
+			<li>
++++				<strong>Singles competitors</strong><br>
++++				A competitor on a singles ladder can be associated with at most 1 player.
++++				If a competitor is linked to a player, the competitor will, by default, be displayed using the player's avatar.
++++				However, the competitor can be edited to use a different avatar.
+			</li>
+			<li>
++++				<strong>Doubles competitors</strong><br>
++++				A competitor on a doubles ladder can be associated with up to 2 players.
++++				By default, competitors will be displayed using both their players' avatars,
++++				but they can be edited to use a single avatar for the competitor.
+			</li>
+			<li>
++++				<strong>Team competitors</strong><br>
++++				A competitor on a team ladder can be associated with a limited number of players, depending on the size of the team.
++++				The maximum number of players on a team ladder can be up to double the number of players allowed in a team,
++++				to allow for reserves, or injured players.
+			</li>
+		</ul>
+		
+		<img class="screenshot-2" src="img/self-admin/edit-team.png">
+		<img class="screenshot-2" src="img/ladders/doubles-ladder.png">
 		
 		
-		<h2 id="register">Als Spieler registrieren</h2>
+---		<h2 id="register">Als Spieler registrieren</h2>
++++		<h2 id="register">Registering a user</h2>
 		<p>
-			Nachdem eine Rangliste gewählt wurde, muss der Spieler seinen Namen, Vornamen, E-Mail-Adresse und Passwort eingeben.
-			Optional kann er auch einen Avatar hochladen um sich in der Rangliste besser auszuweisen. Das wird sehr empfohlen.
+---			Nachdem eine Rangliste gewählt wurde, muss der Spieler seinen Namen, Vornamen, E-Mail-Adresse und Passwort eingeben.
+---			Optional kann er auch einen Avatar hochladen um sich in der Rangliste besser auszuweisen. Das wird sehr empfohlen.
++++			When users first use the app, they will need to 
++++			<a href="login.html#create">create/join a ladder and register themselves in the app</a>
++++			with their name, surname, email address and a password.
++++			They can also optionally add an avatar to identify themselves on ladders they belong to.
++++			<strong>This is highly advisable.</strong>
 		</p>
-		<img class="screenshot" src="img/add-player.png">
+		<img class="screenshot" src="img/ladder-creation/register-player.png">
 		
 		
 		<h2 id="update">Spieler-Details aktualisieren</h2>
 		<p>
 			Nachdem sich ein Spieler bei der App anmeldet, kann er die Details (Name, E-Mail, Passwort, Avatar) zu seiner Person bearbeiten.
-			Der Spieler, der eine Rangliste gegründet hat, wird automatisch die Rolle des Ranglisten-Administratoren zuteil. Ranglisten-Administratoren können andere
-			Spieler ebenfalls zu Ranglisten-Administratoren ihrer Rangliste ernennen.
+			Der Spieler, der eine Rangliste gegründet hat, wird automatisch die Rolle des Ranglisten-Administratoren zuteil.
+---			Ranglisten-Administratoren können andere Spieler ebenfalls zu Ranglisten-Administratoren
+---			ihrer Rangliste ernennen.
++++			// Added link to set player as an administrator.
++++			This player can <a href="ladder-admin.html#set-player-admin">set other players to also be ladder administrators</a>
++++			on their ladders.
 			<strong>Es ist zu empfehlen pro Rangliste mehr als einen Ranglisten-Administratoren zu haben.</strong>
 		</p>
-		<p>
-			Um andere zu Ranglisten-Administratoren zu ernennen, muss der Administrator im Hauptmenu in den &quot;Admin&quot;-Modus wechseln.
-			In diesem Modus kann er den gewünschten  Teilnehmer auswählen und den dazugehörigen Spieler 
-			zum Administratoren ernennen.
-		</p>
-		<p>
-			Administratoren können lediglich Teilnehmer-Details bearbeiten, nicht aber Spieler-Details.
-		</p>
-		<img class="screenshot" src="img/admin-edit-player.png">
+
+		<img class="screenshot-2" src="img/self-admin/edit-competitor.png">
+		<img class="screenshot-2" src="img/ladder-admin/admin-set-ladder-admin.png">
 		
 		
 		<h2 id="add">Teilnehmer hinzufügen</h2>
 		<p>
-			Ranglisten-Administratoren können im Voraus Teilnehmer (individuelle Spieler oder Teams) ihrer Rangliste zuordnen und dann die betroffenen 
-			Teilnehmer mittels individuellen generierten Teilnehmer-Codes zur Rangliste einladen. Nachdem sie die App runtergeladen haben,
-			können die Spieler diesen Code eingeben und der Rangliste beitreten. Bei Doppelranglisten können 2 Spieler 
-			als ein Teilnehmer auftreten.
+---			Ranglisten-Administratoren können im Voraus Teilnehmer (individuelle Spieler oder Teams) ihrer
+---			Rangliste zuordnen und dann die betroffenen Teilnehmer mittels individuellen generierten Teilnehmer-Codes zur Rangliste einladen.
++++			// Added link to manually adding competitors to the ladder.
++++			Ladder administrators can <a href="ladder-admin.html#manually-add-competitors">pre-load competitors</a>
++++			(individual players or teams) on their ladder and then invite players using the unique competitor codes
++++			that are generated for the competitors.
+			Nachdem sie die App runtergeladen haben, können die Spieler diesen Code eingeben und der Rangliste beitreten.
+			Bei Doppelranglisten können 2 Spieler als ein Teilnehmer auftreten.
 		</p>
 		<p>
 			Teilnehmer, welche von einem Ranglisten-Administratoren hinzugefügt wurden, können ihre persönlichen Details (Anzeigenamen,
@@ -61,9 +115,12 @@
 		<p>
 			Wenn Spieler Doppelranglisten beitreten, können Sie den Teilnehmer-Code mit ihrem Partner teilen.
 			Wenn der Partner sich mit dem Code bei der App anmeldet, wird er automatisch als Partner identifiziert
-			und hinzugefügt. Nur 2 Spieler können einem Doppel-Teilnehmer angehören.
+			und hinzugefügt.
+---			Nur 2 Spieler können einem Doppel-Teilnehmer angehören.
++++			// Changed 'competitor' to 'team'.
++++			Only 2 players can belong to a doubles team.
 		</p>
-		<img class="screenshot-2" src="img/add-competitor.png">
-		<img class="screenshot-2" src="img/share-competitor-code.png">
-	
+		<img class="screenshot-2" src="img/self-admin/edit-team.png">
+		<img class="screenshot-2" src="img/self-admin/share-competitor-code.png">
+
 	</section>

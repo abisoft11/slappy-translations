@@ -1,72 +1,48 @@
 	<section id="maincontent">
 		<h1>Slappy Ladders</h1>
 		<p>
-		  The Slappy Sports Ladder app is used to manage sports ladders. New ladders can be created when a new player is
-			being <a href="players.html#register">registered</a>. The player registering the ladder will automatically
+			The Slappy Sports Ladder app is used to manage sports ladders. New ladders can be created when a new user is
+			<a href="login.html#create">registering themselves</a>. The user creating the ladder will automatically
 			become a ladder administrator for that ladder.
 		</p>
 		
-		<h2 id="joining">Joining a ladder</h2>
+		<h2 id="joining">Creating or joining ladders</h2>
 		<p>
-			When <a href="players.html#register">registering a new player</a>, it is necessary for that player to join an
-			existing ladder or to create a new ladder. There are 3 ways to find an existing ladder:
+			While <a href="login.html#create">registering a new user</a>, it is necessary for that user to join an
+			existing ladder or to create a new ladder.
+			After logging in to the app, users can create or join other ladders by touching their ladder icon and
+			selecting the &ldquo;Add Ladder&rdquo; menu option.
+			After selecting this option, the process is the same as the 
+			<a href="login.html#create">initial process for creating or joining a ladder</a>.
 		</p>
-		<ul>
-		<li>
-			<strong>Ladder code:</strong> If the player has been given an 8-digit code for the ladder, this can be
-			entered to quickly find the ladder. Ladder codes can be sent/given to new players by ladder administrators
-			or they could be displayed at the sports club where the ladder is hosted.
-		</li>
-		<li>
-			<strong>Competitor code:</strong> If the player has been given a 7-digit competitor code, this can be
-			entered to quickly join the ladder with a preconfigured competitor. Competitor codes can be sent/given to new
-			players by ladder administrators.
-		</li>
-		<img class="screenshot-2" src="img/register-player-prompt.png">
-		<img class="screenshot-2" src="img/find-ladder-code.png">
-		<li>
-			<strong>Location Search:</strong> New players can search for a ladder in their area, by first selecting their
-			country and region, and then choosing from existing ladders in that region, by name.
-		</li>
-		<img class="screenshot-3" src="img/search-country.png">
-		<img class="screenshot-3" src="img/search-region.png">
-		<img class="screenshot-3" src="img/search-ladder.png">
-		</ul>
 		
-		<h2 id="adding">Adding a new ladder</h2>
-		<p>
-			If, after searching for a ladder, a player can't find their ladder, they can create a new ladder by
-			pressing the &ldquo;+&rdquo; button. The player will need to enter a unique ladder name for their region, and optionally select
-			an image for the ladder and their club name.
-		</p>
-		<p>
-			If no ladders are found in a region, the player will automatically be prompted to add a new ladder.
-		</p>
-		<img class="screenshot" src="img/add-ladder.png">
-		<p>
-			After adding the ladder, the player must immediately <a href="players.html#register">register</a> themselves on
-			the system, and they will become an administrator for that ladder. Thereafter, they can either add new competitors
-			themselves, or share their ladder code with players who belong to the ladder.
-		</p>
-		<img class="screenshot" src="img/add-player.png">
+		<img class="screenshot" src="img/ladders/ladder-menu.png">
 		
-		<h3 id="types">Ladder types</h3>
+		<h2 id="types">Ladder types</h2>
 		<p>
 			When ladders are created, their type must be configured by the administrator. Ladder types are defined by the
 			following options:
 		</p>
 		<ul>
-		<li><strong>Sport:</strong> The sport that the ladder is used for. The following sports are currently supported:
-			<ul>
-				<li>Badminton</li>
-				<li>Foosball</li>
-				<li>Padel</li>
-				<li>Racquetball</li>
-				<li>Squash</li>
-				<li>Table Tennis</li>
-				<li>Tennis</li>
-			</ul>
-		</li>
+			<li><strong>Sport:</strong> The sport that the ladder is used for. The following sports are currently supported:
+				<ul>
+					<li>Badminton</li>
+					<li>Darts</li>
+					<li>Foosball</li>
+					<li>Handball (American or Gaelic)</li>
+					<li>Paddleball (one, three or four wall)</li>
+					<li>Padel</li>
+					<li>Pelota</li>
+					<li>Pickleball</li>
+					<li>Racquetball</li>
+					<li>Real Tennis</li>
+					<li>Squash</li>
+					<li>Table Tennis</li>
+					<li>Tennis</li>
+					<li>Touchtennis</li>
+					<li>Volleyball</li>
+				</ul>
+			</li>
 		<li><strong>Format:</strong> The number of players for each competitor:
 			<ul>
 				<li>Singles</li>
@@ -75,9 +51,9 @@
 			</ul>
 		</li>
 		</ul>
-		<img class="screenshot" src="img/ladder-type.png">
+		<img class="screenshot" src="img/ladder-creation/select-ladder-type.png">
 		
-		<h3 id="types">Ranking type</h3>
+		<h2 id="types">Ranking type</h2>
 		<p>
 			The ranking type used to order competitors on the ladder must also be configured for new ladders. The ranking
 			type can be one of the following:
@@ -91,19 +67,21 @@
 			&ldquo;leapfrog&rdquo; the higher ranked competitor on the ladder.
 		</li>
 		</ul>
-		
+		<img class="screenshot" src="img/ladder-creation/select-ranking-type.png">
 		
 		<h2 id="multiple">Multiple ladders</h2>
 		<p>
 			Basic and premium subscribers can belong to multiple ladders. Touching the ladder icon will present a list of ladders
 			that the player belongs to. Selecting a ladder from the list will show the selected ladder on the
-			<a href="tabs.html#ladder">ladders tab</a>. It is also possible to view results for the selected ladder on the
+			<a href="tabs.html#ladder">ladder tab</a>. It is also possible to view results for the selected ladder on the
 			<a href="tabs.html#results">results tab</a>.
 		</p>
-		<img class="screenshot" src="img/select-ladder.png">
+		<img class="screenshot-2" src="img/ladders/ladder-menu.png">
+		<img class="screenshot-2" src="img/results/ladder-results.png">
+
 		<p>
 			<strong>Results are not linked to ladders.</strong> This means that you can belong to multiple ladders with
-			some of the same competitors in both ladders. If you capture a result with an opponent that belongs to more than one
+			some of the same competitors in both ladders. If you capture a result against an opponent that belongs to more than one
 			of your ladders, the result will be captured for all of the shared ladders. The points change will most likely
 			be different in each of the ladders.
 		</p>
@@ -114,14 +92,12 @@
 			and join a public ladder, however, players can only join a private ladder if they have the ladder's code or a
 			competitor code for the ladder.
 		</p>
+		<img class="screenshot" src="img/ladder-admin/admin-edit-ladder.png">
 		
-		<h2 id="sharing">Sharing a ladder code</h2>
+		<h2>Ladder management</h2>
 		<p>
-			Ladder administrators can view and share their ladder codes by switching to Admin mode and editing their ladder.
-			They can then click on the share button next to the ladder code to share it via social media, email, etc. They can
-			also display their ladder code at their local club, to allow club members to join the ladder.
+			Ladder administrators can edit ladder properties as well as performing other
+			<a href="ladder-admin.html">ladder management tasks</a>.
 		</p>
-		<img class="screenshot-2" src="img/edit-ladder.png">
-		<img class="screenshot-2" src="img/share-ladder-code.png">
 
 	</section>

@@ -11,9 +11,10 @@
 		
 		<h2 id="elo">ELO-Wertungssystem</h2>
 		<p>
-			Das ELO-Wertungssystem, welches auf Slappy verwendet wird, basiert auf dem ELO-Wertungssystem welches im Schach zur Anwendung kommt. Jeder Spieler erhält seiner
-			Performance entsprechend Punkte. Spieler mit mehr Punkten, sind höher klassiert als Spieler mit weniger Punkten,
-			vorausgesetzt, dass sie den gleichen Ranglisten-Konfidenz ausweisen (<a href="#confidence">siehe unten</a>).
+			Das ELO-Wertungssystem, welches auf Slappy verwendet wird, basiert auf dem ELO-Wertungssystem welches im Schach zur Anwendung kommt.
+			Jeder Spieler erhält seiner Performance entsprechend Punkte.
+			Spieler mit mehr Punkten, sind höher klassiert als Spieler mit weniger Punkten,
+			vorausgesetzt, dass sie den gleichen <a href="#confidence">Ranglisten-Konfidenz</a> ausweisen.
 		</p>
 		<p>
 			Wenn ein neuer Spieler der Rangliste beitritt, erhält er 1500 Punkte. Weil er noch 
@@ -39,7 +40,7 @@
 			5 Games (oder Sätze) für beiden Spieler gewertet.
 		</p>
 		
-		<p class="center-wrapper">
+		<p class="center-wrapper equation">
 			Ranglisten-Konfidenz (%) = Minimum(nGames/60, nOpponents/10) x 100, wobei:
 		</p>
 		<ul>
@@ -52,20 +53,20 @@
 			Aufgrund der Punktedifferenz zwischen zwei Teilnehmern kann ein erwartetes Ergebnis für ein Spiel zwischen
 			diesen beiden Spielern ermittelt werden. Das erwartete Ergebnis kann wie folgt berechnet werden:
 		</p>
-		<p class="center-wrapper">
+		<p class="center-wrapper equation">
 			Erwartete Games, des höher eingestuften Spielers = Siegerspiele
 		</p>
-		<p class="center-wrapper">
+		<p class="center-wrapper equation">
 			Erwartete Games, des niedrigeren klassierten Spielers = (100 - Punkte Unterschied) / 100 x Gewinner Spiele
 		</p>
 		<p>
 			Ein Beispiel: 2 Spieler werden ein Best of 5  Squash-Match spielen (d.h. ein Spieler braucht 3 Spiele, um zu gewinnen), und
 			die Differenz zwischen den beiden Kontrahenten beträgt 32 Punkte:
 		</p>
-		<p class="center-wrapper">
+		<p class="center-wrapper equation">
 			Erwartete Games, des höher eingestuften Spielers = 3
 		</p>
-		<p class="center-wrapper">
+		<p class="center-wrapper equation">
 			Erwartete Games, des tiefer klassierten Spielers  = (100 - 32) / 100 x 3 = 2,04
 		</p>
 		<p>
@@ -103,26 +104,26 @@
 			which are used to calculate rating changes. Competitors are ranked in order of their ladder points, from
 			highest to lowest.
 		</p>
-		<p class="center-wrapper">
+		<p class="center-wrapper equation">
 			Ranglistenpunkte = Ungewichtete Punkte - (100 - Ranglisten-Konfidenz)
 		</p>
 		<p>
 			Beispiel: Ein Teilnehmer hat 1560 Punkte, mit einer Ranglisten-Konfidenz von 40%:
 		</p>
-		<p class="center-wrapper">
+		<p class="center-wrapper equation">
 			Ranglistenpunkte  = 1560 - (100 - 40) = 1500
 		</p>
 		<p>
 			Liegt die Ranglisten-Konfidenz eines Teilnehmers unter 10% (d.h. er hat in den letzten 90 Tagen keine Spiele aufgezeichnet),
 			werden seine angezeigten Punkte jeden Tag, an dem er inaktiv bleibt, um weitere 2 Punkte verringert.
 		</p>
-		<p class="center-wrapper">
+		<p class="center-wrapper equation">
 			Ranglistenpunkte = Ungewichtete Punkte - 90 - (Tage seit dem letzten Ergebnis - 90) x 2
 		</p>
 		<p>
 			Beispiel: Ein Teilnehmer hat 1560 Punkte, aber seit 120 Tagen nicht mehr gespielt:
 		</p>
-		<p class="center-wrapper">
+		<p class="center-wrapper equation">
 			Ranglistenpunkte = 1560 - 90 - (120 - 90) x 2 = 1410
 		</p>
 		<p>
