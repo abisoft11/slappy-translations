@@ -9,6 +9,7 @@
 	"SUBMIT": "Submit", //Submit button text
 	"CANCEL": "Cancel", //Cancel button text
 	"DELETE": "Delete", //Delete button text
+	"REMOVE": "Remove", //Remove button text (not a complete deletion of something, more of an unlinking)
 	"UNDO": "Undo", //Undo button text
 	"HELP": "Help", //Help button text
 	"COUNTRY": "Country", //Label for country fields
@@ -240,8 +241,6 @@
 	"PLAYER_ACTION_EDIT_COMPETITOR": "Edit competitor",
 	"PLAYER_ACTION_DETAILS": "Details",
 	"PLAYER_ACTION_RECENT_GAMES": "Recent games",
-	"PLAYER_ACTION_REMOVE_COMPETITOR": "Remove competitor",
-	"PLAYER_ACTION_SHARE_CODE": "Share competitor code",
 	//PlayerDetailsPage
 	"COMPETITOR_DETAILS_TITLE": "Competitor Details",
 	"PLAYER_DETAILS_RANK": "Rank",
