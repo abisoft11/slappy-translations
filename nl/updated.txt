@@ -2,6 +2,7 @@ nl/app/nl.json
 nl/app/Google store listing.txt
 nl/app/iTunes store listing.txt
 nl/help/_invites.html
+nl/help/_ladder-admin.html
 nl/help/_ladders.html
 nl/help/_login.html
 nl/help/_players.html
