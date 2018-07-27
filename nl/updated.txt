@@ -1,5 +1,0 @@
-nl/app/nl.json
-nl/help/_invites.html
-nl/help/_ladder-admin.html
-nl/help/_ladders.html
-nl/server/nl.json
