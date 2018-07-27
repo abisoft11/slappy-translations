@@ -1,63 +1,63 @@
-TITLE:
+﻿TITLE:
 ======
 Slappy: Sports Ladder App
 
 SHORT DESCRIPTION:
 ==================
-Sports ladder management system
+Sport ladder managementsysteem
 
 
 FULL DESCRIPTION:
 =================
-Slappy is a sports ladder management system that can be used to create and manage sport ladders.
-Slappy currently has support for badminton, darts, foosball, handball (American or Gaelic),
-paddleball (one wall, three wall or four wall), padel, pelota, pickleball, racquetball, real tennis, squash,
-table tennis, tennis, touchtennis and volleyball ladders.
-The app can also be used to arrange matches and capture results.
+Slappy is een sportladdersysteem dat kan worden gebruikt om sportladders te maken en te beheren.
+Slappy heeft momenteel ondersteuning voor badminton, darts, tafelvoetbal, handbal (Amerikaans of Gaelic),
+paddleball (een muur, drie muren of vier muren), padel, pelota, pickleball, racquetball, tennis, squash,
+tafeltennis, tennis, touchtennis en volleyballadders.
+De app kan ook worden gebruikt om wedstrijden te rangschikken en resultaten vast te leggen.
 
-Slappy is perfect for managing club ladders, and can also be used for personal social ladders.
+Slappy is perfect voor het beheren van clubladders en kan ook worden gebruikt voor persoonlijke sociale ladders.
 
-Features:
-• View and manage ladder players
-• Arrange games
-• Capture results
-• View historical results
-• Compare players
-• Create your own private ladders
+Kenmerken:
+• Bekijk en beheer ladderspelers
+• Games regelen
+• Resultaten vastleggen
+• Bekijk historische resultaten
+• Spelers vergelijken
+• Maak je eigen ladders
 
 SUBSCRIPTIONS:
 ==============
-Monthly Basic Subscription
-Annual Basic Subscription
-Remove ads.
-Enable basic features.
+Maandelijks basisabonnement
+Jaarlijks basisabonnement
+Verwijder advertenties.
+Schakel basisfuncties in.
 
-Monthly Premium Subscription
-Annual Premium Subscription
-Remove ads.
-Enable premium features.
+Maandelijks premium abonnement
+Jaarlijks premium abonnement
+Verwijder advertenties.
+Schakel premiumfuncties in.
 
-Monthly Club Subscription (50 members)
-Annual Club Subscription (50 members)
-Remove ads.
-Enable premium features for all club members (up to 50 members).
+Maandelijks clubabonnement (50 leden)
+Jaarlijks clubabonnement (50 leden)
+Verwijder advertenties.
+Schakel premiumfuncties in voor alle clubleden (maximaal 50 leden).
 
-Monthly Club Subscription (100 members)
-Annual Club Subscription (100 members)
-Remove ads.
-Enable premium features for all club members (up to 100 members).
+Maandelijks clubabonnement (100 leden)
+Jaarlijks clubabonnement (100 leden)
+Verwijder advertenties.
+Schakel premiumfuncties in voor alle clubleden (maximaal 100 leden).
 
-Monthly Club Subscription (200 members)
-Annual Club Subscription (200 members)
-Remove ads.
-Enable premium features for all club members (up to 200 members).
+Maandelijks clubabonnement (200 leden)
+Jaarlijks clubabonnement (200 leden)
+Verwijder advertenties.
+Schakel premiumfuncties in voor alle clubleden (maximaal 200 leden).
 
-Monthly Club Subscription (500 members)
-Annual Club Subscription (500 members)
-Remove ads.
-Enable premium features for all club members (up to 500 members).
+Maandelijks clubabonnement (500 leden)
+Jaarlijks clubabonnement (500 leden)
+Verwijder advertenties.
+Schakel premiumfuncties in voor alle clubleden (tot 500 leden).
 
-Monthly Club Subscription (1000 members)
-Annual Club Subscription (1000 members)
-Remove ads.
-Enable premium features for all club members (up to 1000 members).
+Maandelijks clubabonnement (1000 leden)
+Jaarlijks clubabonnement (1000 leden)
+Verwijder advertenties.
+Schakel premiumfuncties in voor alle clubleden (maximaal 1000 leden).

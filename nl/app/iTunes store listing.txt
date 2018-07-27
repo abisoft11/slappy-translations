@@ -5,47 +5,44 @@ Slappy: Sports Ladder App
 
 DESCRIPTION:
 ============
-Slappy is a sports ladder management system that can be used to create and manage sport ladders.
-Slappy currently has support for badminton, darts, foosball, handball (American or Gaelic),
-paddleball (one wall, three wall or four wall), padel, pelota, pickleball, racquetball, real tennis, squash,
-table tennis, tennis, touchtennis and volleyball ladders.
-The app can also be used to arrange matches and capture results.
+Slappy is een sportladdersysteem dat kan worden gebruikt om sportladders te maken en te beheren.
+Slappy heeft momenteel ondersteuning voor badminton, darts, tafelvoetbal, handbal (Amerikaans of Gaelic),
+paddleball (een muur, drie muren of vier muren), padel, pelota, pickleball, racquetball, tennis, squash,
+tafeltennis, tennis, touchtennis en volleyballadders.
+De app kan ook worden gebruikt om wedstrijden te rangschikken en resultaten vast te leggen.
 
-Slappy is perfect for managing club ladders, and can also be used for personal social ladders.
+Slappy is perfect voor het beheren van clubladders en kan ook worden gebruikt voor persoonlijke sociale ladders.
 
-Features:
-â€¢ View and manage ladder players
-â€¢ Arrange games
-â€¢ Capture results
-â€¢ View historical results
-â€¢ Compare players
-â€¢ Create your own private ladders
+Kenmerken:
+• Bekijk en beheer ladderspelers
+• Games regelen
+• Resultaten vastleggen
+• Bekijk historische resultaten
+• Spelers vergelijken
+• Maak je eigen ladders
 
-Slappy is free to use, but does come with some features that are only available to premium subscribers.  Monthly or annual premium subscriptions can be purchased from Apple from inside the app.  These subscriptions are auto-renewable, which means you will automatically be charged for the subscription at the end of each subscription period.  Please see our terms of use policy at www.abisoft.co.za/slappy-terms.html
+Slappy is gratis te gebruiken, maar komt met een aantal functies die alleen beschikbaar zijn voor premium abonnees. Maandelijks of jaarlijks premiumabonnementen kunnen via de app bij Apple worden gekocht. Deze abonnementen worden automatisch verlengd, wat betekent dat het abonnement automatisch aan het einde van elke abonnementsperiode in rekening wordt gebracht. Raadpleeg ons beleid voor gebruiksvoorwaarden op www.abisoft.co.za/slappy-terms.html
 
 
 SUBSCRIPTIONS:
 ==============
-Basic Subscription
-Remove ads. Enable basic features.
+Basisabonnement
+Verwijder advertenties. Schakel basisfuncties in.
 
-Premium Subscription
-Remove ads. Enable premium features.
+Premium abonnement
+Verwijder advertenties. Schakel premiumfuncties in.
 
-Club Subscription 50
-Enable premium features for up to 50 members
+Clubabonnement 50
+Schakel premiumfuncties in voor maximaal 50 leden
 
-Club Subscription 100
-Enable premium features for up to 100 members
+Clubabonnement 100
+Schakel premiumfuncties in voor maximaal 100 leden
 
-Club Subscription 200
-Enable premium features for up to 200 members
+Clubabonnement 200
+Schakel premiumfuncties in voor maximaal 200 leden
 
-Club Subscription 500
-Enable premium features for up to 500 members
+Clubabonnement 500
+Schakel premiumfuncties in voor maximaal 500 leden
 
-Club Subscription 1000
-Enable premium features for up to 1000 members
-
-
-
+Clubabonnement 1000
+Schakel premiumfuncties in voor maximaal 1000 leden

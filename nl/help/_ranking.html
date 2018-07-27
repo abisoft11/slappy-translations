@@ -1,138 +1,138 @@
 	<section id="maincontent">
 		<h1>Slappy Ranking</h1>
 		<p>
-			Slappy currently supports 2 ranking systems. Ladder administrators can select one of the following ranking
-			systems for the ladder:
+			Slappy ondersteunt momenteel 2 rangschikkingssystemen. Ladderbeheerders kunnen een van de volgende ranglijsten selecteren
+			systemen voor de ladder:
 		</p>
 		<ul>
-			<li><a href="#elo">ELO ranking</a> - recommended</li>
+			<li><a href="#elo">ELO ranking</a> - aanbevolen</li>
 			<li><a href="#leapfrog">Leapfrog ranking</a></li>
 		</ul>
 		
 		<h2 id="elo">ELO Ranking</h2>
 		<p>
-			The ELO ranking system used by Slappy is based on the ELO ranking system used in chess.
-			Each competitor is allocated points based on their performance.
-			Competitors with more points are ranked higher than competitors with less points,
-			provided their <a href="#confidence">ranking confidence</a> is the same.
+			Het ELO-klassensysteem dat door Slappy wordt gebruikt, is gebaseerd op het ELO-klassensysteem dat bij schaken wordt gebruikt.
+			Elke deelnemer krijgt punten toegewezen op basis van zijn prestaties.
+			Deelnemers met meer punten worden hoger gerangschikt dan deelnemers met minder punten,
+			mits hun <a href="#confidence"> rankingvertrouwen </a> hetzelfde is.
 		</p>
 		<p>
-			When a new competitor joins a ladder, they will be assigned 1500 points and based on the fact that they have not
-			recorded any games, they will have a ranking confidence of 10%. After each recorded match, the competitor's points
-			and ranking confidence will be adjusted, taking into consideration the following factors:
+			Wanneer een nieuwe deelnemer deelneemt aan een ladder, krijgen deze 1500 punten toegewezen op basis van het feit dat dit niet het geval is
+			opgenomen games, hebben ze een rankingvertrouwen van 10%. Na elke opgenomen wedstrijd, de punten van de deelnemer
+			en het vertrouwensniveau wordt aangepast, rekening houdend met de volgende factoren:
 		</p>
 		<ul>
-			<li>The competitor's points at the time of the match</li>
-			<li>The opponent's points at the time of the match</li>
-			<li>The number of games, points or sets the competitor won in the match</li>
-			<li>The number of games, points or sets the opponent won in the match</li>
-			<li>The opponent's ranking confidence at the time of the match</li>
+			<li>De punten van de deelnemer op het moment van de wedstrijd</li>
+			<li>De punten van de tegenstander op het moment van de wedstrijd</li>
+			<li>Het aantal games, punten of sets dat de deelnemer in de wedstrijd heeft gewonnen</li>
+			<li>Het aantal games, punten of sets dat de tegenstander heeft gewonnen in de wedstrijd</li>
+			<li>Het rankingoordeel van de tegenstander op het moment van de wedstrijd</li>
 		</ul>
 		
-		<h3 id="confidence">Ranking Confidence</h3>
+		<h3 id="confidence">Vertrouwen rangschikken</h3>
 		<p>
-			A competitor's ranking confidence is calculated based on the number of games, points or sets they have recorded,
-			and the number of different opponents they have played against, in the last 90 days.
+			Het rankingvertrouwen van een deelnemer wordt berekend op basis van het aantal spellen, punten of sets die ze hebben geregistreerd,
+			en het aantal verschillende tegenstanders waar ze in de afgelopen 90 dagen tegen hebben gespeeld.
 		</p>
 		
 		<p>
-			"Recorded games" are individual games in a match.  For example, if a competitor wins a match 3 - 2, this will count
-			as 5 recorded games (or sets) for each competitor.
+			"Opgenomen spellen" zijn individuele spellen in een wedstrijd. Als een deelnemer bijvoorbeeld een wedstrijd 3 - 2 wint, telt dit
+			als 5 opgenomen spellen (of sets) voor elke deelnemer.
 		</p>
 		
 		<p class="center-wrapper equation">
-			Ranking Confidence (%) = minimum(nGames/60, nOpponents/10) x 100, where:
+			Vertrouwen rangschikken (%) = minimum(Games/60, Opponents/10) x 100, waar:
 		</p>
 		<ul>
-			<li>nGames = the number of games recorded in the last 90 days (up to a maximum of 60)</li>
-			<li>nOpponents = the number of opponents played against in the last 90 days (up to a maximum of 10)</li>
+			<li>Games = het aantal games dat in de afgelopen 90 dagen is opgenomen (tot een maximum van 60)</li>
+			<li>Opponents = het aantal tegenstanders dat in de afgelopen 90 dagen is gespeeld (maximaal een maximum van 10)</li>
 		</ul>
 		
-		<h3 id="expected">Expected Result</h3>
+		<h3 id="expected">Verwacht Resultaat</h3>
 		<p>
-			Given the difference in points between 2 competitors, an expected result can be determined for a match between
-			those 2 competitors. The expected result can be calculated as follows:
+			Gezien het verschil in punten tussen 2 deelnemers, kan een verwacht resultaat worden bepaald voor een wedstrijd tussen
+			die 2 deelnemers. Het verwachte resultaat kan als volgt worden berekend:
 		</p>
 		<p class="center-wrapper equation">
-			Higher Ranked Competitor's Expected Games = Winner Games
+			Hogere verwachte verwachte wedstrijden van de deelnemer = Winner Games
 		</p>
 		<p class="center-wrapper equation">
-			Lower Ranked Competitor's Expected Games = (100 - Points Difference) / 100 x Winner Games
+			Aanbevolen wedstrijden van de best beoordeelde deelnemer = (100 - puntenverschil) / 100 x Winner Games
 		</p>
 		<p>
-			So, for example, if 2 competitors play a best of 5 games squash match (i.e., a competitor needs 3 games to win), and
-			the difference between those competitors' points is 32:
+			Dus als bijvoorbeeld 2 deelnemers een best of 5 squashwedstrijd spelen (dat wil zeggen, een deelnemer heeft 3 games nodig om te winnen), en
+			het verschil tussen de punten van die deelnemers is 32:
 		</p>
 		<p class="center-wrapper equation">
-			Higher Ranked Competitor's Expected Games = 3
+			Hogere verwachte verwachte wedstrijden van de deelnemer = 3
 		</p>
 		<p class="center-wrapper equation">
-			Lower Ranked Competitor's Expected Games = (100 - 32) / 100 x 3 = 2.04
+			Aanbevolen wedstrijden van de bestelde deelnemer beneden = (100 - 32) / 100 x 3 = 2.04
 		</p>
 		<p>
-			Hence, the expected result is that the higher ranked competitor wins 3 games to 2.04 games.  If this was the final
-			score (which is obviously not possible since you can't have fractional games), then there would be no change in
-			either competitor's points.  If the higher ranked competitor performs better than this (e.g., 3-0, 3-1 or 3-2), then
-			that competitor's points will increase and the opponent's points will decrease.  If the higher ranked competitor
-			performs worse than expected (e.g. 3-3, 2-3, 1-3 or 0-3), then that competitor's points will decrease and the
-			opponent's points will increase.
+			Het verwachte resultaat is dus dat de hoger gerangschikte deelnemer 3 games wint tot 2,04 spellen. Als dit de finale was
+			score (wat natuurlijk niet mogelijk is omdat je geen fractionele spellen kunt hebben), dan zou er geen verandering in zijn
+			ofwel punten van een deelnemer. Als de hoger gerangschikte deelnemer beter presteert dan deze (bijvoorbeeld 3-0, 3-1 of 3-2), dan
+			de punten van die deelnemer zullen toenemen en de punten van de tegenstander zullen afnemen. Als de hoger gerangschikte deelnemer
+			presteert slechter dan verwacht (bijvoorbeeld 3-3, 2-3, 1-3 of 0-3), dan zullen de punten van die deelnemer afnemen en de
+			de punten van de tegenstander zullen toenemen.
 		</p>
 		<p>
-			The amount of change in points will grow proportionally, the further the actual result is away from the
-			expected result. A competitor's points will also change more if the opponent's ranking confidence is higher.
+			De hoeveelheid verandering in punten zal proportioneel toenemen, naarmate het werkelijke resultaat verder verwijderd is van de
+			verwacht resultaat. De punten van een deelnemer zullen ook meer veranderen als het rankingvertrouwen van de tegenstander hoger is.
 		</p>
 		
-		<h3 id="calculation">Points Change Calculation</h3>
+		<h3 id="calculation">Punten wijzigen berekening</h3>
 		<p>
-			Without going into too much detail, the basic idea of the points change calculation is that, based on the
-			competitors' current points relative to each other, there is an expected outcome for the match. The competitor who
-			performs better than expected will gain points, while the other competitor will lose points. Therefore, if a competitor
-			wins a match by a smaller margin than expected, that competitor's points will decrease. <strong>Winning a match
-			doesn't guarantee an increase in points</strong>.
+			Zonder in te veel details te gaan, is het basisidee van de berekening van de puntenwijziging dat, gebaseerd op de
+			huidige punten van deelnemers ten opzichte van elkaar, is er een verwacht resultaat voor de wedstrijd. De deelnemer die
+			presteert beter dan verwacht krijgt punten, terwijl de andere deelnemer punten verliest. Daarom, als een deelnemer
+			wint een wedstrijd met een kleinere marge dan verwacht, de punten van die deelnemer zullen afnemen. <strong> Een wedstrijd winnen
+			garandeert geen toename van punten </strong>.
 		</p>
 		<p>
-			When comparing competitors, it is possible to view the points changes for each possible result (premium version only). 
+			Bij het vergelijken van deelnemers is het mogelijk om de puntenwijzigingen voor elk mogelijk resultaat te bekijken (alleen premiumversie).
 		</p>
 		
-		<h3 id="ranking">Ladder ranking</h3>
+		<h3 id="ranking">Ladderrangschikking</h3>
 		<p>
-			If a competitors has not recorded enough recent results, it is difficult to determine their true ranking. For this
-			reason, their ranking confidence is used to adjust their points on <a href="tabs.html#ladder">the ladder</a>.
-			These weighted (ladder) points are used to rank competitors on the ladder, instead of their unweighted points,
-			which are used to calculate rating changes. Competitors are ranked in order of their ladder points, from
-			highest to lowest.
+			Als een deelnemer niet genoeg recente resultaten heeft genoteerd, is het moeilijk om de juiste rangorde te bepalen. Voor deze
+			reden, hun rankingvertrouwen wordt gebruikt om hun punten aan te passen op <a href="tabs.html#ladder"> de ladder </a>.
+			Deze gewogen (ladder) punten worden gebruikt om deelnemers op de ladder te rangschikken, in plaats van hun ongewogen punten,
+			die worden gebruikt om de waardeveranderingen te berekenen. Deelnemers worden gerangschikt in volgorde van hun ladderpunten, van
+			hoogste tot laagste.
 		</p>
 		<p class="center-wrapper equation">
-			Ladder points = Unweighted Points - (100 - Ranking Confidence)
+			Ladderpunten = Ongewogen Punten - (100 - Rangorde Vertrouwen)
 		</p>
 		<p>
-			For example, if a competitor has 1560 points, with a ranking confidence of 40%,
+			Als een deelnemer bijvoorbeeld 1560 punten heeft, met een rankingvertrouwen van 40%,
 		</p>
 		<p class="center-wrapper equation">
-			Ladder points = 1560 - (100 - 40) = 1500
+			Ladderpunten = 1560 - (100 - 40) = 1500
 		</p>
 		<p>
-			If a competitor's ranking confidence is below 10% (i.e., they have not recorded any games in the last 90 days),
-			their displayed points are further decreased by 2 points each day that they remain inactive.
+			Als de rankingvertrouwen van een deelnemer lager is dan 10% (d.w.z. dat ze in de laatste 90 dagen geen games hebben geregistreerd),
+			hun weergegeven punten worden verder met 2 punten verlaagd elke dag dat ze inactief blijven.
 		</p>
 		<p class="center-wrapper equation">
-			Ladder points = Unweighted Points - 90 - (Days Since Last Result - 90) x 2
+			Ladderpunten = Ongewogen Punten - 90 - (dagen sinds laatste resultaat - 90) x 2
 		</p>
 		<p>
-			For example, if a competitor has 1560 points, but hasn't played in 120 days,
+			Als een deelnemer bijvoorbeeld 1560 punten heeft, maar niet in 120 dagen heeft gespeeld,
 		</p>
 		<p class="center-wrapper equation">
-			Ladder points = 1560 - 90 - (120 - 90) x 2 = 1410
+			Ladderpunten = 1560 - 90 - (120 - 90) x 2 = 1410
 		</p>
 		<p>
-			<strong>Competitors who are not recording games will gradually move down on the ladder until they reach 0 points.</strong>
+			<strong>Deelnemers die geen games opnemen, komen geleidelijk op de ladder tot ze 0 punten bereiken.</strong>
 		</p>
 		
 		<h2 id="leapfrog">Leapfrog Ranking</h2>
 		<p>
-			With the leapfrog ranking system, when a competitor joins a ladder, they are initially ranked at the bottom of the ladder.
-			They can then challenge higher ranked competitors and, if they win, they will move above their opponent on the ladder, 
-			shifting the opponent, and all competitors ranked between the 2 competitors, down 1 position on the ladder.
+			Met het leapfrog-ranglijstsysteem worden, wanneer een deelnemer aansluit op een ladder, deze aanvankelijk gerangschikt onderaan de ladder.
+			Ze kunnen dan hoger gerangschikte deelnemers uitdagen en, als ze winnen, ze boven hun tegenstander op de ladder komen,
+			het verplaatsen van de tegenstander, en alle deelnemers gerangschikt tussen de 2 deelnemers, 1 positie op de ladder.
 		</p>
 
 	</section>

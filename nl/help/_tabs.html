@@ -1,176 +1,176 @@
 	<section id="maincontent">
-		<h1>Slappy Tabs</h1>
+		<h1>Slappy-tabbladen</h1>
 		<p>
-			The main view in Slappy Sports Ladder App contains 3 tabs (Ladder, Invitations and Results). On this page
-			players can view their current rankings in their ladders, by selecting the Ladder tab. They can also view
-			current/all invitations in the Invitations tab, or recent results in the Results tab.
+			Het hoofdaanzicht in de app Slappy Sports Ladder bevat 3 tabbladen (Ladder, Uitnodigingen en Resultaten). Op deze pagina
+			spelers kunnen hun huidige ranglijst in hun ladders bekijken door het tabblad Ladder te selecteren. Ze kunnen ook bekijken
+			huidige / alle uitnodigingen op het tabblad Uitnodigingen of recente resultaten op het tabblad Resultaten.
 		</p>
 		
-		<h2 id="ladder">Ladder Tab</h2>
+		<h2 id="ladder">Ladder-tabblad</h2>
 		<p>
-			The Ladder tab lists all competitors in the currently active <a href="ladders.html">ladder</a>, in
-			descending order (best competitor at the top).
-			The <a href="ranking.html">ranking</a> is either determined by the competitors' points and their
-			<a href="ranking.html#confidence">ranking confidence</a> (<a href="ranking.html#elo">ELO ranking</a>)
-			or by their previous results (<a href="ranking.html#leapfrog">Leapfrog ranking</a>).
+			Het tabblad Ladder geeft een overzicht van alle deelnemeren in de momenteel actieve <a href="ladders.html"> ladder </a> in
+			aflopende volgorde (beste deelnemer bovenaan).
+			De <a href="ranking.html"> classificatie </a> wordt bepaald door de punten van de deelnemeren en hun
+			<a href="ranking.html#confidence"> vertrouwensrelatie </a> (<a href="ranking.html#elo"> ELO-ranking </a>)
+			of door hun eerdere resultaten (<a href="ranking.html#leapfrog"> Leapfrog-ranking </a>).
 		</p>
 		
 		<img class="screenshot" src="img/ladders/ladder.png">
 		
 		<p>
-			The colour of an item in the list is determined by the competitor's usage status:
+			De kleur van een item in de lijst wordt bepaald door de gebruiksstatus van de deelnemer:
 		</p>
 		<ul>
 			<li>
-				<strong>White:</strong> Competitors who have installed and used the app at least once.
+				<strong>Wit:</strong> deelnemers die de app minimaal een keer hebben geinstalleerd en gebruikt.
 			</li>
 			<li>
-				<strong>Grey:</strong> Competitors who were added by a ladder administrator, but have never used the app.
+				<strong>Grijs:</strong> deelnemeren die zijn toegevoegd door een ladderbeheerder, maar de app nooit hebben gebruikt.
 			</li>
 		</ul>
 		<p>
-			The colour of a competitor's ranking is determined by their recent activity:
+			De kleur van de rangorde van een deelnemer wordt bepaald door hun recente activiteit:
 		</p>
 		<ul>
 			<li>
-				<strong>Blue:</strong> Competitors who have recorded at least one game in the last 30 days, and who have a
-				<a href="ranking.html#confidence">ranking confidence</a> of at least 80%.
+				<strong>Blauw:</strong> deelnemers die in de afgelopen 30 dagen ten minste een game hebben opgenomen en die een
+				<a href="ranking.html#confidence"> vertrouwensrelatie </a> van ten minste 80% hebben.
 			</li>
 			<li>
-				<strong>Grey:</strong> Competitors who have recorded no games in the last 30 days, or who have a 
-				<a href="ranking.html#confidence">ranking confidence</a> below 80%.
+				<strong>Grijs:</strong> deelnemers die de afgelopen 30 dagen geen games hebben geregistreerd, of die een
+				<a href="ranking.html#confidence"> vertrouwensrelatie </a> onder de 80% hebben.
 			</li>
 		</ul>
 		<p>
-			By touching a competitor's avatar, it is possible to view their details, including their
-			<a href="ranking.html#confidence">ranking confidence</a>, your 
-			<a href="ranking.html#expected">expected result</a> against the competitor and all possible 
-			rating changes based on possible results with the competitor (premium version only).
+			Door de avatar van een deelnemer aan te raken, is het mogelijk om hun details te bekijken, inclusief hun
+			<a href="ranking.html#confidence"> vertrouwensrelatie </a>, uw
+			<a href="ranking.html#expected"> verwachte resultaat </a> tegen de deelnemer en alles wat mogelijk is
+			ratingwijzigingen op basis van mogelijke resultaten met de deelnemer (alleen premiumversie).
 		</p>
 		<img class="screenshot-2" src="img/ladders/competitor-details.png">
 		<img class="screenshot-2" src="img/ladders/competitor-comparison.png">
 		
 		<p>
-			Touching anywhere else on the competitor item in the list, will present a popup menu containing options to interact
-			with the competitor.
+			Door ergens anders op het item van de deelnemer in de lijst aan te raken, verschijnt een pop-upmenu met opties om te communiceren
+			met de deelnemer.
 		</p>
 		<img class="screenshot" src="img/ladders/player-options.png">
 		<p>
-			The following actions are possible:
+			De volgende acties zijn mogelijk:
 		</p>
 		<ul>
 			<li>
-				<strong>Arrange game:</strong> <a href="invites.html#send">Send an invitation</a> to play a game to the
-				competitor's player(s) (it is not necessary to arrange a game before capturing a result).
+				<strong>Spel schikken:</strong> <a href="invites.html#send"> Een uitnodiging verzenden </a> om een game te spelen voor de
+				speler (s) van een deelnemer (het is niet nodig om een spel te regelen voordat een resultaat wordt vastgelegd).
 			</li>
 			<li>
-				<strong>Capture result:</strong> <a href="results.html#capture">Capture a result</a> of a completed game
-				against the competitor.
+				<strong>Resultaten vastleggen:</strong> <a href="results.html#capture"> Resultaten vastleggen </a> van een voltooid spel
+				tegen de deelnemer.
 			</li>
 			<li>
-				<strong>Details:</strong> View the competitor's details (same as touching the avatar).
+				<strong>Details:</strong> bekijk de details van de deelnemer (net zoals het aanraken van de avatar).
 			</li>
 			<li>
-				<strong>Recent games:</strong> View the competitor's recent games (premium version only).
+				<strong>Recente games:</strong> bekijk de recente games van de deelnemer (alleen premium-versie).
 			</li>
 		</ul>
 		
-		<h2 id="invitations">Invitations Tab</h2>
+		<h2 id="invitations">Uitnodigingen Tab</h2>
 		<p>
-			The Invitations tab lists either current (outstanding) or all invitations that a competitor has sent or received
-			(from all of their ladders).
+			Op het tabblad Uitnodigingen worden huidige (openstaande) of alle uitnodigingen weergegeven die een deelnemer heeft verzonden of ontvangen
+			(van al hun ladders).
 		</p>
 		<img class="screenshot" src="img/invitations/invitations.png">
 		<p>
-			The colour of an invitation item in the list indicates its current status:
+			De kleur van een uitnodigingitem in de lijst geeft de huidige status aan:
 		</p>
 		<ul>
-			<li><strong>Orange:</strong> Pending - The invitation was sent by the competitor and a response is still pending.</li>
-			<li><strong>Green:</strong> Accepted - The invitation was accepted by the opponent.</li>
-			<li><strong>Red:</strong> Declined - The invitation was declined by the opponent.</li>
-			<li><strong>Black:</strong> Cancelled - The invitation was cancelled by the competitor.</li>
-			<li><strong>White:</strong> Completed - A result was captured after the game was completed.</li>
+			<li><strong>Oranje:</strong> in behandeling - De uitnodiging is verzonden door de deelnemer en er is nog steeds een reactie in behandeling. </li>
+			<li><strong>Groen:</strong> geaccepteerd - de uitnodiging is door de tegenstander geaccepteerd. </li>
+			<li><strong>Rood:</strong> afgewezen - de uitnodiging is door de tegenstander afgewezen. </li>
+			<li><strong>Zwart:</strong> geannuleerd: de uitnodiging is geannuleerd door de deelnemer. </li>
+			<li><strong>Wit:</strong> voltooid - een resultaat werd vastgelegd nadat de game was voltooid. </li>
 		</ul>
 		<p>
-			Newly received invitations will have buttons to accept or decline the invitation. Touching anywhere else on the
-			invitation item in the list, will present the invitation details page.
+			Nieuw ontvangen uitnodigingen hebben knoppen om de uitnodiging te accepteren of af te wijzen. Ergens anders op de
+			uitnodigingsitem in de lijst, geeft de pagina met uitnodigingsdetails weer.
 		</p>
 		<img class="screenshot" src="img/invitations/invitation-details.png">
 		<p>
-			Depending on the current state of the invitation, the following actions may be possible:
+			Afhankelijk van de huidige status van de uitnodiging zijn de volgende acties mogelijk:
 		</p>
 		<ul>
 			<li>
-				<strong>Accept:</strong> Accept a received invitation. An optional message can be sent when accepting an invitation.
+				<strong>Accepteren:</strong> een ontvangen uitnodiging accepteren. Een optioneel bericht kan worden verzonden wanneer een uitnodiging wordt geaccepteerd.
 			</li>
 			<li>
-				<strong>Decline:</strong> Decline a received invitation. An optional message can be sent when declining an invitation.
+				<strong>Weigeren:</strong> een ontvangen uitnodiging weigeren. Een optioneel bericht kan worden verzonden wanneer een uitnodiging wordt afgewezen.
 			</li>
 			<li>
-				<strong>Capture Result:</strong> <a href="results.html#capture">Capture the result</a>, after a game is
-				completed. The time and date of the result will default to the time and date of the invitation.
+				<strong>Vastleggingsresultaat:</strong> <a href="results.html#capture"> Het resultaat vastleggen </a>, nadat een game is
+				voltooid. De tijd en datum van het resultaat worden standaard ingesteld op de tijd en datum van de uitnodiging.
 			</li>
 			<li>
-				<strong>Another Time:</strong> Arrange a different time to the proposed time to play the game.
+				<strong>Een andere tijd:</strong> schik een andere tijd dan de voorgestelde tijd om het spel te spelen.
 			</li>
 			<li>
-				<strong>Reschedule:</strong> Propose a different time to play, after the invitation has been accepted.
+				<strong>Opnieuw plannen:</strong> een ander tijdstip voorstellen om te spelen nadat de uitnodiging is geaccepteerd.
 			</li>
 			<li>
-				<strong>Cancel Request:</strong> Cancel a sent invitation if no response has been sent.
+				<strong>Verzoek annuleren:</strong> annuleer een verzonden uitnodiging als er geen reactie is verzonden.
 			</li>
 			<li>
-				<strong>Abandon Game:</strong> Abandon a game that has already been confirmed.
+				<strong>Spel verlaten:</strong> een spel verlaten dat al is bevestigd.
 			</li>
 		</ul>
 		
-		<h2 id="results">Results Tab</h2>
+		<h2 id="results">Tabblad Resultaten</h2>
 		<p>
-			The Results tab lists a competitor's recent results (from all of their ladders) or all results for the currently
-			active ladder (<a href="subscriptions.html">premium subscribers only</a>).
+			Het tabblad Resultaten vermeldt de recente resultaten van een deelnemer (van al zijn ladders) of alle resultaten voor de huidige
+			actieve ladder (alleen <a href="subscriptions.html"> premium abonnees </a>).
 		</p>
 		<img class="screenshot-2" src="img/results/my-results.png">
 		<img class="screenshot-2" src="img/results/ladder-results.png">
 		<p>
-			The colour of a result item in the list indicates its current status:
+			De kleur van een resultaatitem in de lijst geeft de huidige status aan:
 		</p>
 		<ul>
 			<li>
-				<strong>Orange:</strong> Awaiting confirmation - The result was captured by a player, but the opponent still needs to confirm it.
+				<strong>Oranje:</strong> in afwachting van bevestiging - het resultaat is door een speler vastgelegd, maar de tegenstander moet dit nog bevestigen.
 			</li>
 			<li>
-				<strong>Red:</strong> Rejected - The result was captured, but it was rejected/disputed by the opponent.
+				<strong>Rood:</strong> afgewezen - het resultaat is vastgelegd, maar het is door de tegenstander afgewezen / betwist.
 			</li>
 			<li>
-				<strong>Black:</strong> Discarded - The result was captured and then discarded by the same competitor.
+				<strong>Zwart:</strong> verwijderd - het resultaat is vastgelegd en vervolgens weggegooid door dezelfde deelnemer.
 			</li>
 			<li>
-				<strong>Green:</strong> Confirmed - The result was either confirmed by the opponent or it was automatically confirmed by the system.
+				<strong>Groen:</strong> Bevestigd - het resultaat werd bevestigd door de tegenstander of het werd automatisch bevestigd door het systeem.
 			</li>
 		</ul>
 		<p>
-			Newly received results will have buttons to confirm or dispute the result. Touching anywhere else on the result
-			item in the list, will present the result details view, containing all the details of the result. If the result
-			has been confirmed, this will include the points change that was calculated for the match.
+			Nieuw ontvangen resultaten hebben knoppen om te bevestigen of het resultaat te betwisten. Nergens anders op het resultaat aanraken
+			item in de lijst, geeft de resultaatdetails weer, inclusief alle details van het resultaat. Als het resultaat
+			is bevestigd, dit omvat de puntenwijziging die voor de wedstrijd is berekend.
 		</p>
 		<img class="screenshot" src="img/results/result-details.png">
 		<p>
-			Depending on the current state of the result, the following actions may be possible:
+			Afhankelijk van de huidige status van het resultaat, zijn de volgende acties mogelijk:
 		</p>
 		<ul>
 			<li>
-				<strong>Confirm:</strong> <a href="results.html#confirm">Confirm the details</a> of a result that was
-				captured by another competitor.
+				<strong>Bevestigen:</strong> <a href="results.html#confirm"> Bevestig de details </a> van een resultaat dat was
+				vastgelegd door een andere deelnemer.
 			</li>
 			<li>
-				<strong>Dispute:</strong> <a href="results.html#dispute">Dispute the details</a> of a result that was
-				captured by another competitor. This will allow the competitor to recapture the result details.
+				<strong>Geschil:</strong> <a href="results.html#dispute"> Betwist de gegevens </a> van een resultaat dat was
+				vastgelegd door een andere deelnemer. Hierdoor kan de deelnemer de resultaatsdetails terughalen.
 			</li>
 			<li>
-				<strong>Discard:</strong> <a href="results.html#discard">Discard a result</a> that was captured by the same competitor.
+				<strong>Verwijderen:</strong> <a href="results.html#discard"> Gooi een resultaat weg </a> dat is gemaakt door dezelfde deelnemer.
 			</li>
 			<li>
-				<strong>Reject:</strong> <a href="results.html#discard">Reject a result</a> that was captured by another competitor.
+				<strong>Weigeren:</strong> <a href="results.html#discard"> Weiger resultaat </a> dat is vastgelegd door een andere deelnemer.
 			</li>
 		</ul>
 	
