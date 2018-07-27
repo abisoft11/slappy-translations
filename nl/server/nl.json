@@ -35,14 +35,14 @@
 	"ADMIN_RESULT_ADDED_NOTIFICATION_BODY": "Een ladderbeheerder ($user) heeft je resultaat toegevoegd. $resultDesc. Tik om dit resultaat te bekijken.",
 	"GET_COMMON_LADDERS_ERROR": "Geen gemeenschappelijke ladders voor beide deelnemers",
 	"RESULT_DESCRIPTION": "$winner heeft $loser geslagen $winnerGames - $loserGames",
-+++	"RESULT_DESCRIPTION_TIE": "$competitor tied $opponent $games - $games", // "tied" indicates that a tie (or draw) occurred
+	"RESULT_DESCRIPTION_TIE": "$competitor heeft gelijk gespeeld met $opponent $games - $games",
 	"UPDATE_RESULT_ERROR": "Fout bij bijwerken van resultaat",
 	"ADMIN_RESULT_UPDATED_NOTIFICATION_TITLE": "Resultaat bijgewerkt",
 	"ADMIN_RESULT_UPDATED_NOTIFICATION_BODY": "Een ladderbeheerder ($user) heeft je resultaat bijgewerkt. $resultDesc. Tik om dit resultaat te bekijken.",
 	"ADMIN_RESULT_DELETED_NOTIFICATION_TITLE": "Resultaat is verwijderd",
 	"ADMIN_RESULT_DELETED_NOTIFICATION_BODY": "Een ladderbeheerder ($user) heeft uw resultaat verwijderd. $resultDesc. Tik om dit resultaat te bekijken.",
 	"OPPONENT_WINNER_RESULT": "$opponent wint $opponentGames - $competitorGames",
-+++	"COMPETITOR_TIE_RESULT": "You tie $games - $games", // "You tie" is informing the player that the match was drawn or tied.
+	"COMPETITOR_TIE_RESULT": "Gelijk gespeeld $games - $games",
 	"RESULT_CONFIRMED_NOTIFICATION_TITLE": "Resultaat bevestigd",
 	"RESULT_CONFIRMED_NOTIFICATION_BODY": "$opponent heeft je resultaat bevestigd. $resultDesc.",
 	"RESULT_REJECTED_NOTIFICATION_TITLE": "Resultaat afgewezen",

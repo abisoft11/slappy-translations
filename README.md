@@ -49,6 +49,8 @@ Ignore all html tags (enclosed in angle braces), for example, `<body>`, `<h1>`, 
 
 Ignore any variables in the text.  Variables are single words starting with a '$' symbol.  E.g., `$code`.
 
+Quoted text in html files must be translated. It usually refers to text as it appears in the app, and should be translated to match (including the capitalisation) what it has been translated to in the app/server JSON files.
+
 Text in the files is usually split across lines at logical breaking points in sentences or paragraphs. When translating, please keep the translated text on the same line as the original text, as far as possible.
 
 # General concepts
