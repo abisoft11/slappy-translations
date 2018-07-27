@@ -1,8 +1,6 @@
 de/app/Google store listing.txt
-de/app/de.json
 de/app/iTunes store listing.txt
 de/help/_ladder-admin.html
-de/help/_ladders.html
 de/help/_login.html
 de/help/_players.html
 de/help/_results.html
