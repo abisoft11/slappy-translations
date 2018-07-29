@@ -1,3 +1,4 @@
+de/app/de.json
 de/app/Google store listing.txt
 de/app/iTunes store listing.txt
 de/help/_ladder-admin.html

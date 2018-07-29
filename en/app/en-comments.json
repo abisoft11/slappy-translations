@@ -518,6 +518,7 @@
 	"MIXED_DOUBLES": "Mixed doubles", //This refers to the mixed doubles ladder format
 	"ELO": "ELO (recommended)", //This refers to the ELO-based ranking system (like chess ranking)
 	"LEAPFROG": "Leapfrog", //This refers to the leapfrog ranking system (lower ranked winner jumps to loser's position)
+	"SWISS_TT_ELO": "Swiss Table Tennis ELO", // Based on the simplified ELO system used by Swiss Table Tennis Association
 	"LADDER_TYPE_DESCRIPTION": "{{sport}} ({{format}})", //Description of ladder type. E.g., "Padel (Doubles)"
 	//LicenceService
 	"PREMIUM_SUBSCRIPTION_ANNUAL_TITLE": "Premium Subscription",

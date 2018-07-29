@@ -434,6 +434,7 @@
     "MIXED_DOUBLES": "Mixed doubles",
     "ELO": "ELO (recommended)",
     "LEAPFROG": "Leapfrog",
+    "SWISS_TT_ELO": "Swiss Table Tennis ELO",
     "LADDER_TYPE_DESCRIPTION": "{{sport}} ({{format}})",
     "PREMIUM_SUBSCRIPTION_ANNUAL_TITLE": "Premium Subscription",
     "PREMIUM_SUBSCRIPTION_MONTHLY_TITLE": "Premium Subscription",
