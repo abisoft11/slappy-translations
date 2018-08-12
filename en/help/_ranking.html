@@ -1,12 +1,13 @@
 	<section id="maincontent">
 		<h1>Slappy Ranking</h1>
 		<p>
-			Slappy currently supports 2 ranking systems. Ladder administrators can select one of the following ranking
+			Slappy currently supports 3 ranking systems. Ladder administrators can select one of the following ranking
 			systems for the ladder:
 		</p>
 		<ul>
 			<li><a href="#elo">ELO ranking</a> - recommended</li>
 			<li><a href="#leapfrog">Leapfrog ranking</a></li>
+			<li><a href="#swisselo">Swiss Table Tennis ELO ranking</a></li>
 		</ul>
 		
 		<h2 id="elo">ELO Ranking</h2>
@@ -134,5 +135,169 @@
 			They can then challenge higher ranked competitors and, if they win, they will move above their opponent on the ladder, 
 			shifting the opponent, and all competitors ranked between the 2 competitors, down 1 position on the ladder.
 		</p>
+		
+		<h3 id="leapfrog-options">Leapfrog Options</h3>
+		<p>
+			<strong>Leapfrog challenge limit:</strong>
+			If enabled, this option limits the players that a competitor can challenge
+			to the configured number of positions on the ladder above them.
+			Competitors can still arrange matches and record results with anyone on the ladder,
+			but only results against opponents who are less than, or equal to, 
+			the configured number of positions above them will affect their ranking on the ladder.
+		</p>
 
+		<h2 id="swisselo">Swiss Table Tennis ELO Ranking</h2>
+		<p>
+			The Swiss Table Tennis ELO ranking system is used by the Swiss Table Tennis Association to rank players.
+			The calculation for this ELO ranking system is simpler than that used by the
+			<a href="#elo">Slappy ELO ranking system</a>.
+			Although the ranking system was developed for table tennis, 
+			<strong>it can be used with any sport in Slappy</strong>
+			if you would prefer an easier to understand ELO ranking system.
+			It does however have the following drawbacks, when compared to the Slappy ELO system:
+		</p>
+		<ul>
+			<li>
+				There is no concept of <a href="#confidence">ranking confidence</a>.
+				New ladder competitors' results will therefore have an exaggerated effect on other competitors' ranking points.
+			</li>
+			<li>
+				The system only takes into account who won/lost a match, and does not consider the margin of a victory.
+			</li>
+			<li>
+				There is no way to account for inactive players.
+				Unlike the Slappy ELO ranking system, where inactive players' ranking points will gradually decrease over time, players using this system will remain at the same ranking points until they play again.
+			</li>
+		</ul>
+		<p>
+			Each competitor is allocated points based on their performance.
+			Competitors with more points are ranked higher than competitors with less points.
+		</p>
+		<p>
+			When a new competitor joins a ladder, they will be assigned 1500 points.
+			After each recorded match, the competitor's points will be adjusted,
+			taking into consideration the following factors:
+		</p>
+		<ul>
+			<li>The competitor's points at the time of the match</li>
+			<li>The opponent's points at the time of the match</li>
+			<li>The number of games played</li>
+			<li>Who won the match</li>
+		</ul>
+		
+		<h3>Expected Result</h3>
+		<p>
+			This system doesn't have a concept of an expected result,
+			but there is a probability of who will win a match.
+			Given the difference in points between 2 competitors,
+			the probability of each player winning a match can be calculated as follows:
+		</p>
+		<p class="center-wrapper equation">
+			Points Difference = Higher Ranked Competitor's Points - Lower Ranked Competitor's Points
+		</p>
+		
+		<p class="center-wrapper equation">
+			Lower Ranked Competitor's Probability of Winning = 1 / (1 + 10 ^ (Points Difference/200))
+		</p>
+
+		<p class="center-wrapper equation">
+			Higher Ranked Competitor's Probability of Winning = 1 / (1 + 10 ^ (-Points Difference/200))
+		</p>
+		
+		<p>
+			The sum of these 2 probabilities will always add up to 1.
+		</p>
+
+		<p>
+			So, for example, if 2 competitors, with a points difference of 100 points, play a match,
+			the probabilities of each of them winning are as follows:
+		</p>
+		
+		<p class="center-wrapper equation">
+			Lower Ranked Competitor's Probability of Winning = 1 / (1 + 10 ^ (100/200)) = 1 / (1 + 10 ^ 0.5) = 0.24
+		</p>
+		
+		<p class="center-wrapper equation">
+			Higher Ranked Competitor's Probability of Winning = 1 / (1 + 10 ^ (-100/200)) = 1 / (1 + 10 ^ -0.5) = 0.76
+		</p>
+		
+		<p>
+			As expected, the higher ranked player has a higher probability of winning the match.
+		</p>
+		
+		<h3>Points Change Calculation</h3>
+		<p>
+			After each match, each competitor's points can change by up to 25 points,
+			depending on the number of games or sets played during the match:
+		</p>
+		
+		<table>
+			<tr>
+				<th>Number of games or sets</th>
+				<th>Maximum points change</th>
+			</tr>
+			<tr>
+				<td>Best of 1</td>
+				<td>5</td>
+			</tr>
+			<tr>
+				<td>Best of 3</td>
+				<td>10</td>
+			</tr>
+			<tr>
+				<td>Best of 5</td>
+				<td>15</td>
+			</tr>
+			<tr>
+				<td>Best of 7</td>
+				<td>20</td>
+			</tr>
+			<tr>
+				<td>Best of 9 (or more)</td>
+				<td>25</td>
+			</tr>
+		</table>
+		
+		<p>
+			The winner's points will increase, and the loser's points will decrease by the same amount.
+			The points change is calculated as follows:
+		</p>
+
+		<p class="center-wrapper equation">
+			Winner's Points Change = Maximum Points Change * (1 - Winner's Probability of Winning (before the match))
+		</p>
+
+		<p class="center-wrapper equation">
+			Loser's Points Change = - Maximum Points Change * Loser's Probability of Winning (before the match)
+		</p>
+		
+		<p>
+			Continuing with the above example, if the higher ranked player wins a best of 5 match,
+			the points change will be calculated as follows:
+		</p>
+
+		<p class="center-wrapper equation">
+			Winner's Points Change = 15 - 15 * 0.76 = 3.60
+		</p>
+
+		<p class="center-wrapper equation">
+			Loser's Points Change = -15 * 0.24 = -3.60
+		</p>
+		
+		<p>
+			If the lower ranked player wins the match, the points change will be as follows:
+		</p>
+
+		<p class="center-wrapper equation">
+			Winner's Points Change = 15 - 15 * 0.24 = 11.40
+		</p>
+
+		<p class="center-wrapper equation">
+			Loser's Points Change = -15 * 0.24 = -11.40
+		</p>
+		
+		<p>
+			When comparing competitors, it is possible to view the points changes for each possible result (premium version only). 
+		</p>
+		
 	</section>

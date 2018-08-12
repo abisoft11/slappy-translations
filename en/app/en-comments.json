@@ -75,6 +75,7 @@
 	"SHARE_LADDER_CODE_SUBJECT": "Slappy Ladder Code",
 	"SHARE_LADDER_CODE_ERROR": "Error while trying to share ladder code",
 	//ShareTeamCode
+	"SHARE_COMPETITOR_CODE_MESSAGE_ADMIN": "Your competitor has been created on the {{ladderName}} ladder. To link to this competitor and start capturing results, install the abisoft Slappy Sports Ladder App and join the ladder using the competitor code: {{code}}",
 	"SHARE_TEAM_CODE_MESSAGE": "I have created our team ({{teamName}}) on the {{ladderName}} ladder. To link to this team and start capturing results, install the abisoft Slappy Sports Ladder App and join the ladder using the competitor code: {{code}}",
 	"SHARE_TEAM_CODE_MESSAGE_ADMIN": "Your doubles team ({{teamName}}) has been created on the {{ladderName}} ladder. To link to this team and start capturing results, install the abisoft Slappy Sports Ladder App and join the ladder using the competitor code: {{code}}",
 	"SHARE_TEAM_CODE_SUBJECT": "Slappy Competitor Code",
@@ -177,7 +178,6 @@
 	"EDIT_PLAYER_MISSING_NAME": "Please enter a first name",
 	"EDIT_PLAYER_MISSING_SURNAME": "Please enter a surname",
 	"EDIT_PLAYER_MISSING_EMAIL": "Please enter an email address",
-	"RESET_PASSWORD_TITLE": "Reset Password",
 	"RESET_PASSWORD_PROMPT": "Please enter a temporary password for the player",
 	"RESET_PASSWORD_TEMPORARY": "temporary password",
 	//EditResultPage
@@ -254,6 +254,10 @@
 	"COMPETITOR_COMPARISON_TITLE": "Competitor Comparison",
 	//PlayerHistoryPage
 	"COMPETITOR_HISTORY_TITLE": "Competitor History",
+	// RankingTypePage
+	"RANKING_TYPE_TITLE": "Ranking Type",
+	"LEAPFROG_OPTIONS_TITLE": "Leapfrog Ranking Options",
+	"LEAPFROG_CHALLENGE_LIMIT_LABEL": "Leapfrog challenge limit",
 	//RegisterPlayerPage (see also EditPlayerPage)
 	"REGISTER_PLAYER_TITLE": "Add Player",
 	"PLAYER_PASSWORD": "Password",
