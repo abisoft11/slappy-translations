@@ -4,6 +4,7 @@ de/app/iTunes store listing.txt
 de/help/_ladder-admin.html
 de/help/_login.html
 de/help/_players.html
+de/help/_ranking.html
 de/help/_results.html
 de/help/_tabs.html
 de/help/header.html
