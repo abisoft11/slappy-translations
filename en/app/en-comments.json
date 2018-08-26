@@ -162,6 +162,7 @@
 	"EDIT_COMPETITOR_ADD_PLAYER": "Add player",
 	"EDIT_COMPETITOR_CODE": "Competitor code: {{code}}",
 	"EDIT_COMPETITOR_MISSING_NAME": "Please enter a name",
+	"EDIT_COMPETITOR_RANK": "Rank", //Label for editable leapfrog ladder rank
 	//EditLadderPage (see AddLadderPage for more)
 	"EDIT_LADDER_TITLE": "Edit Ladder",
 	"EDIT_LADDER_CODE": "Ladder code: {{code}}",

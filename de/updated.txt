@@ -1,3 +1,4 @@
+de/app/de.json
 de/help/_login.html
 de/help/_players.html
 de/help/_ranking.html
