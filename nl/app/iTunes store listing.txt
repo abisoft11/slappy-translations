@@ -1,6 +1,6 @@
 TITLE:
 ======
-Slappy: Sports Ladder App
+Slappy - Sports Ladder App
 
 
 DESCRIPTION:
@@ -22,6 +22,11 @@ Kenmerken:
 • Maak je eigen ladders
 
 Slappy is gratis te gebruiken, maar komt met een aantal functies die alleen beschikbaar zijn voor premium abonnees. Maandelijks of jaarlijks premiumabonnementen kunnen via de app bij Apple worden gekocht. Deze abonnementen worden automatisch verlengd, wat betekent dat het abonnement automatisch aan het einde van elke abonnementsperiode in rekening wordt gebracht. Raadpleeg ons beleid voor gebruiksvoorwaarden op www.abisoft.co.za/slappy-terms.html
+
+
+KEYWORDS:
+=========
++++ slappy,sports,ladder,management,club,squash,racquetball,table,tennis.padel,badminton,darts,foosball
 
 
 SUBSCRIPTIONS:

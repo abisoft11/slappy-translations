@@ -1,0 +1,21 @@
+{
+    "COMPETITOR_NO_GAMES": "Keine gespeicherten Spiele",
+    "COMPETITOR_PLAYED_TODAY": "Gespielt heute",
+    "COMPETITOR_PLAYED_YESTERDAY": "Gespielt gestern",
+    "COMPETITOR_LAST_PLAYED": "Gespielt vor {{days}} Tagen",
+    // InstructionsPage
++++    "INSTRUCTIONS_TITLE": "Web Site Integration",
++++    "INSTRUCTIONS_LADDER_LINK_HEADING": "Link to ladder",
++++    "INSTRUCTIONS_LADDER_LINK_P1": "To view your ladder in a standard web browser, use the following link:",
++++    "INSTRUCTIONS_COPY_LINK_BUTTON": "Copy Link",
++++    "INSTRUCTIONS_EMBED_LADDER_HEADING": "Embed ladder",
++++    "INSTRUCTIONS_EMBED_LADDER_P1": "To embed your ladder in a web page, use the following code as a starting point:",
++++    "INSTRUCTIONS_COPY_CODE_BUTTON": "Copy Code",
++++    "INSTRUCTIONS_EMBED_LADDER_P2": "You can change the style to match the layout you would like. The width of the iframe will determine the number of columns that are used.",
++++    "INSTRUCTIONS_OPTIONAL_PARAMS_HEADING": "Optional parameters",
++++    "INSTRUCTIONS_OPTIONAL_PARAMS_P1": "You can add the following optional parameters to the end of the URL (or in the embedded URL). Each parameter should be preceded by a semi-colon.",
++++    "INSTRUCTIONS_OPTIONAL_PARAMS_LI1": "lang=<language code>: Set the language used to display the ladder. Defaults to English.",
++++    "INSTRUCTIONS_OPTIONAL_PARAMS_LI2": "showAvatars=<'true' or 'false'>: Show or hide competitor's avatars. Defaults to true.",
++++    "INSTRUCTIONS_OPTIONAL_PARAMS_LI3": "showFullNames=<'true' or 'false'>: Display the competitor's full names below their display names. Defaults to true.",
++++    "INSTRUCTIONS_OPTIONAL_PARAMS_P2": "Example: {{ exampleUrl }}"
+}

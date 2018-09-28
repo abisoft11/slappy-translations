@@ -1,6 +1,6 @@
 TITLE:
 ======
-Slappy: Sportranglisten App
+Slappy - Sportranglisten App
 
 
 DESCRIPTION:
@@ -13,7 +13,6 @@ Auf Slappy können Spiele vereinbart und Resultate erfasst werden.
 
 Slappy ist perfekt um Club-Ranglisten zu verwalten, kann aber genauso gut im Freizeitbereich unter Freunden genutzt werden.
 
-
 Funktionen:
 • Spieler der Rangliste verwalten
 • Spiele vereinbaren
@@ -23,6 +22,11 @@ Funktionen:
 • eigene, private Ranglisten kreieren
 
 Slappy ist kostenlos, einige Funktionen sind Basis- und Premium-Abonnenten vorbehalten.  Monatliche oder jährliche Abonnemente können von Apple innerhalb der App erworben werden.  Diese Abonnements sind automatisch verlängerbar, was bedeutet, dass dir das Abonnement am Ende jeder Abonnementsperiode automatisch in Rechnung gestellt wird. Bitte beachte unsere Nutzungsbedingungen unter www.abisoft.co.za/slappy-terms.html
+
+
+KEYWORDS:
+=========
++++ slappy,sports,ladder,management,club,squash,racquetball,table,tennis.padel,badminton,darts,foosball
 
 
 SUBSCRIPTIONS:
