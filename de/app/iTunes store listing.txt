@@ -1,4 +1,4 @@
-TITLE:
+﻿TITLE:
 ======
 Slappy - Sportranglisten App
 
@@ -39,25 +39,20 @@ Premium-Abonnement
 Keine Anzeigen
 Premium-Funktionen aktivieren
 
-Club-Abonnement 50 Teilnehmer
-Keine Anzeigen
-Premium-Funktionen für alle Teilnehmer aktivieren (max. 50 Teilnehmer)
+Club-Abonnement 50
+Premium-Funktionen für 50 Teilnehmer
 
-Club-Abonnement 100 Teilnehmer
-Keine Anzeigen
-Premium-Funktionen für alle Teilnehmer aktivieren (max. 100 Teilnehmer)
+Club-Abonnement 100
+Premium-Funktionen für 100 Teilnehmer
 
-Club-Abonnement 200 Teilnehmer
-Keine Anzeigen
-Premium-Funktionen für alle Teilnehmer aktivieren (max. 200 Teilnehmer)
+Club-Abonnement 200
+Premium-Funktionen für 200 Teilnehmer
 
-Club-Abonnement 500 Teilnehmer
-Keine Anzeigen
-Premium-Funktionen für alle Teilnehmer aktivieren (max. 500 Teilnehmer)
+Club-Abonnement 500
+Premium-Funktionen für 500 Teilnehmer
 
-Club-Abonnement 1000 Teilnehmer
-Keine Anzeigen
-Premium-Funktionen für alle Teilnehmer aktivieren (max. 1000 Teilnehmer)
+Club-Abonnement 1000
+Premium-Funktionen für 1000 Teilnehmer
 
 
 

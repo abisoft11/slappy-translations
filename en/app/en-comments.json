@@ -22,6 +22,7 @@
 	"AMAZON_STORE_NAME": "Amazon app store", //Amazon app store name
 	//App
 	"APP_FULL_TITLE": "Slappy Sports Ladder App", //Full app title
+	"APP_SUBTITLE": "Sports Ladder App",
 	"EXPIRY_TITLE": "Slappy has expired",
 	"EXPIRY_TITLE_DETAILED": "{{appName}} {{appVersion}} has expired",
 	"EXPIRY_MESSAGE": "This version of the app has expired. To continue using the app, you will need to upgrade to the new version.",
@@ -75,8 +76,11 @@
 	"SHARE_LADDER_CODE_SUBJECT": "Slappy Ladder Code",
 	"SHARE_LADDER_CODE_ERROR": "Error while trying to share ladder code",
 	//ShareTeamCode
+	"SHARE_COMPETITOR_CODE_PROMPT_ADMIN": "Share the competitor code with the player for them to join the ladder. You can edit the below message before sharing it.", // Administrator just added a competitor (possibly editing)
 	"SHARE_COMPETITOR_CODE_MESSAGE_ADMIN": "Your competitor has been created on the {{ladderName}} ladder. To link to this competitor and start capturing results, install the abisoft Slappy Sports Ladder App and join the ladder using the competitor code: {{code}}",
+	"SHARE_TEAM_CODE_PROMPT": "Share the competitor code with your partner for them to join you on the ladder. You can edit the below message before sharing it.", // Player is sharing their competitor code with their partner
 	"SHARE_TEAM_CODE_MESSAGE": "I have created our team ({{teamName}}) on the {{ladderName}} ladder. To link to this team and start capturing results, install the abisoft Slappy Sports Ladder App and join the ladder using the competitor code: {{code}}",
+	"SHARE_TEAM_CODE_PROMPT_ADMIN": "Share the competitor code with both players for them to join the ladder. You can edit the below message before sharing it.", // Administrator just added a doubles competitor (possibly editing)
 	"SHARE_TEAM_CODE_MESSAGE_ADMIN": "Your doubles team ({{teamName}}) has been created on the {{ladderName}} ladder. To link to this team and start capturing results, install the abisoft Slappy Sports Ladder App and join the ladder using the competitor code: {{code}}",
 	"SHARE_TEAM_CODE_SUBJECT": "Slappy Competitor Code",
 	"SHARE_TEAM_CODE_ERROR": "Error while trying to share competitor code",
@@ -217,7 +221,8 @@
 	"ADD_LADDER": "Add ladder",
 	"JOIN_LADDER": "Join ladder",
 	//LoginPage
-	"LOGIN_TITLE": "Login",
+	"LOGIN_TITLE": "Sign in",
+	"LOGIN_DESCRIPTION_P1": "Sign in to Slappy using your e-mail address and password.",
 	"LOGIN_EMAIL": "Email", //Email label
 	"LOGIN_PASSWORD": "Password", //Password label
 	"LOGIN_REMEMBER_PASSWORD": "Remember me", //Checkbox label for remembering password
@@ -311,6 +316,19 @@
 	"SELECT_TEAM_TITLE": "Select Team",
 	"SELECT_TEAM_TEAMS_TITLE": "Teams",
 	"SELECT_TEAM_ADD_NEW": "Add team",
+	//ShareOptionsPage
+	"SHARE_OPTIONS_TITLE": "Share Options",
+	"SHARE_SLAPPY_TITLE": "Slappy", // Title for option to share the Slappy app
+	"SHARE_SLAPPY_DESCRIPTION": "Share a link to install Slappy on iOS/Android", // Description for option to share the Slappy app
+	"SHARE_WEB_LADDER_TITLE": "Ladder Web Page", // Title for option to share a link to the ladder web page
+	"SHARE_WEB_LADDER_DESCRIPTION": "Share a link to view your ladder in the Internet browser", // Description for option to share a link to the ladder web page (with club subscription)
+	"SHARE_WEB_LADDER_GET_CLUB_DESCRIPTION": "Get a club subscription to view your ladder in the Internet browser", // Description for option to share a link to the ladder web page (without club subscription)
+	"SHARE_LADDER_CODE_TITLE": "Ladder Code", // Title of option to share ladder code
+	"SHARE_LADDER_CODE_DESCRIPTION": "Invite a player to join your ladder", // Description for option to share ladder code (if allowed)
+	"SHARE_LADDER_CODE_ASK_ADMIN_DESCRIPTION": "Ask a ladder administrator to invite players to join your ladder", // Description for option to share ladder code (not allowed - only share competitor codes)
+	"SHARE_EMBEDDED_LADDER_TITLE": "Embed Ladder", // Title for option to embed the ladder on a web page
+	"SHARE_EMBEDDED_LADDER_DESCRIPTION": "Embed your ladder on your club web page", // Description for option to embed the ladder on a web page (with club subscription)
+	"SHARE_EMBEDDED_LADDER_GET_CLUB_DESCRIPTION": "Get a club subscription to embed your ladder on your club web page", // Description for option to embed the ladder on a web page (without club subscription)
 	//SettingsPopover (Main menu)
 	"MENU_OPTIONS_TITLE": "Options",
 	"MENU_ADMIN": "Admin",
@@ -328,6 +346,7 @@
 	"SHARE_FACEBOOK_ERROR": "Unable to share this message on Facebook.",
 	"SHARE_TWITTER_ERROR": "Unable to share this message on Twitter.",
 	"SHARE_WHATSAPP_ERROR": "Unable to share this message on WhatsApp.",
+	"SHARE_FACEBOOK_PROMPT": "Your message has been copied to the clipboard. Long-press the message area to paste it.",
 	//ShareResultPopover
 	"SHARE_RESULT_TITLE": "Share Result",
 	"SHARE_RESULT_MESSAGE": "Message",
@@ -376,6 +395,7 @@
 	"UPGRADE_LADDER_RESULTS": "View recent ladder results",
 	"UPGRADE_RATING_GRAPHS": "View competitor rating change graphs",
 	"UPGRADE_COMPETITOR_COMPARISON": "Compare competitors and view results matrix",
+	"UPGRADE_EMBED_LADDER": "Embed ladder on club web site",
 	"UPGRADE_PREMIUM_ONLY": "(premium only)",
 	"UPGRADE_SUBSCRIPTIONS": "Auto-renewing subscriptions",
 	"UPGRADE_BUY_SUBSCRIPTION": "Buy",
@@ -507,6 +527,7 @@
 	"REAL_TENNIS": "Real Tennis", // Same as tennis
 	"TOUCHTENNIS": "Touchtennis", // 4 games per set (games/sets)
 	"VOLLEYBALL": "Volleyball", // 25 points per set (points/sets)
+	"CORNHOLE": "Cornhole", // 21 points per game - usually just 1 game (also called a match)
 	// "CHESS": "Chess", // Use standard chess ELO
 	// "SCRABBLE": "Scrabble", // Differential scoring between all players (up to 4)
 	// "BACKGAMMON": "Backgammon", // Points (games) no sets
