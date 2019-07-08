@@ -33,7 +33,8 @@
 	"RESULT_ADDED_NOTIFICATION_BODY": "$opponent heeft een nieuw resultaat toegevoegd. $resultDesc. Tik om te bekijken en dit resultaat te bevestigen.",
 	"ADMIN_RESULT_ADDED_NOTIFICATION_TITLE": "Resultaat toegevoegd",
 	"ADMIN_RESULT_ADDED_NOTIFICATION_BODY": "Een ladderbeheerder ($user) heeft je resultaat toegevoegd. $resultDesc. Tik om dit resultaat te bekijken.",
-	"GET_COMMON_LADDERS_ERROR": "Geen gemeenschappelijke ladders voor beide deelnemers",
+---	"GET_COMMON_LADDERS_ERROR": "Geen gemeenschappelijke ladders voor beide deelnemers",
++++	"GET_COMMON_LADDERS_ERROR": "Geen gemeenschappelijke ladders voor beide deelnemers. Het resultaat is opgeslagen, maar heeft geen invloed op rankings.",	// "Unable to get common ladders for both competitors. The result was saved, but won't affect any rankings."
 	"RESULT_DESCRIPTION": "$winner heeft $loser geslagen $winnerGames - $loserGames",
 	"RESULT_DESCRIPTION_TIE": "$competitor heeft gelijk gespeeld met $opponent $games - $games",
 	"UPDATE_RESULT_ERROR": "Fout bij bijwerken van resultaat",
@@ -56,6 +57,8 @@
 	"BEST_OF_GAMES_TITLE": "Beste van $games",
 	"SINGLE_GAME": "spel",
 	"SINGLE_SET": "set",
++++	"ADD_INVALID_RESULT_ERROR": "Ongeldig resultaat",	// "Invalid result"
++++	"ADD_RESULT_DB_ERROR": "Fout bij opslaan resultaat naar database",	// "Error saving result to database"
 	"UNKNOWN_EMAIL_ERROR": "Onbekend e-mailadres",
 	"PASSWORD_RESET_MAIL_SUBJECT": "Slappy wachtwoord gereset",
 	"SEND_EMAIL_ERROR": "Serverfout: Kan geen e-mail verzenden",

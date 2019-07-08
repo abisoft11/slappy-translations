@@ -15,6 +15,8 @@
   "REGION": "Regio",
   "DATE": "Datum",
   "TIME": "Tijd",
++++  "TODAY": "Vandaag",	// "Today"
++++  "YESTERDAY": "Gisteren",	// "Yesterday"
   "MESSAGE_PLACEHOLDER": "Optioneel Bericht",
   "GOOGLE_STORE_NAME": "Play store",
   "APPLE_STORE_NAME": "App store",
@@ -40,6 +42,7 @@
   "ADD_LADDER_PROMPT": "Heeft u een laddercode voor een bestaande ladder?",
   "ALREADY_LADDER_MEMBER_TITLE": "Al lid",
   "ALREADY_LADDER_MEMBER_MESSAGE": "Je bent al lid van de geselecteerde ladder",
++++  "CHALLENGE_TITLE": "{{challenger}} vs {{opponent}}",	// "{{challenger}} vs {{opponent}}"
   "COMPETITOR_NO_GAMES": "Geen opgenomen spellen",
   "COMPETITOR_PLAYED_TODAY": "Gespeeld vandaag",
   "COMPETITOR_PLAYED_YESTERDAY": "Gisteren gespeeld",
@@ -63,11 +66,11 @@
   "SHARE_LADDER_CODE_MESSAGE": "Om deel te nemen aan de ladder {{name}}, installeert u abisoft Slappy Sports Ladder en gebruikt u de laddercode:{{code}}",
   "SHARE_LADDER_CODE_SUBJECT": "Slappy Ladder Code",
   "SHARE_LADDER_CODE_ERROR": "Fout bij het delen van laddercode",
-+++  "SHARE_COMPETITOR_CODE_PROMPT_ADMIN": "Share the competitor code with the player for them to join the ladder. You can edit the below message before sharing it.",
-+++	 "SHARE_COMPETITOR_CODE_MESSAGE_ADMIN": "Your competitor has been created on the {{ladderName}} ladder. To link to this competitor and start capturing results, install the abisoft Slappy Sports Ladder App and join the ladder using the competitor code: {{code}}",
-+++  "SHARE_TEAM_CODE_PROMPT": "Share the competitor code with your partner for them to join you on the ladder. You can edit the below message before sharing it.",
++++  "SHARE_COMPETITOR_CODE_PROMPT_ADMIN": "Deel de concurrentcode met de speler zodat ze kunnen toetreden tot de ladder. U kunt het onderstaande bericht bewerken voordat u het deelt.",	// "Share the competitor code with the player for them to join the ladder. You can edit the below message before sharing it."
++++	 "SHARE_COMPETITOR_CODE_MESSAGE_ADMIN": "Uw concurrent is gemaakt op de ladder {{ladderName}}. Om een ​​link naar deze concurrent te maken en resultaten te registreren, installeert u de abisoft Slappy Sports Ladder-app en sluit u zich aan bij de ladder met behulp van de concurrentcode: {{code}}",	// "Your competitor has been created on the {{ladderName}} ladder. To link to this competitor and start capturing results, install the abisoft Slappy Sports Ladder App and join the ladder using the competitor code: {{code}}"
++++  "SHARE_TEAM_CODE_PROMPT": "Deel de concurrentcode met uw partner zodat zij met u op de ladder kunnen komen. U kunt het onderstaande bericht bewerken voordat u het deelt.",	// "Share the competitor code with your partner for them to join you on the ladder. You can edit the below message before sharing it."
   "SHARE_TEAM_CODE_MESSAGE": "Ik heb ons team ({{teamName}}) gemaakt op de ladder {{ladderName}}. Om naar dit team te linken en resultaten te registreren, installeert u de abisoft Slappy Sports Ladder-app en sluit u zich aan bij de ladder met behulp van de deelnemerscode: {{code}}",
-+++  "SHARE_TEAM_CODE_PROMPT_ADMIN": "Share the competitor code with both players for them to join the ladder. You can edit the below message before sharing it.",
++++  "SHARE_TEAM_CODE_PROMPT_ADMIN": "Deel de concurrentcode met beide spelers zodat ze zich bij de ladder aansluiten. U kunt het onderstaande bericht bewerken voordat u het deelt.",	// "Share the competitor code with both players for them to join the ladder. You can edit the below message before sharing it."
   "SHARE_TEAM_CODE_MESSAGE_ADMIN": "Uw doubles-team ({{teamName}}) is gemaakt op de ladder {{ladderName}}. Om te linken naar dit team en te kunnen beginnen met het vastleggen van resultaten, installeert u de abisoft Slappy Sports Ladder-app en neem je deel aan de ladder met behulp van de deelnemerscode: {{code}}",
   "SHARE_TEAM_CODE_SUBJECT": "Slappy Deelnemer Code",
   "SHARE_TEAM_CODE_ERROR": "Fout bij het delen van de Deelnemercode",
@@ -121,8 +124,8 @@
   "CHALLENGE_PROPOSE_TIME": "Stel tijd voor",
   "CHALLENGE_SEND_INVITATION": "Verstuur uitnodiging",
   "CHALLENGE_CONFIRM_PROMPT": "Weet je zeker dat je een uitnodiging naar {{opponent}} wilt sturen om op {{date}} om {{time}} te spelen?",
-  "INVITATIONS_SEGMENT_CURRENT": "Actueel",
-  "INVITATIONS_SEGMENT_ALL": "Alle",
++++  "INVITATIONS_SEGMENT_MY": "Mijn Uitnodigingen",	// "My Invitations"
++++  "INVITATIONS_SEGMENT_LADDER": "Ladder Uitnodigingen",	// "Ladder Invitations"
   "CHANGE_PASSWORD_TITLE": "Wachtwoord Wijzigen",
   "CHANGE_PASSWORD_OLD": "Oud Wachtwoord",
   "CHANGE_PASSWORD_NEW": "Nieuw Wachtwoord",
@@ -138,7 +141,7 @@
   "EDIT_COMPETITOR_ADD_PLAYER": "Speler toevoegen",
   "EDIT_COMPETITOR_CODE": "Deelnemercode: {{code}}",
   "EDIT_COMPETITOR_MISSING_NAME": "Voer een naam in",
-+++  "EDIT_COMPETITOR_RANK": "Rank",
++++  "EDIT_COMPETITOR_RANK": "Rang",	// "Rank"
   "EDIT_LADDER_TITLE": "Bewerk de ladder",
   "EDIT_LADDER_CODE": "Ladder code: {{code}}",
   "EDIT_LADDER_MISSING_COUNTRY": "Selecteer alstublieft een land",
@@ -185,8 +188,8 @@
   "ADD_LADDER": "Ladder toevoegen",
   "JOIN_LADDER": "Sluit je ladder aan",
 ---  "LOGIN_TITLE": "Login",
-+++  "LOGIN_TITLE": "Sign in",
-+++  "LOGIN_DESCRIPTION_P1": "Sign in to Slappy using your e-mail address and password.",
++++  "LOGIN_TITLE": "Login",	// "Sign in"
++++  "LOGIN_DESCRIPTION_P1": "Meld u aan bij Slappy met uw e-mailadres en wachtwoord.",	// "Sign in to Slappy using your e-mail address and password."
   "LOGIN_EMAIL": "Email",
   "LOGIN_PASSWORD": "Wachtwoord",
   "LOGIN_REMEMBER_PASSWORD": "Onthoud me",
@@ -209,7 +212,7 @@
   "PLAYER_ACTION_DETAILS": "Details",
   "PLAYER_ACTION_RECENT_GAMES": "Recente spellen",
   "COMPETITOR_DETAILS_TITLE": "Details van de Deelnemer",
-+++  "PLAYER_DETAILS_RANK": "Rank",
++++  "PLAYER_DETAILS_RANK": "Rang",	// "Rank"
   "PLAYER_DETAILS_POINTS": "Punten (ongewogen punten)",
   "PLAYER_DETAILS_RANKING_CONFIDENCE": "Het vertrouwen schatten",
   "PLAYER_DETAILS_GAMES_CONFIDENCE": "Games vertrouwen",
@@ -218,9 +221,9 @@
   "VIEW_RATING_HISTORY_PROMPT": "De beoordelingsgeschiedenis van spelers bekijken",
   "COMPETITOR_COMPARISON_TITLE": "Vergelijking van deelnemers",
   "COMPETITOR_HISTORY_TITLE": "Deelnemer geschiedenis",
-+++	"RANKING_TYPE_TITLE": "Ranking Type",
-+++	"LEAPFROG_OPTIONS_TITLE": "Leapfrog Ranking Options",
-+++	"LEAPFROG_CHALLENGE_LIMIT_LABEL": "Leapfrog challenge limit",
++++	"RANKING_TYPE_TITLE": "Rangschikkingstype",	// "Ranking Type"
++++	"LEAPFROG_OPTIONS_TITLE": "Leapfrog rangorde-opties",	// "Leapfrog Ranking Options"
++++	"LEAPFROG_CHALLENGE_LIMIT_LABEL": "Leapfrog challenge-limiet",	// "Leapfrog challenge limit"
   "REGISTER_PLAYER_TITLE": "Speler Toevoegen",
   "PLAYER_PASSWORD": "Wachtwoord",
   "PLAYER_CONFIRM_PASSWORD": "Wachtwoord Bevestigen",
@@ -265,18 +268,18 @@
   "SELECT_TEAM_TITLE": "Selecteer team",
   "SELECT_TEAM_TEAMS_TITLE": "Teams",
   "SELECT_TEAM_ADD_NEW": "Voeg een team toe",
-+++  "SHARE_OPTIONS_TITLE": "Share Options",
-+++  "SHARE_SLAPPY_TITLE": "Slappy",
-+++  "SHARE_SLAPPY_DESCRIPTION": "Share a link to install Slappy on iOS/Android",
-+++  "SHARE_WEB_LADDER_TITLE": "Ladder Web Page",
-+++  "SHARE_WEB_LADDER_DESCRIPTION": "Share a link to view your ladder in the Internet browser",
-+++  "SHARE_WEB_LADDER_GET_CLUB_DESCRIPTION": "Get a club subscription to view your ladder in the Internet browser",
-+++  "SHARE_LADDER_CODE_TITLE": "Ladder Code",
-+++  "SHARE_LADDER_CODE_DESCRIPTION": "Invite a player to join your ladder",
-+++  "SHARE_LADDER_CODE_ASK_ADMIN_DESCRIPTION": "Ask a ladder administrator to invite players to join your ladder",
-+++  "SHARE_EMBEDDED_LADDER_TITLE": "Embed Ladder",
-+++  "SHARE_EMBEDDED_LADDER_DESCRIPTION": "Embed your ladder on your club web page",
-+++  "SHARE_EMBEDDED_LADDER_GET_CLUB_DESCRIPTION": "Get a club subscription to embed your ladder on your club web page",
++++  "SHARE_OPTIONS_TITLE": "Opties delen",	// "Share Options"
+  "SHARE_SLAPPY_TITLE": "Slappy",
++++  "SHARE_SLAPPY_DESCRIPTION": "Deel een link om Slappy op iOS/Android te installeren",	// "Share a link to install Slappy on iOS/Android"
++++  "SHARE_WEB_LADDER_TITLE": "Ladder Web Page",	// "Ladder Web Page"
++++  "SHARE_WEB_LADDER_DESCRIPTION": "Deel een link om uw ladder in de internetbrowser te bekijken",	// "Share a link to view your ladder in the Internet browser"
++++  "SHARE_WEB_LADDER_GET_CLUB_DESCRIPTION": "Ontvang een clubabonnement om uw ladder in de internetbrowser te bekijken",	// "Get a club subscription to view your ladder in the Internet browser"
++++  "SHARE_LADDER_CODE_TITLE": "Ladder Code",	// "Ladder Code"
++++  "SHARE_LADDER_CODE_DESCRIPTION": "Nodig een speler uit om op je ladder te komen",	// "Invite a player to join your ladder"
++++  "SHARE_LADDER_CODE_ASK_ADMIN_DESCRIPTION": "Vraag een ladderbeheerder om spelers uit te nodigen om lid te worden van je ladder",	// "Ask a ladder administrator to invite players to join your ladder"
++++  "SHARE_EMBEDDED_LADDER_TITLE": "Embed Ladder",	// "Embed Ladder"
++++  "SHARE_EMBEDDED_LADDER_DESCRIPTION": "Sluit uw ladder in op uw clubwebpagina",	// "Embed your ladder on your club web page"
++++  "SHARE_EMBEDDED_LADDER_GET_CLUB_DESCRIPTION": "Ontvang een clubabonnement om je ladder in te bedden op je clubwebpagina",	// "Get a club subscription to embed your ladder on your club web page"
   "MENU_OPTIONS_TITLE": "Opties",
   "MENU_ADMIN": "Admin",
   "MENU_EDIT_PROFILE": "Bewerk profiel",
@@ -292,7 +295,7 @@
   "SHARE_FACEBOOK_ERROR": "Kan dit bericht niet delen op Facebook.",
   "SHARE_TWITTER_ERROR": "Kan dit bericht niet delen op Twitter.",
   "SHARE_WHATSAPP_ERROR": "Kan dit bericht niet delen op WhatsApp.",
-+++  "SHARE_FACEBOOK_PROMPT": "Your message has been copied to the clipboard. Long-press the message area to paste it.",
++++  "SHARE_FACEBOOK_PROMPT": "Je bericht is gekopieerd naar het klembord. Druk lang op het berichtgebied om het te plakken.",	// "Your message has been copied to the clipboard. Long-press the message area to paste it."
   "SHARE_RESULT_TITLE": "Resultaat Delen",
   "SHARE_RESULT_MESSAGE": "Bericht",
   "SHARE_TWITTER_DIRECT_ERROR": "Kan dit bericht niet direct delen op Twitter.",
@@ -313,6 +316,7 @@
   "TAB_LADDER": "Ladder",
   "TAB_INVITATIONS": "Uitnodigingen",
   "TAB_RESULTS": "Resultaten",
++++  "TAB_CHAT": "Babbelen",	// "Chat"
   "UPGRADE_TITLE": "Abonnementen",
   "UPGRADE_MESSAGE": "Abonneer u voor slechts {{price}} om de volgende functies te krijgen",
   "UPGRADE_ACTIVE_SUBSCRIPTION": "Actief abonnement",
@@ -334,7 +338,7 @@
   "UPGRADE_LADDER_RESULTS": "Bekijk recente ladderresultaten",
   "UPGRADE_RATING_GRAPHS": "Bekijk diagram grafieken van de Deelnemer",
   "UPGRADE_COMPETITOR_COMPARISON": "Vergelijk Deelnemer en bekijk de resultatenmatrix",
-+++  "UPGRADE_EMBED_LADDER": "Embed ladder on club web site",
++++  "UPGRADE_EMBED_LADDER": "Embed ladder on club web site",	// "Embed ladder on club web site"
   "UPGRADE_PREMIUM_ONLY": "(alleen premium)",
   "UPGRADE_SUBSCRIPTIONS": "Abonnementen automatisch verlengen",
   "UPGRADE_BUY_SUBSCRIPTION": "Kopen",
@@ -348,7 +352,12 @@
   "UPGRADE_THANK_YOU": "Bedankt voor het upgraden",
   "UPGRADE_GENERAL_ERROR": "Er is iets misgegaan met uw aankoop.",
   "UPGRADE_IOS_TITLE": "Abonnement automatisch verlengen",
-  "UPGRADE_IOS_BODY": "<p>U wordt gevraagd om uw aankoop te voltooien via de iTunes Store. Let op de volgende: </p> <ul> <li> Betaling wordt bij uw bevestiging van uw aankoop bij uw iTunes-account in rekening gebracht </li> <li> Abonnement automatisch wordt vernieuwd tenzij automatisch verlengen is uitgeschakeld ten minste 24 uur voor het einde van de huidige periode </li> <li> Uw account wordt in rekening gebracht {{price}} voor verlenging binnen 24 uur vóór het einde van de huidige periode </li> <li> U kunt uw abonnementen beheren en uitschakelen automatische verlenging door na aankoop naar uw accountinstellingen te gaan</li></ul>",
++++  "UPGRADE_IOS_DESCRIPTION": "U wordt gevraagd om uw aankoop te voltooien via de iTunes Store. Houd rekening met het volgende:",	// "You will be prompted to complete your purchase via the iTunes Store. Please be aware of the following:"
++++  "UPGRADE_IOS_LI1": "De betaling wordt bij bevestiging van de aankoop in rekening gebracht op uw iTunes-account",	// "Payment will be charged to your iTunes Account at confirmation of purchase"
++++  "UPGRADE_IOS_LI2": "Abonnement wordt automatisch verlengd tenzij automatisch vernieuwen is uitgeschakeld ten minste 24 uur vóór het einde van de huidige periode",	// "Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period"
++++  "UPGRADE_IOS_LI3": "Voor uw account wordt {{price}} in rekening gebracht voor verlenging binnen 24 uur vóór het einde van de huidige periode",	// "Your account will be charged {{price}} for renewal within 24-hours prior to the end of the current period"
++++  "UPGRADE_IOS_LI4": "U kunt uw abonnementen beheren en automatische verlenging uitschakelen door na aankoop naar uw accountinstellingen te gaan",	// "You can manage your subscriptions and turn off auto-renewal by going to the your Account Settings after purchase"
+  "UPGRADE_IOS_LI5": "",
   "UPGRADE_RESTORE_ERROR": "Kan aankopen niet herstellen: {{err}}",
   "UPGRADE_BASIC_TITLE": "Basisabonnementen",
   "UPGRADE_BASIC_PREMIUM_DESCRIPTION": "Krijg meer functies met een premium-abonnement voor slechts {{price}}",
@@ -400,6 +409,7 @@
   "INVITATION_TIME_TODAY": "vandaag om {{time}}",
   "INVITATION_TIME_TOMORROW": "morgen om {{time}}",
   "INVITATION_TIME_GENERAL": "op {{date}} om {{time}}",
++++  "DELETE_MESSAGE_PROMPT": "Weet je zeker dat je dit bericht wilt verwijderen?",	// "Are you sure you want to delete this message?"
   "GET_COMPETITOR_DETAILS_ERROR": "Kan geen Deelnemergegevens van de server ontvangen.",
   "ADD_COMPETITOR_MESSAGE": "Deelnemer toevoegen ...",
   "ADD_COMPETITOR_DESCRIPTION": "voeg deze Deelnemer toe",
@@ -447,7 +457,7 @@
   "REAL_TENNIS": "Real Tennis",
   "TOUCHTENNIS": "Touchtennis",
   "VOLLEYBALL": "Volleyball",
-+++  "CORNHOLE": "Cornhole",
++++  "CORNHOLE": "Cornhole",	// "Cornhole"
   "POINTS": "punten",
   "GOALS": "goals",
   "LEGS": "legs",
@@ -460,7 +470,7 @@
   "MIXED_DOUBLES": "Gemengd dubbelspel",
   "ELO": "ELO (recommended)",
   "LEAPFROG": "Leapfrog",
-+++  "SWISS_TT_ELO": "Zwitsers tafeltennis ELO",
++++  "SWISS_TT_ELO": "Zwitsers tafeltennis ELO",	// "Swiss Table Tennis ELO"
   "LADDER_TYPE_DESCRIPTION": "{{sport}} ({{format}})",
   "PREMIUM_SUBSCRIPTION_ANNUAL_TITLE": "Premium abonnement",
   "PREMIUM_SUBSCRIPTION_MONTHLY_TITLE": "Premium abonnement",
@@ -482,7 +492,7 @@
   "LOGIN_MESSAGE": "Validatie van spelersgegevens...",
   "LOGIN_DESCRIPTION": "login",
   "LOGIN_SUCCESS": "Succesvol ingelogd",
-  "WELCOME_TITLE": "Wat nu?",
+  "NEXT_STEPS_TITLE": "Wat nu?",
   "WELCOME_MESSAGE": "Hartelijk gefeliciteerd! Je hebt met succes je ladder gemaakt. <br/> Vervolgens moet u uw laddercode delen, spelers uitnodigen om deel te nemen aan uw ladder of handmatig Deelnemer toevoegen aan de ladder en ze afzonderlijk uitnodigen. <br/> Klik op 'Help' voor meer informatie.",
   "WELCOME_OPTION_ADD_COMPETITORS": "Voeg Deelnemer toe",
   "WELCOME_OPTION_SHARE_CODE": "Deel laddercode",
@@ -544,5 +554,15 @@
   "UPDATE_PLAYER_SUCCESS": "Speler bijgewerkt",
   "UPDATE_PLAYER_PHOTO_MESSAGE": "Profielfoto uploaden ...",
   "UPDATE_PLAYER_PHOTO_DESCRIPTION": "upload deze foto",
-  "UPDATE_PLAYER_PHOTO_SUCCESS": "Profielfoto geüpload"
+  "UPDATE_PLAYER_PHOTO_SUCCESS": "Profielfoto geüpload",
++++  "WELCOME_TITLE": "Welkom bij Slappy",	// "Welcome to Slappy"
++++  "WELCOME_SUBTITLE": "Sports ladder management app",	// "Sports ladder management app"
++++  "WELCOME_GET_STARTED_DESCRIPTION_P1": "Voer uw e-mailadres in om aan de slag te gaan met uw eerste ladder.",	// "Enter your e-mail address to get started with your first ladder."
++++  "WELCOME_EMAIL_PLACEHOLDER": "Vul je e-mailadres in",	// "enter your e-mail address"
++++  "WELCOME_GET_STARTED_BUTTON": "Begin",	// "Get Started"
++++  "WELCOME_ALREADY_HAVE_ACCOUNT": "Gebruikt u Slappy al?",	// "Already using Slappy?"
++++  "WELCOME_SIGN_IN_LINK": "Login",	// "Sign in"
++++  "WELCOME_INVALID_EMAIL_MESSAGE": "Vul een geldig e-mailadres in",	// "Please enter a valid e-mail address"
++++  "WELCOME_EMAIL_IN_USE": "Dat e-mailadres is al in gebruik. Als u uw wachtwoord bent vergeten, kunt u het op de aanmeldingspagina herstellen.",	// "That e-mail address is already in use. If you have forgotten your password, please recover it from the Sign In page."
++++  "WELCOME_ACCEPT_TERMS": "Ik heb de iBMS Mobile gelezen en ga hiermee akkoord servicevoorwaarden | en | privacybeleid |"	// "I have read and agree to the abisoft | terms of service | and | privacy policy | "
 }

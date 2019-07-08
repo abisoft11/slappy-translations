@@ -15,6 +15,8 @@
   "REGION": "Region",
   "DATE": "Datum",
   "TIME": "Zeit",
++++  "TODAY": "Heute",	// "Today"
++++  "YESTERDAY": "Gestern",	// "Yesterday"
   "MESSAGE_PLACEHOLDER": "Deine Nachricht",
   "GOOGLE_STORE_NAME": "Google Play Store",
   "APPLE_STORE_NAME": "Apple Store",
@@ -40,6 +42,7 @@
   "ADD_LADDER_PROMPT": "Hast du einen Ranglisten-Code für eine bestehende Rangliste?",
   "ALREADY_LADDER_MEMBER_TITLE": "Bereits Mitglied",
   "ALREADY_LADDER_MEMBER_MESSAGE": "Du bist bereits Mitglied der ausgewählten Rangliste",
++++  "CHALLENGE_TITLE": "{{challenger}} gegen {{opponent}}",	// "{{challenger}} vs {{opponent}}
   "COMPETITOR_NO_GAMES": "Keine gespeicherten Spiele",
   "COMPETITOR_PLAYED_TODAY": "Gespielt heute",
   "COMPETITOR_PLAYED_YESTERDAY": "Gespielt gestern",
@@ -63,11 +66,11 @@
   "SHARE_LADDER_CODE_MESSAGE": "Um der {{name}} -Ranglsite beizutreten, installiere abisoft Slappy Sportranglisten App und verwende den Ranglisten-Code: {{code}}",
   "SHARE_LADDER_CODE_SUBJECT": "Slappy Ranglisten-Code",
   "SHARE_LADDER_CODE_ERROR": "Fehler beim Versuch, den Ranglisten-Code zu teilen",
-+++  "SHARE_COMPETITOR_CODE_PROMPT_ADMIN": "Share the competitor code with the player for them to join the ladder. You can edit the below message before sharing it.",
++++  "SHARE_COMPETITOR_CODE_PROMPT_ADMIN": "Teile den Mitbewerbercode mit dem Spieler, damit sie der Leiter beitreten können. Sie können die folgende Nachricht bearbeiten, bevor Sie sie freigeben.",	// "Share the competitor code with the player for them to join the ladder. You can edit the below message before sharing it."
   "SHARE_COMPETITOR_CODE_MESSAGE_ADMIN": "Dein Teilnehmer wurde erstellt und der {{ladderName}}-Rangliste hinzugefügt. Um dich mit dem Teilnehmer zu verbinden und Resultate erfassen zu können, installiere die abisoft Slappy Sportranglisten App und trete der Rangliste bei indem du folgenden Teilnehmer-Code benutzt:  {{code}}",
-+++  "SHARE_TEAM_CODE_PROMPT": "Share the competitor code with your partner for them to join you on the ladder. You can edit the below message before sharing it.",
++++  "SHARE_TEAM_CODE_PROMPT": "Teilen Sie den Wettbewerbscode mit Ihrem Partner, damit er sich Ihnen auf der Leiter anschließen kann. Sie können die folgende Nachricht bearbeiten, bevor Sie sie freigeben.",	// "Share the competitor code with your partner for them to join you on the ladder. You can edit the below message before sharing it."
   "SHARE_TEAM_CODE_MESSAGE": "Ich habe unser Team ({{teamName}}) auf der {{ladderName}} -Rangliste angemeldet. Um dem Team beizutreten und Resultate zu erfassen, gehe wie folgt vor: Installiere die abisoft Slappy Sportranglisten App und verwende den Teilnehmer-Code {{code}} um dich meinem Team anzuschliessen.",
-+++  "SHARE_TEAM_CODE_PROMPT_ADMIN": "Share the competitor code with both players for them to join the ladder. You can edit the below message before sharing it.",
++++  "SHARE_TEAM_CODE_PROMPT_ADMIN": "Teilen Sie den Wettbewerbscode mit beiden Spielern, damit sie der Leiter beitreten können. Sie können die folgende Nachricht bearbeiten, bevor Sie sie freigeben.",	// "Share the competitor code with both players for them to join the ladder. You can edit the below message before sharing it."
   "SHARE_TEAM_CODE_MESSAGE_ADMIN": "Euer Doppel-Team ({{teamName}}) wurde auf der {{ladderName}}-Rangliste angemeldet. Um dem Team beizutreten und Resultate zu erfassen, gehe wie folgt vor: Installiere die abisoft Slappy Sportranglisten App und verwende den Teilnehmer-Code {{code}} um dich meinem Team anzuschliessen.",
   "SHARE_TEAM_CODE_SUBJECT": "Slappy Teilnehmer-Code",
   "SHARE_TEAM_CODE_ERROR": "Fehler beim Versuch, den Teilnehmer-Code zu teilen",
@@ -121,8 +124,8 @@
   "CHALLENGE_PROPOSE_TIME": "Zeit vorschlagen",
   "CHALLENGE_SEND_INVITATION": "Einladung senden",
   "CHALLENGE_CONFIRM_PROMPT": "Möchtest du wirklich eine Einladung an {{opponent}} senden, um am {{date}} um {{time}} zu spielen?",
-  "INVITATIONS_SEGMENT_CURRENT": "Aktuelle",
-  "INVITATIONS_SEGMENT_ALL": "Alle",
++++  "INVITATIONS_SEGMENT_MY": "Meine Einladungen",	// "My Invitations"
++++  "INVITATIONS_SEGMENT_LADDER": "Leiter Einladungen",	// "Ladder Invitations"
   "CHANGE_PASSWORD_TITLE": "Passwort ändern",
   "CHANGE_PASSWORD_OLD": "Altes Passwort",
   "CHANGE_PASSWORD_NEW": "Neues Kennwort",
@@ -138,7 +141,7 @@
   "EDIT_COMPETITOR_ADD_PLAYER": "Spieler hinzufügen",
   "EDIT_COMPETITOR_CODE": "Teilnehmer-Code: {{code}}",
   "EDIT_COMPETITOR_MISSING_NAME": "Bitte Namen eingeben",
-+++  "EDIT_COMPETITOR_RANK": "Rank",
++++  "EDIT_COMPETITOR_RANK": "Rang",	// "Rank"
   "EDIT_LADDER_TITLE": "Rangliste bearbeiten",
   "EDIT_LADDER_CODE": "Ranglisten-Code: {{code}}",
   "EDIT_LADDER_MISSING_COUNTRY": "Bitte wähle ein Land",
@@ -184,9 +187,9 @@
   "LADDERS_MENU_TITLE": "Ranglisten",
   "ADD_LADDER": "Rangliste erstellen",
   "JOIN_LADDER": "Rangliste beitreten",
----  "LOGIN_TITLE": "Anmeldung",  // Changed from Login to Sign in
-+++  "LOGIN_TITLE": "Sign in",
-+++  "LOGIN_DESCRIPTION_P1": "Sign in to Slappy using your e-mail address and password.",
+---  "LOGIN_TITLE": "Anmeldung",	// Changed from Login to Sign in
++++  "LOGIN_TITLE": "Anmeldung",	// "Sign in",
++++  "LOGIN_DESCRIPTION_P1": "Melden Sie sich mit Ihrer E-Mail-Adresse und Ihrem Passwort bei Slappy an.",	// "Sign in to Slappy using your e-mail address and password.",
   "LOGIN_EMAIL": "E-Mail",
   "LOGIN_PASSWORD": "Passwort",
   "LOGIN_REMEMBER_PASSWORD": "Erinnere dich an mich",
@@ -265,18 +268,18 @@
   "SELECT_TEAM_TITLE": "Team auswählen",
   "SELECT_TEAM_TEAMS_TITLE": "Teams",
   "SELECT_TEAM_ADD_NEW": "Team hinzufügen",
-+++  "SHARE_OPTIONS_TITLE": "Share Options",
++++  "SHARE_OPTIONS_TITLE": "Optionen teilen",	// "Share Options"
   "SHARE_SLAPPY_TITLE": "Slappy",
-+++  "SHARE_SLAPPY_DESCRIPTION": "Share a link to install Slappy on iOS/Android",
-+++  "SHARE_WEB_LADDER_TITLE": "Ladder Web Page",
-+++  "SHARE_WEB_LADDER_DESCRIPTION": "Share a link to view your ladder in the Internet browser",
-+++  "SHARE_WEB_LADDER_GET_CLUB_DESCRIPTION": "Get a club subscription to view your ladder in the Internet browser",
-+++  "SHARE_LADDER_CODE_TITLE": "Ladder Code",
-+++  "SHARE_LADDER_CODE_DESCRIPTION": "Invite a player to join your ladder",
-+++  "SHARE_LADDER_CODE_ASK_ADMIN_DESCRIPTION": "Ask a ladder administrator to invite players to join your ladder",
-+++  "SHARE_EMBEDDED_LADDER_TITLE": "Embed Ladder",
-+++  "SHARE_EMBEDDED_LADDER_DESCRIPTION": "Embed your ladder on your club web page",
-+++  "SHARE_EMBEDDED_LADDER_GET_CLUB_DESCRIPTION": "Get a club subscription to embed your ladder on your club web page",
++++  "SHARE_SLAPPY_DESCRIPTION": "Teilen Sie einen Link, um Slappy unter iOS / Android zu installieren",	// "Share a link to install Slappy on iOS/Android"
++++  "SHARE_WEB_LADDER_TITLE": "Leiter Webseite",	// "Ladder Web Page"
++++  "SHARE_WEB_LADDER_DESCRIPTION": "Teilen Sie einen Link, um Ihre Leiter im Internetbrowser anzuzeigen",	// "Share a link to view your ladder in the Internet browser"
++++  "SHARE_WEB_LADDER_GET_CLUB_DESCRIPTION": "Erhalten Sie ein Club-Abonnement, um Ihre Leiter im Internetbrowser anzuzeigen",	// "Get a club subscription to view your ladder in the Internet browser"
++++  "SHARE_LADDER_CODE_TITLE": "Ladder-Code",	// "Ladder Code"
++++  "SHARE_LADDER_CODE_DESCRIPTION": "Laden Sie einen Spieler ein, sich Ihrer Leiter anzuschließen",	// "Invite a player to join your ladder"
++++  "SHARE_LADDER_CODE_ASK_ADMIN_DESCRIPTION": "Bitten Sie einen Leiter-Administrator, Spieler einzuladen, sich Ihrer Leiter anzuschließen",	// "Ask a ladder administrator to invite players to join your ladder"
++++  "SHARE_EMBEDDED_LADDER_TITLE": "Leiter einbetten",	// "Embed Ladder"
++++  "SHARE_EMBEDDED_LADDER_DESCRIPTION": "Betten Sie Ihre Leiter auf Ihrer Club-Webseite ein",	// "Embed your ladder on your club web page"
++++  "SHARE_EMBEDDED_LADDER_GET_CLUB_DESCRIPTION": "Erhalten Sie ein Club-Abonnement, um Ihre Leiter auf Ihrer Club-Webseite einzubetten",	// "Get a club subscription to embed your ladder on your club web page"
   "MENU_OPTIONS_TITLE": "Optionen",
   "MENU_ADMIN": "Administrator",
   "MENU_EDIT_PROFILE": "Profil bearbeiten",
@@ -292,7 +295,7 @@
   "SHARE_FACEBOOK_ERROR": "Die Nachricht konnte nicht auf Facebook geteilt werden.",
   "SHARE_TWITTER_ERROR": "Die Nachricht konnte nicht auf Twitter geteilt werden.",
   "SHARE_WHATSAPP_ERROR": "Die Nachricht konnte nicht in WhatsApp geteilt werden.",
-+++  "SHARE_FACEBOOK_PROMPT": "Your message has been copied to the clipboard. Long-press the message area to paste it.",
++++  "SHARE_FACEBOOK_PROMPT": "Ihre Nachricht wurde in die Zwischenablage kopiert. Drücken Sie lange auf den Nachrichtenbereich, um ihn einzufügen.",	// "Your message has been copied to the clipboard. Long-press the message area to paste it."
   "SHARE_RESULT_TITLE": "Resultat teilen",
   "SHARE_RESULT_MESSAGE": "Nachricht",
   "SHARE_TWITTER_DIRECT_ERROR": "Die Nachricht konnte nicht direkt an Twitter weitergegeben werden.",
@@ -335,7 +338,7 @@
   "UPGRADE_LADDER_RESULTS": "Die letzten Ergebnisse ansehen",
   "UPGRADE_RATING_GRAPHS": "Leistungsdiagramme aller Teilnehmer ansehen",
   "UPGRADE_COMPETITOR_COMPARISON": "Spieler vergleichen und Ergebnismatrix anzeigen",
-+++  "UPGRADE_EMBED_LADDER": "Embed ladder on club web site",
++++  "UPGRADE_EMBED_LADDER": "Leiter auf Club-Website einbetten",	// "Embed ladder on club web site"
   "UPGRADE_PREMIUM_ONLY": "(Nur Premium)",
   "UPGRADE_SUBSCRIPTIONS": "Abonnement automatisch erneuern",
   "UPGRADE_BUY_SUBSCRIPTION": "Kaufen",
@@ -349,7 +352,12 @@
   "UPGRADE_THANK_YOU": "Danke für das Upgrade",
   "UPGRADE_GENERAL_ERROR": "Beim Kauf ist etwas schief gelaufen.",
   "UPGRADE_IOS_TITLE": "Abo automatisch erneuern",
-  "UPGRADE_IOS_BODY": "<p> Du wirst aufgefordert, deinen Kauf über den iTunes Store abzuschliessen. Bitte beachte Folgendes: </ p> <ul> <li> Die Zahlung wird deinem iTunes-Konto bei der Kaufbestätigung in Rechnung gestellt. </ Li> <li> Das Abonnement verlängert sich automatisch, sofern die automatische Verlängerung nicht mindestens 24 Stunden vor Ende der laufenden Periode gekündigt wird. </ li> <li> Dein Konto wird {{price}} für die Verlängerung innerhalb von 24 Stunden vor dem Ende der aktuellen Periode belastet. </ li> <li> Du kannst deine Abonnemente verwalten und die automatische Verlängerung deaktiviere. Gehe hierfür nach dem Kauf in deine Kontoeinstellungen. </ li> </ ul>",
++++  "UPGRADE_IOS_DESCRIPTION": "Sie werden aufgefordert, Ihren Einkauf über den iTunes Store abzuschließen. Bitte beachten Sie Folgendes:",	// "You will be prompted to complete your purchase via the iTunes Store. Please be aware of the following:"
++++  "UPGRADE_IOS_LI1": "Die Zahlung wird Ihrem iTunes-Konto bei der Bestätigung des Kaufs in Rechnung gestellt",	// "Payment will be charged to your iTunes Account at confirmation of purchase"
++++  "UPGRADE_IOS_LI2": "Das Abonnement wird automatisch verlängert, es sei denn, die automatische Verlängerung ist mindestens 24 Stunden vor dem Ende des aktuellen Zeitraums deaktiviert",	// "Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period"
++++  "UPGRADE_IOS_LI3": "Ihr Konto wird innerhalb von 24 Stunden vor Ende des laufenden Zeitraums für die Erneuerung {{price}} belastet",	// "Your account will be charged {{price}} for renewal within 24-hours prior to the end of the current period"
++++  "UPGRADE_IOS_LI4": "Sie können Ihre Abonnements verwalten und die automatische Verlängerung deaktivieren, indem Sie nach dem Kauf zu Ihren Kontoeinstellungen gehen",	// "You can manage your subscriptions and turn off auto-renewal by going to the your Account Settings after purchase"
+  "UPGRADE_IOS_LI5": "",
   "UPGRADE_RESTORE_ERROR": "Käufe können nicht wiederhergestellt werden: {{err}}",
   "UPGRADE_BASIC_TITLE": "Basis-Abonnement",
   "UPGRADE_BASIC_PREMIUM_DESCRIPTION": "Hole dir mehr Funktionen mit einem Premium-Abonnement ab nur {{price}}",
@@ -401,6 +409,7 @@
   "INVITATION_TIME_TODAY": "heute um {{time}}",
   "INVITATION_TIME_TOMORROW": "morgen um {{time}}",
   "INVITATION_TIME_GENERAL": "am {{date}} um {{time}}",
++++  "DELETE_MESSAGE_PROMPT": "Möchten Sie diese Nachricht wirklich löschen?",	// "Are you sure you want to delete this message?"
   "GET_COMPETITOR_DETAILS_ERROR": "Es konnten keine Teilnehmer-Details vom Server abgerufen werden.",
   "ADD_COMPETITOR_MESSAGE": "Teilnehmer hinzufügen ...",
   "ADD_COMPETITOR_DESCRIPTION": "füge diesen Teilnehmer hinzu",
@@ -448,7 +457,7 @@
   "REAL_TENNIS": "Jeu de Paume (Echtes Tennis)",
   "TOUCHTENNIS": "Touchtennis",
   "VOLLEYBALL": "Volleyball",
-+++  "CORNHOLE": "Cornhole",
++++  "CORNHOLE": "Cornhole",	// "Cornhole"
   "POINTS": "Punkte",
   "GOALS": "Tore",
   "LEGS": "Etappen",

@@ -16,6 +16,8 @@
 	"REGION": "Region", //Label for region fields
 	"DATE": "Date", //Label for date fields
 	"TIME": "Time", //Label for time fields
+	"TODAY": "Today",
+	"YESTERDAY": "Yesterday",
 	"MESSAGE_PLACEHOLDER": "optional message", //Placeholder for message fields
 	"GOOGLE_STORE_NAME": "Play store", //Google app store name
 	"APPLE_STORE_NAME": "App store", //Apple app store name
@@ -45,6 +47,8 @@
 	"ADD_LADDER_PROMPT": "Do you have a ladder code for an existing ladder?",
 	"ALREADY_LADDER_MEMBER_TITLE": "Already a member",
 	"ALREADY_LADDER_MEMBER_MESSAGE": "You are already a member of the selected ladder",
+	//ChallengItem2
+	"CHALLENGE_TITLE": "{{challenger}} vs {{opponent}}",
 	//PlayerItem
 	"COMPETITOR_NO_GAMES": "No recorded games",
 	"COMPETITOR_PLAYED_TODAY": "Played today",
@@ -146,8 +150,8 @@
 	"CHALLENGE_SEND_INVITATION": "Send Invitation", //Button text when sending an invitation
 	"CHALLENGE_CONFIRM_PROMPT": "Are you sure you want to send an invitation to {{opponent}}, to play on {{date}} at {{time}}?",
 	//ChallengesTab
-	"INVITATIONS_SEGMENT_CURRENT": "Current",
-	"INVITATIONS_SEGMENT_ALL": "All",
+	"INVITATIONS_SEGMENT_MY": "My Invitations",
+	"INVITATIONS_SEGMENT_LADDER": "Ladder Invitations",
 	//ChangePasswordPage
 	"CHANGE_PASSWORD_TITLE": "Change Password",
 	"CHANGE_PASSWORD_OLD": "Old Password",
@@ -409,7 +413,12 @@
 	"UPGRADE_THANK_YOU": "Thank you for upgrading",
 	"UPGRADE_GENERAL_ERROR": "Something went wrong with your purchase.",
 	"UPGRADE_IOS_TITLE": "Auto-renewing subscription",
-	"UPGRADE_IOS_BODY": "<p>You will be prompted to complete your purchase via the iTunes Store. Please be aware of the following:</p><ul><li>Payment will be charged to your iTunes Account at confirmation of purchase</li><li>Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period</li><li>Your account will be charged {{price}} for renewal within 24-hours prior to the end of the current period</li><li>You can manage your subscriptions and turn off auto-renewal by going to the your Account Settings after purchase</li></ul>",
+	"UPGRADE_IOS_DESCRIPTION": "You will be prompted to complete your purchase via the iTunes Store. Please be aware of the following:",
+	"UPGRADE_IOS_LI1": "Payment will be charged to your iTunes Account at confirmation of purchase",
+	"UPGRADE_IOS_LI2": "Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period",
+	"UPGRADE_IOS_LI3": "Your account will be charged {{price}} for renewal within 24-hours prior to the end of the current period",
+	"UPGRADE_IOS_LI4": "You can manage your subscriptions and turn off auto-renewal by going to the your Account Settings after purchase",
+	"UPGRADE_IOS_LI5": "",
 	"UPGRADE_RESTORE_ERROR": "Unable to restore purchases: {{err}}",
 	//UpgradeBasicPage
 	"UPGRADE_BASIC_TITLE": "Basic Subscriptions",
@@ -568,7 +577,7 @@
 	"LOGIN_MESSAGE": "Validating player credentials...",
 	"LOGIN_DESCRIPTION": "login",
 	"LOGIN_SUCCESS": "Login success",
-	"WELCOME_TITLE": "What Next?",
+	"NEXT_STEPS_TITLE": "What Next?",
 	"WELCOME_MESSAGE": "Congratulations! You have successfully created your ladder. <br/> Next, you should either share your ladder code, to invite players to join your ladder, or manually add competitors to the ladder, and invite them separately. <br/> Click 'Help' for more details.",
 	"WELCOME_OPTION_ADD_COMPETITORS": "Add competitors",
 	"WELCOME_OPTION_SHARE_CODE": "Share ladder code",
@@ -636,5 +645,16 @@
 	"UPDATE_PLAYER_SUCCESS": "Player updated",
 	"UPDATE_PLAYER_PHOTO_MESSAGE": "Uploading profile picture...",
 	"UPDATE_PLAYER_PHOTO_DESCRIPTION": "upload this picture",
-	"UPDATE_PLAYER_PHOTO_SUCCESS": "Profile picture uploaded"
+	"UPDATE_PLAYER_PHOTO_SUCCESS": "Profile picture uploaded",
+	// WelcomePage
+	"WELCOME_TITLE": "Welcome to Slappy",
+	"WELCOME_SUBTITLE": "Sports ladder management app",
+	"WELCOME_GET_STARTED_DESCRIPTION_P1": "Enter your e-mail address to get started with your first ladder.",
+	"WELCOME_EMAIL_PLACEHOLDER": "enter your e-mail address",
+	"WELCOME_GET_STARTED_BUTTON": "Get Started",
+	"WELCOME_ALREADY_HAVE_ACCOUNT": "Already using Slappy?",
+	"WELCOME_SIGN_IN_LINK": "Sign in",
+	"WELCOME_INVALID_EMAIL_MESSAGE": "Please enter a valid e-mail address",
+	"WELCOME_EMAIL_IN_USE": "That e-mail address is already in use. If you have forgotten your password, please recover it from the Sign In page.",
+	"WELCOME_ACCEPT_TERMS": "I have read and agree to the abisoft | terms of service | and | privacy policy | "
 }

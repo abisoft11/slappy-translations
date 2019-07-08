@@ -41,7 +41,7 @@
 	"RESULT_ADDED_NOTIFICATION_BODY": "$opponent has added a new result. $resultDesc. Touch to view and confirm this result.",
 	"ADMIN_RESULT_ADDED_NOTIFICATION_TITLE": "Result added",
 	"ADMIN_RESULT_ADDED_NOTIFICATION_BODY": "A ladder administrator ($user) has added your result. $resultDesc. Touch to view this result.",
-	"GET_COMMON_LADDERS_ERROR": "Unable to get common ladders for both competitors",
+    "GET_COMMON_LADDERS_ERROR": "Unable to get common ladders for both competitors. The result was saved, but won't affect any rankings.",
 	"RESULT_DESCRIPTION": "$winner beat $loser $winnerGames - $loserGames",
 	"RESULT_DESCRIPTION_TIE": "$competitor tied $opponent $games - $games",
 	"UPDATE_RESULT_ERROR": "Error updating result",
@@ -65,6 +65,9 @@
 	"BEST_OF_GAMES_TITLE": "Best of $games", //Title for result matrix tabs (E.g., Best of 5) Keep it short as there is not much space.
 	"SINGLE_GAME": "game", //Single game name for sports like squash
 	"SINGLE_SET": "set", //Single set name for sports like tennis
+    // ResultsLogic
+    "ADD_INVALID_RESULT_ERROR": "Invalid result",
+    "ADD_RESULT_DB_ERROR": "Error saving result to database",
 	//UserDB
 	"UNKNOWN_EMAIL_ERROR": "Unknown email address",
 	"PASSWORD_RESET_MAIL_SUBJECT": "Slappy password reset",

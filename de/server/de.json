@@ -33,7 +33,8 @@
   "RESULT_ADDED_NOTIFICATION_BODY": "$opponent hat ein neues Resultat hinzugefügt. $resultDesc. Du kannst das Resultat anzeigen und bestätigen.",
   "ADMIN_RESULT_ADDED_NOTIFICATION_TITLE": "Resultat hinzugefügt",
   "ADMIN_RESULT_ADDED_NOTIFICATION_BODY": "Ein Ranglisten-Administrator ($user) hat dein Resultat hinzugefügt. $resultDesc. Du kannst das Resultat ansehen.",
-  "GET_COMMON_LADDERS_ERROR": "Keine gemeinsamen Ranglisten für die beide Spieler",
+---  "GET_COMMON_LADDERS_ERROR": "Keine gemeinsamen Ranglisten für die beide Spieler",
++++  "GET_COMMON_LADDERS_ERROR": "Keine gemeinsamen Ranglisten für die beide Spieler. Das Ergebnis wurde gespeichert, wirkt sich jedoch nicht auf Rankings aus.",	// "Unable to get common ladders for both competitors. The result was saved, but won't affect any rankings."
   "RESULT_DESCRIPTION": "$winner schlägt $loser $winnerGames - $loserGames",
   "RESULT_DESCRIPTION_TIE": "$competitor unentschieden $opponent $games - $games",
   "UPDATE_RESULT_ERROR": "Fehler beim Aktualisieren des Resultates",
@@ -56,6 +57,8 @@
   "BEST_OF_GAMES_TITLE": "Best of $games",
   "SINGLE_GAME": "Spiel",
   "SINGLE_SET": "Satz",
++++  "ADD_INVALID_RESULT_ERROR": "Ungültiges Ergebnis",	// "Invalid result"
++++  "ADD_RESULT_DB_ERROR": "Fehler beim Speichern des Ergebnisses in der Datenbank",	// "Error saving result to database"
   "UNKNOWN_EMAIL_ERROR": "Unbekannte E-Mail-Adresse",
   "PASSWORD_RESET_MAIL_SUBJECT": "Slappy Passwort zurückgesetzt",
   "SEND_EMAIL_ERROR": "Serverfehler: E-Mail konnte nicht gesendet werden",
