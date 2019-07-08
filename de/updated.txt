@@ -1,7 +1,13 @@
 de/app/de.json
+de/app/iTunes store listing.txt
+de/help/_ladder-admin.html
+de/help/_ladders.html
 de/help/_login.html
 de/help/_players.html
 de/help/_ranking.html
 de/help/_results.html
+de/help/_subscriptions.html
 de/help/_tabs.html
 de/help/header.html
+de/notifications/_getting-started-admins.html
+de/server/de.json

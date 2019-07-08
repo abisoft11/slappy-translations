@@ -1,2 +1,9 @@
+nl/app/iTunes store listing.txt
 nl/app/nl.json
+nl/embed-ladder/nl.json
+nl/help/_ladder-admin.html
+nl/help/_ladders.html
 nl/help/_ranking.html
+nl/help/_subscriptions.html
+nl/help/_tabs.html
+nl/server/nl.json

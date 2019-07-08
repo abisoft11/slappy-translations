@@ -53,6 +53,21 @@ Quoted text in html files must be translated. It usually refers to text as it ap
 
 Text in the files is usually split across lines at logical breaking points in sentences or paragraphs. When translating, please keep the translated text on the same line as the original text, as far as possible.
 
+# Change markers
+When changes are made to files that have already been translated, these changes are indicated by markers at the beginning of each changed line. The meaning of these markers is described below.
+
+After completing the required changes to the document, all change markers should be removed, as described below.
+
+## '+++' marker
+The '+++' marker indicates that a new line of text has been added, that requires translation.
+* In web files, the English text is inserted into the document to be translated. After translating the English text, the '+++' marker should be removed.
+* In JSON files, the automatically translated text is inserted into the document. It may also be followed with a comment containing the original English text. After correcting the auto-translated text, the '+++' marker and any trailing comment should be removed.
+
+## '---' marker
+The '---' marker indicates that changes were made to the text following it (the original translation). '---' markers are always followed by one or more '+++' markers, with the new text that needs to be translated.
+
+After translating the new text indicated by the '+++' marker, the '---' marker and any text that is on that line should be deleted.
+
 # General concepts
 ## Players vs. Competitors
 Players are individual users of the app. Competitors are either individuals (for singles ladders) or teams of players (currently only for doubles ladders). Each competitor can be linked to one (for singles ladders) or two (for doubles ladders) players.
